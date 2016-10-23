@@ -2,7 +2,7 @@
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
 Files: Hard_Configurator(x64).exe , Hard_Configurator(x86).exe, RunAsSmartscreen(x64).exe, and  RunAsSmartscreen(x86).exe have to be copied to the folder c:\Windows\Hard_Configurator\  
-All above files were written in AutoIt v. 3.3.14.2
+All above files were compiled in AutoIt v. 3.3.14.2
 
 The program makes changes in Windows Registry to accomplish tasks enumerated below:
 
