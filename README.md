@@ -34,6 +34,7 @@ A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX
 * CD/DVD/Blue-ray disc image (iso, bin, etc.);
 * non NTFS USB storage device (FAT32 pendrive, FAT32 usb disk);
 * Memory Card;
+
 so the file does not have the proper Alternate Data Stream attached (Mark Of The Web).
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
