@@ -1,3 +1,4 @@
+
 # Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
@@ -26,6 +27,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 All above (except forcing Smartscreen check) can be done by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Most of above reg tweaks are well known, and can be found easily by googling.
 
 Forcing SmartScreen check can be very useful, because normally the SmartScreen Filter in Windows 8+ allows many vectors of infection listed below:
+
 A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR and VBE) using:
 * the downloader or torrent application (EagleGet, utorrent etc.);
 * container format file (zip, 7z, arj, rar, etc.);
