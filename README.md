@@ -4,6 +4,7 @@ Files: Hard_Configurator(x64).exe , Hard_Configurator(x86).exe, RunAsSmartscreen
 All above files were written in AutoIt v. 3.3.14.2
 
 Program makes the changes in Windows Registry to accomplish tasks enumerated below:
+
 1. Enabling Software Restriction Policies (as anti-exe) in Windows Home.
 2. Changing the SRP Security Levels, Enforcement options, and protected extensions.
 3. Whitelisting files by hash in SRP.
