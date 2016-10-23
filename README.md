@@ -14,7 +14,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 5. Disabling/Enabling Untrusted Fonts (Windows 10).
 6. Disabling/Enabling file execution from removable disks (Windows 7+).
 7. Disabling/Enabling PowerShell script execution (Windows 7+).
-8. Disabling/Enabling Command Prompt.
+8. Disabling/Enabling Windows Command Prompt.
 9. Disabling/Enabling Windows Script Host.
 10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
 11. Forcing SmartScreen check for files without Mark Of The Web (Windows 8+).
