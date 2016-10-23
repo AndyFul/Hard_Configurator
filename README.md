@@ -1,4 +1,4 @@
- # Hard_Configurator
+# Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
 Files: Hard_Configurator(x64).exe , Hard_Configurator(x86).exe, RunAsSmartscreen(x64).exe, and  RunAsSmartscreen(x86).exe have to be copied to the folder c:\Windows\Hard_Configurator\  
@@ -10,15 +10,15 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 1. Enabling/Disabling Software Restriction Policies (as anti-exe) in Windows Home.
 2. Changing SRP Security Levels, Enforcement options, and protected extensions.
 3. Whitelisting files by hash in SRP.
-4. Enabling/Disabling Windows Defender PUA protection (only Windows 8+).
-5. Disabling/Enabling Untrusted Fonts (only Windows 10).
-6. Disabling/Enabling file execution from removable disks.
-7. Disabling/Enabling PowerShell script execution (PowerShell console is still enabled for user commands).
+4. Enabling/Disabling Windows Defender PUA protection (Windows 8+).
+5. Disabling/Enabling Untrusted Fonts (Windows 10).
+6. Disabling/Enabling file execution from removable disks (Windows 7+).
+7. Disabling/Enabling PowerShell script execution (Windows 7+).
 8. Disabling/Enabling Command Prompt.
 9. Disabling/Enabling Windows Script Host.
-10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu.
-11. Forcing SmartScreen check for files without Mark Of The Web (from non NTFS sources, zip containers, etc. - only Windows 8+).
-12. Disabling/Enabling Remote Assistance.
+10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
+11. Forcing SmartScreen check for files without Mark Of The Web (Windows 8+).
+12. Disabling/Enabling Remote Assistance (Windows Vista+).
 13. Turning ON/OFF  all above restrictions.
 14. Saving chosen restrictions as defaults.
 15. Loading defaults.
