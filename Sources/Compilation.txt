@@ -1,0 +1,4 @@
+1. Unzip SOURCES.zip to the folder: c:\Windows\Hard_Configurator\
+2. Compile the files Hard_Configurator.au3 and RunAsSmartscreen.au3
+3. Rename compiled file RunAsSmartscreen.exe to RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe depending of Windows architecture version (64Bit or 32Bit).
+4. Run RunAsSmartscreen.exe 
