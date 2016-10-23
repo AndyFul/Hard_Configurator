@@ -1,4 +1,3 @@
-
 # Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
@@ -39,5 +38,5 @@ so the file does not have the proper Alternate Data Stream attached (Mark Of The
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-Forcing SmartScreen check, covers in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" is hidden, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Filter on the run.
+Forcing SmartScreen check, covers in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Filter on the run.
 
