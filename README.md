@@ -1,8 +1,9 @@
 # Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
-Files: Hard_Configurator(x64).exe , Hard_Configurator(x86).exe, RunAsSmartscreen(x64).exe, and  RunAsSmartscreen(x86).exe have to be copied to the folder c:\Windows\Hard_Configurator\  
-Run Hard_Configurator(x86).exe or RunAsSmartscreen(x64).exe depending on Windows architecture (32Bit or 64Bit). Do not execute RunAsSmartscreen - it is executed by Explorer context menu, when in Hard_Configurator the option "Run As Smartscreen" is set ON.
+This is the second beta version compiled: 7 November 2016.
+
+Run Hard_Configurator(x86).exe or RunAsSmartscreen(x64).exe depending on Windows architecture (32Bit or 64Bit). Do not execute RunAsSmartscreen - it is executed indirectly by Explorer context menu, when in Hard_Configurator the option "Run As Smartscreen" is set ON.
 All above files were compiled in AutoIt v. 3.3.14.2
 
 Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerated below:
@@ -17,7 +18,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 8. Disabling/Enabling Windows Command Prompt.
 9. Disabling/Enabling Windows Script Host.
 10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
-11. Forcing SmartScreen check for files without Mark Of The Web (Windows 8+).
+11. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
 12. Disabling/Enabling Remote Assistance (Windows Vista+).
 13. Turning ON/OFF  all above restrictions.
 14. Saving chosen restrictions as defaults.
