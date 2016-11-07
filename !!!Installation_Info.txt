@@ -1,0 +1,10 @@
+1. Unzip Hard_Configurator.zip
+
+2. Copy the unzipped folder 'Hard_Configurator' to C:\Windows (Administrative Rights are needed)
+
+3. If Windows is 64Bit , then run Hard_Configurator(x64).exe from C:\Windows\Hard_Configurator
+
+4. If Windows is 32Bit, then run Hard_Configurator(x86).exe from C:\Windows\Hard_Configurator
+
+5. Do not change the path or the name of RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe
+   The path C:\Windows\Hard_Configurator and above filenames are hard-coded into executables.
