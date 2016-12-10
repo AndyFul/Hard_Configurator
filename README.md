@@ -1,10 +1,9 @@
 # Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
-This is the second beta version compiled: 7 November 2016.
 
-Run Hard_Configurator(x86).exe or RunAsSmartscreen(x64).exe depending on Windows architecture (32Bit or 64Bit). Do not execute RunAsSmartscreen - it is executed indirectly by Explorer context menu, when in Hard_Configurator the option "Run As Smartscreen" is set ON.
-All above files were compiled in AutoIt v. 3.3.14.2
+
+Run Hard_Configurator(x86).exe or Hard_Configurator(x64).exe depending on Windows architecture (32Bit or 64Bit). Do not execute RunAsSmartscreen(...).exe - it is executed indirectly by Explorer context menu, when in Hard_Configurator the option "Run As Smartscreen" is set to 'ON'.
 
 Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerated below:
 
@@ -15,7 +14,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 5. Disabling/Enabling Untrusted Fonts (Windows 10).
 6. Disabling/Enabling file execution from removable disks (Windows 7+).
 7. Disabling/Enabling PowerShell script execution (Windows 7+).
-8. Disabling/Enabling Windows Command Prompt.
+8. Restricting shortcut execution to some folders only.
 9. Disabling/Enabling Windows Script Host.
 10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
 11. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
@@ -23,8 +22,9 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 13. Turning ON/OFF  all above restrictions.
 14. Saving chosen restrictions as defaults.
 15. Loading defaults.
+16. Choosing GUI skin.
 
-All above (except forcing Smartscreen check) can be done by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Most of above reg tweaks are well known, and can be found easily by googling.
+All above (except forcing Smartscreen check) can be done by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Most of above reg tweaks are well known, and can be found easily.
 
 Forcing SmartScreen check can be very useful, because normally the SmartScreen Filter in Windows 8+ allows many vectors of infection listed below:
 
@@ -40,5 +40,6 @@ so the file does not have the proper Alternate Data Stream attached (Mark Of The
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-Forcing SmartScreen check, covers in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden form Explorer context menu, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Filter on the run.
+Forcing SmartScreen check, protects in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden from Explorer context menu, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen App on the Run.
+Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates and perform system Scheduled Tasks.
 
