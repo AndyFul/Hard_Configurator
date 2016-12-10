@@ -20,7 +20,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 15. Loading defaults.
 16. Choosing GUI skin.
 
-All above tasks (except forcing Smartscreen check) can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. 
+All the above tasks (except forcing Smartscreen check) can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. 
 
 Forcing SmartScreen check can be very useful, because normally the SmartScreen Filter in Windows 8+ allows many vectors of infection listed below:
 
