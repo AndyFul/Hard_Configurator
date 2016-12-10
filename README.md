@@ -1,10 +1,6 @@
 # Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
 
-
-
-Run Hard_Configurator(x86).exe or Hard_Configurator(x64).exe depending on Windows architecture (32Bit or 64Bit). Do not execute RunAsSmartscreen(...).exe - it is executed indirectly by Explorer context menu, when in Hard_Configurator the option "Run As Smartscreen" is set to 'ON'.
-
 Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerated below:
 
 1. Enabling/Disabling Software Restriction Policies (as anti-exe) in Windows Home.
