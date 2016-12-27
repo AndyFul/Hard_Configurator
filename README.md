@@ -5,7 +5,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 
 1. Enabling/Disabling Software Restriction Policies (as anti-exe) in Windows Home.
 2. Changing SRP Security Levels, Enforcement options, and protected extensions.
-3. Whitelisting files by hash in SRP.
+3. Whitelisting files in SRP by path (also with wildcards) and by hash.
 4. Enabling/Disabling Windows Defender PUA protection (Windows 8+).
 5. Disabling/Enabling Untrusted Fonts (Windows 10).
 6. Disabling/Enabling file execution from removable disks (Windows 7+).
@@ -15,10 +15,11 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
 11. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
 12. Disabling/Enabling Remote Assistance (Windows Vista+).
-13. Turning ON/OFF  all above restrictions.
-14. Saving chosen restrictions as defaults.
-15. Loading defaults.
-16. Choosing GUI skin.
+13. Protect (deny execution) Writable subfolders in C:\Windows folder.
+14. Turning ON/OFF  all above restrictions.
+15. Saving chosen restrictions as defaults.
+16. Loading defaults.
+17. Choosing/changing GUI skin.
 
 All the above tasks (except forcing Smartscreen check) can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. 
 
@@ -36,6 +37,7 @@ so the file does not have the proper Alternate Data Stream attached (Mark Of The
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-Forcing SmartScreen check, protects in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden from Explorer context menu, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen App on the Run.
+Forcing SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden from Explorer context menu, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen App on the Run.
+If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This change adds "Run By Smartscreen" option to Explorer comtext menu.
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates and perform system Scheduled Tasks.
 
