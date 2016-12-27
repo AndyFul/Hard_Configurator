@@ -38,6 +38,8 @@ so the file does not have the proper Alternate Data Stream attached (Mark Of The
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
 Forcing SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space (see point A), and is a complementary to SRP that covers file execution without Administrative Rights. If "Run As Administrator" option is hidden from Explorer context menu, while SRP and "Run As Smartscreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen App on the Run.
+
 If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This change adds "Run By Smartscreen" option to Explorer comtext menu.
+
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates and perform system Scheduled Tasks.
 
