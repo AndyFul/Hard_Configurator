@@ -1,4 +1,4 @@
- Version 2.0.1.0
+# Version 2.0.1.0
 1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
 
 2. New <Tools> button with troubleshooting options:
@@ -8,7 +8,7 @@ Space. They are automatically whitelisted.
 <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
 <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 
-3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
+3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and extended to include Remote Shell and Remote Registry.
 
 4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
 
