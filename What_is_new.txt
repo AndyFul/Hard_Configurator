@@ -1,0 +1,20 @@
+Version 2.0.1.0
+1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
+
+2. New <Tools> button with troubleshooting options:
+<Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
+<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User Space. They are automatically whitelisted. 
+<Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
+<Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
+
+3. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+
+4. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+
+
+Version 2.0.0.0:
+1. SRP file/folder whitelisting by path (also with wildcards).
+2. Protecting (SRP deny execution) writable subfolders of 'C:\Windows' folder. 
+3. "Run By Smartscreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
+4. Updated manual.
+Some minor bugs were corrected.
