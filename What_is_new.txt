@@ -8,9 +8,11 @@ Space. They are automatically whitelisted.
 <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
 <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 
-3. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
 
-4. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute,
+4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute,
 CreateProcess, LoadLibrary, and about unusual shortcuts handling.
 
 
