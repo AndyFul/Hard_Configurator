@@ -1,7 +1,0 @@
-Added in version 2.0.0.0:
-1. SRP file/folder whitelisting by path (also with wildcards).
-2. Protecting (SRP deny execution) writable subfolders of 'C:\Windows' folder. 
-3. "Run By Smartscreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
-4. Manual
-
-Some minor bugs were corrected.
