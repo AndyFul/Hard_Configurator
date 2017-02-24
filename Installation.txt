@@ -1,6 +1,7 @@
 INSTALLATION
 
-0. Please do not use Hard_Configurator on laptops with the system installed on eMMC flash memory, because the program was not fully tested on this hardware. 
+0. Please do not use Hard_Configurator on laptops with the system installed on eMMC flash memory, because the program was not fully tested
+on this hardware. 
 
 1. Uninstall and delete the previous version of Hard_Configurator. 
 
@@ -11,9 +12,12 @@ If Windows is 32Bit, then run Hard_Configurator(x86).exe from 'C:\Windows\Hard_C
 
 4. Let the program make the System Restore Point - it costs nothing, and can save you a lot of time when in trouble. 
 
-*Do not change the path and the name of executables: RunAsSmartscreen(x64).exe, RunAsSmartscreen(x86).exe, RunBySmartscreen(x64).exe, RunBySmartscreen(x86).exe. The path 'C:\Windows\Hard_Configurator' and above executable filenames are hard-coded. 
-* Do not run executables RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe, they are invoked by 'Run As Smartscreen' option in Explorer contextmenu. 
-* Do not run executables RunBySmartscreen(x64).exe or RunBySmartscreen(x86).exe, they are invoked by 'RunBy Smartscreen' option in Explorer context menu.
+*Do not change the path and the name of executables: RunAsSmartscreen(x64).exe, RunAsSmartscreen(x86).exe, RunBySmartscreen(x64).exe,
+RunBySmartscreen(x86).exe. The path 'C:\Windows\Hard_Configurator' and above executable filenames are hard-coded. 
+* Do not run executables RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe, they are invoked by 'Run As Smartscreen' option in
+Explorer contextmenu. 
+* Do not run executables RunBySmartscreen(x64).exe or RunBySmartscreen(x86).exe, they are invoked by 'RunBy Smartscreen' option in
+Explorer context menu.
 
 
 DEINSTALLATION 
