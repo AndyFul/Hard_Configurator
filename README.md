@@ -1,5 +1,5 @@
 # Hard_Configurator
-GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS.
+GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS (Vista and later versions).
 
 Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerated below:
 
@@ -12,14 +12,16 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 7. Disabling/Enabling PowerShell script execution (Windows 7+).
 8. Restricting shortcut execution to some folders only.
 9. Disabling/Enabling Windows Script Host.
-10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu (Windows Vista+).
+10. Hiding/Unhiding "Run As Administrator" option in Explorer context menu.
 11. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
-12. Disabling/Enabling Remote Assistance (Windows Vista+).
+12. Disabling/Enabling Remote Assistance, Remote Shell, and Remote Registry.
 13. Protect (deny execution) Writable subfolders in C:\Windows folder.
 14. Turning ON/OFF  all above restrictions.
 15. Saving chosen restrictions as defaults.
 16. Loading defaults.
 17. Choosing/changing GUI skin.
+18. Troubleshooting when restrictions could block something important. Integration and output filtering for Sysinternals Autoruns, and
+    NirSoft FullEventLogView utilities.
 
 All the above tasks (except forcing Smartscreen check) can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. 
 
