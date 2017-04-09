@@ -1,0 +1,13 @@
+Important info for Windows 10 Creators Update (compilation 15063.13). 
+
+Due to integration with Windows Defender, Microsoft made some important changes in the SmartScreen Application Reputation. So, the Hard_Configurator setting <Run As SmartScreen>='Administrator', fails to force SmartScreen for all files - it works just as the standard 'Run as administrator'. 
+I have to make some tests to figure out if the previous functionality of this setting could be recovered in the Windows 10 Creators version.
+Until this will be done, here are the recommended Hard_Configurator settings:
+<Run As SmartScreen> = 'Standard User'
+<Hide 'Run As Administrator'> = 'OFF'
+
+With the above settings, when SRP are activated, one can still use the SmartScreen when installing programs from User Space. But, both options: 'Run By SmartScreen' and 'Run as administrator', from Explorer context menu must be used:
+After using 'Run By SmartScreen' the program is blocked by SRP, but 'Mark of the Web' is added and the program is checked by SmartScreen.
+'Run as administrator' allows to bypass SRP and install the file.
+
+So SRP + 'Run By SmartScreen'', with the above settings, can be used as any other, second opinion anti-malware scanner. 
