@@ -40,7 +40,8 @@ Space. They are automatically whitelisted.
 
 4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
 
-5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute,
+   CreateProcess, LoadLibrary, and about unusual shortcuts handling.
 
 
 Version 2.0.0.0:
