@@ -1,0 +1,47 @@
+Version 3.0.0.1
+1. Improved autoruns checking.
+2. Minor bugs corrected.
+
+
+Version 3.0.0.0
+
+1. <Run As SmartScreen> was updated to work with Windows 10 Creators Update.
+2. Some names of the buttons were adjusted to the names used in 'How do Software Restriction Policies work' articles.
+3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, <Block PowerShell Sponsors>, <MSI Elevation>.
+4. Hard_Configurator is distributed as an Inno Setup installation file.
+5. For Windows Vista and Windows 7, automatic System Restore Point creation was changed to manual.
+6. Improved 'Load Defaults' option.
+7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles, from within the program. 
+8. Updated manual and "How do Software Restriction Policies work".
+
+
+Version 2.1.0.0 Polish version
+1. Hard_Configurator is distributed as an Inno Setup installation file.
+2. For Windows Vista version, automatic System Restore Point creation was changed to manual.
+3. Improved 'Load Defaults' option.
+4. Updated Hard_Configurator manual.
+5. Added 'Documentation' option to view Hard_Configurator manual, from within the program. 
+6. Polish version was released (only help files).
+
+Version 2.0.1.0
+1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
+
+2. New <Tools> button with troubleshooting options:
+<Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
+<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User Space. They are automatically whitelisted. 
+<Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
+<Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
+
+3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
+
+4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+
+
+Version 2.0.0.0:
+1. SRP file/folder whitelisting by path (also with wildcards).
+2. Protecting (SRP deny execution) writable subfolders of 'C:\Windows' folder. 
+3. "Run By Smartscreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
+4. Updated manual.
+Some minor bugs were corrected.
