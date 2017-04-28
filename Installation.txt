@@ -1,0 +1,54 @@
+INSTALLATION
+
+0. Please do not use Hard_Configurator on laptops with the system installed on eMMC flash memory, because the program was not fully tested on this hardware. 
+
+1. Uninstall the previous version of Hard_Configurator (see DEINSTALLATION before program update).
+
+2. Open the Zip archive Hard_Configurator_3.0.0.1.zip .
+
+3. Run Hard_Configurator_setup(x86)_3.0.0.1.exe for 32Bit Windows version or Hard_Configurator_setup(x64)_3.0.0.1.exe for 64Bit Windows version.
+
+4. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
+
+
+QUICK CONFIGURATION
+
+1. On the first run, let Hard_Configurator make System Restore Point and check/whitelist autoruns - it costs nothing, and can save you a lot of time when in trouble. In Windows Vista and Windows 7, the System Restore Point has to be made manually.
+2. When the above job is done, the Tools window may be closed, and the main Hard_Configurator window should appear.
+3. If you do not know much about SRP (Windows built-in Software Restriction Policies), press only <Recommended Restrictions> button to configure restrictions. SRP are powerful, so using them without knowledge can be painful.
+4. If you know more about SRP or you like to test it with other restrictions, press first 
+<Recommended SRP> button, and next <Recommended Restrictions> button to make a quick configuration (the order of pressing the buttons does matter!). 
+5. The changes are applied after logout/logon (system restart is not required).
+6. Read the help files to get info about Hard_Configurator options.
+7. Full information about a program and SRP can be accessed using <Documentation> button. 
+
+
+HIDING (from Windows Uninstall)
+May be useful, if the program is installed by experienced user on the computer of child or inexperienced user.
+0. Close Hard_Configurator.
+1. Change the name of the program folder temporarily (for example Hard_Configurator -> aHard_Configurator).
+2. Uninstall Hard_Configurator using 'Control panel' - 'Uninstall program' (or 'Programs and Features' in Vista).
+3. Restore the initial folder name (aHard_Configurator -> Hard_Configurator).
+
+
+REMARKS
+* Do not run executables RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe, they are invoked by 'Run As Smartscreen' option in Explorer contextmenu. 
+* Do not run executables RunBySmartscreen(x64).exe or RunBySmartscreen(x86).exe, they are invoked by 'Run By Smartscreen' option in Explorer context menu.
+
+
+DEINSTALLATION before program update.
+0. Close Hard_Configurator (if running).
+1. Delete everything from Hard_Configurator folder except *.log and *.ini files.
+
+FULL DEINSTALLATION of this version.
+0. Run Hard_Configurator. 
+1. Press "Turn OFF All SRP", and next "Turn OFF All Restrictions". 
+2. Close Hard_Configurator. 
+3. Use 'Control panel' - 'Uninstall program' (or 'Programs and Features' Vista).
+
+FULL DEINSTALLATION of previous version (2.0.1.0)
+0. Run Hard_Configurator. 
+1. Press "Turn OFF All SRP", and next "Turn OFF All Restrictions". 
+2. Close Hard_Configurator. 
+3. Delete Hard_Configurator folder from C:\Windows. 
+
