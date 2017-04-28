@@ -30,11 +30,11 @@ Version 2.0.1.0
 1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
 
 2. New <Tools> button with troubleshooting options:
-<Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
-<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User
-Space. They are automatically whitelisted. 
-<Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
-<Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
+   <Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
+   <Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User
+   Space. They are automatically whitelisted. 
+   <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
+   <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 
 3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
 
