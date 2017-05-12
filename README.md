@@ -27,7 +27,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish tasks enumerat
 22. Enabling&Filtering Advanced SRP logging.
 23. Restoring Windows Defaults.
 24. Making System Restore Point.
-25. Enabling "Run as administrator" fo MSI files.
+25. Enabling "Run as administrator" for MSI files.
 25. Turning ON/OFF all above restrictions.
 26. Saving chosen restrictions as defaults, and restoring when needed.
 27. Choosing/changing GUI skin.
