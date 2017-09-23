@@ -1,2 +1,5 @@
 E-mail:
 Hard_Configurator@o2.pl
+
+Malwaretips forum:
+https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
