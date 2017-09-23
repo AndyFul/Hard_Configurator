@@ -4,11 +4,9 @@ INSTALLATION
 
 1. Uninstall the previous version of Hard_Configurator (see DEINSTALLATION before program update).
 
-2. Open the Zip archive Hard_Configurator_3.0.0.1.zip .
+2. Run Hard_Configurator_setup(x86)_3.0.0.1.exe for 32Bit Windows version or Hard_Configurator_setup(x64)_3.0.0.1.exe for 64Bit Windows version.
 
-3. Run Hard_Configurator_setup(x86)_3.0.0.1.exe for 32Bit Windows version or Hard_Configurator_setup(x64)_3.0.0.1.exe for 64Bit Windows version.
-
-4. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
+3. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
 
 
 QUICK CONFIGURATION
