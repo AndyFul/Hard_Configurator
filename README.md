@@ -1,4 +1,4 @@
-# Hard_Configurator
+.# Hard_Configurator
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS (Vista and later versions).
 This program is a configurator that configures Windows built-in security to harden the system. When you close Hard_Configurator it closes all its processes. The protection comes from the reconfigured Windows settings.
 Hard_Configurator can be seen as a Medium Integrity Level ‘Anti-exe + Whitelisting’ (via default deny SRP) + Application Reputation Service (forced SmartScreen) + Windows hardening settings (restricting vulnerable features).  
@@ -32,7 +32,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 26. Restoring Windows Defaults.
 27. Making System Restore Point.
 28. Saving chosen restrictions as a profile, and restoring when needed.
-29. Backup management for Profile Base (whitelist profiles and setting profiles)
+29. Backup management for Profile Base (whitelist profiles and setting profiles).
 30. Choosing/changing GUI skin.
 
 Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
