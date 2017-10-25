@@ -58,7 +58,6 @@ Version 2.1.0.0 Polish version
 
 Version 2.0.1.0
 1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
-
 2. New <Tools> button with troubleshooting options:
   <Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked
   events.
