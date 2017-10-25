@@ -35,7 +35,6 @@ Version 3.0.0.1
 2. Minor bugs corrected.
 
 Version 3.0.0.0
-
 1. <Run As SmartScreen> was updated to work with Windows 10 Creators Update.
 2. Some names of the buttons were adjusted to the names used in 'How do Software Restriction Policies work' articles.
 3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, 
