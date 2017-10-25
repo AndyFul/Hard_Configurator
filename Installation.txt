@@ -1,16 +1,20 @@
 INSTALLATION
 
-1. Close Hard_Configurator (if running). Run Hard_Configurator_setup(x86).exe for 32Bit Windows version or Hard_Configurator_setup(x64).exe for 64Bit Windows version.
+1. Close Hard_Configurator (if running). Run Hard_Configurator_setup(x86).exe for 32Bit Windows version or 
+   Hard_Configurator_setup(x64).exe for 64Bit Windows version.
 
 2. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
 
 
 QUICK CONFIGURATION
 
-1. On the first run, let Hard_Configurator make System Restore Point and check/whitelist autoruns - it costs nothing, and can save you a lot of time when in trouble.
+1. On the first run, let Hard_Configurator make System Restore Point and check/whitelist autoruns - it costs nothing, and
+   can save you a lot of time when in trouble.
 2. When the above job is done, the Tools window may be closed, and the main Hard_Configurator window should appear.
-3. If you do not know much about SRP (Windows built-in Software Restriction Policies), press only <Recommended Restrictions> button to configure restrictions. SRP are powerful, so using them without knowledge can be painful.
-4. If you know more about SRP or you like to test it with other restrictions, press first <Recommended SRP> button, and next <Recommended Restrictions> button to make a quick configuration (the order of pressing the buttons does matter!). 
+3. If you do not know much about SRP (Windows built-in Software Restriction Policies), press only <Recommended Restrictions>
+   button to configure restrictions. SRP are powerful, so using them without knowledge can be painful.
+4. If you know more about SRP or you like to test it with other restrictions, press first <Recommended SRP> button, and
+   next <Recommended Restrictions> button to make a quick configuration (the order of pressing the buttons does matter!). 
 5. The changes are applied, when pressing <APPLY CHANGES> button.
 6. Read the help files to get info about Hard_Configurator options.
 7. Full information about a program and SRP can be accessed using <Documentation> button. 
@@ -18,15 +22,17 @@ QUICK CONFIGURATION
 
 HIDING (from Windows Uninstall)
 May be useful, if the program is installed by experienced user on the computer of the child or inexperienced user.
-0. Close Hard_Configurator.
-1. Change the name of the program folder temporarily (for example Hard_Configurator -> aHard_Configurator).
-2. Uninstall Hard_Configurator using 'Control panel' - 'Uninstall program' (or 'Programs and Features' in Vista).
-3. Restore the initial folder name (aHard_Configurator -> Hard_Configurator).
+1. Close Hard_Configurator.
+2. Change the name of the program folder temporarily (for example Hard_Configurator -> aHard_Configurator).
+3. Uninstall Hard_Configurator using 'Control panel' - 'Uninstall program' (or 'Programs and Features' in Vista).
+4. Restore the initial folder name (aHard_Configurator -> Hard_Configurator).
 
 
 REMARKS
-* Do not run executables RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe, they are invoked by 'Run As Smartscreen' option in Explorer contextmenu. 
-* Do not run executables RunBySmartscreen(x64).exe or RunBySmartscreen(x86).exe, they are invoked by 'Run By Smartscreen' option in Explorer context menu.
+* Do not run executables RunAsSmartscreen(x64).exe or RunAsSmartscreen(x86).exe, they are invoked by 'Run As Smartscreen'
+  option in Explorer contextmenu. 
+* Do not run executables RunBySmartscreen(x64).exe or RunBySmartscreen(x86).exe, they are invoked by 'Run By Smartscreen'
+  option in Explorer context menu.
 
 
 FULL DEINSTALLATION of this version.
@@ -42,5 +48,7 @@ FULL DEINSTALLATION of an older version (2.0.1.0)
 After deinstallation, the registry values tweaked by Hard_Configurator are set to Windows defaults!!!
 
 REMARK
-After Hard_Configurator deinstallation, the System Restore is turned ON, which is the default setting in Windows Vista and Windows 7. It is good to keep this setting ON, when installing security programs. If not required, it can be turned OFF manually using the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
+After Hard_Configurator deinstallation, the System Restore is turned ON, which is the default setting in Windows Vista and
+Windows 7. It is good to keep this setting ON, when installing security programs. If not required, it can be turned OFF 
+manually using the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
 
