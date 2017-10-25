@@ -42,4 +42,5 @@ FULL DEINSTALLATION of an older version (2.0.1.0)
 After deinstallation, the registry values tweaked by Hard_Configurator are set to Windows defaults!!!
 
 REMARK
-After Hard_Configurator deinstallation, the System Restore is turned ON, which is the default setting in Windows Vista and Windows 7. It is good to keep this setting ON, when installing security programs. If not required, it can be manually turned OFF, using the the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
+After Hard_Configurator deinstallation, the System Restore is turned ON, which is the default setting in Windows Vista and Windows 7. It is good to keep this setting ON, when installing security programs. If not required, it can be turned OFF manually using the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
+
