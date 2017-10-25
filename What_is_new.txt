@@ -1,8 +1,10 @@
 Version 3.1.0.0
-1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in '%SystemRoot%\Hard_Configurator' folder.
+1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in 
+   '%SystemRoot%\Hard_Configurator' folder.
 2. Hard_Configurator does not use NirSoft nircmdc.exe .
 3. Added <Disable Cached Logons> and <UAC CTRL_ALT_DEL> buttons to harden credentials protection outside the home network.
-4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' one compressed file).
+4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' 
+   one compressed file).
 5. Removed the option <No Removable Disks Exec.>.
 6. Corrected the bug related to Maximum Shadow Copy Storage space.
 7. Corrected the <Disable SMB> displaying '?' when SMB 1.0 is not installed (as in Windows 10 Fall Creators Update).
@@ -12,8 +14,10 @@ Version 3.1.0.0
 Version 3.0.1.0
 1. Improved method of making System Restore Point (automatical for all supported Windows versions).
 2. Redefined buttons: 
-A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>. They also have additional functionality.
-B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and <Save Profile>. They allow managing user made profiles (except 'DesignatedFile Types' and White Lists).
+A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>.
+   They also have additional functionality.
+B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and <Save Profile>. They allow managing user made
+   profiles (except 'DesignatedFile Types' and White Lists).
 3. Added <Save Load> button on the right side of Whitelist buttons to manage Whitelist user profiles.
 4. Added default Whitelist entry for the folder 'C:\ProgramData\Microsoft\Windows Defender'.
 5. Added two paths to protect in Windows folder: 'C:\WINDOWS\debug\WIA' and 'C:\WINDOWS\System32\Tasks_Migrated'
@@ -33,11 +37,13 @@ Version 3.0.0.0
 
 1. <Run As SmartScreen> was updated to work with Windows 10 Creators Update.
 2. Some names of the buttons were adjusted to the names used in 'How do Software Restriction Policies work' articles.
-3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, <Block PowerShell Sponsors>, <MSI Elevation>.
+3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, 
+   <Block PowerShell Sponsors>, <MSI Elevation>.
 4. Hard_Configurator is distributed as an Inno Setup installation file.
 5. For Windows Vista and Windows 7, automatic System Restore Point creation was changed to manual.
 6. Improved 'Load Defaults' option.
-7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles, from within the program. 
+7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles,
+   from within the program. 
 8. Updated manual and "How do Software Restriction Policies work".
 
 
@@ -53,16 +59,21 @@ Version 2.0.1.0
 1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
 
 2. New <Tools> button with troubleshooting options:
-<Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
-<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User Space. They are automatically whitelisted. 
-<Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
-<Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
+  <Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked
+  events.
+  <Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from 
+  the User Space. They are automatically whitelisted. 
+  <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
+  <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 
-3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
+3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote 
+   Registry.
 
-4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space 
+   autoruns.
 
-5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute,
+   CreateProcess, LoadLibrary, and about unusual shortcuts handling.
 
 
 Version 2.0.0.0:
