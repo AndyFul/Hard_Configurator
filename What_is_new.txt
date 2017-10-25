@@ -26,7 +26,8 @@ B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and
    The options for blocking powershell.exe, powershell_ise.exe, and cmd.exe were transfered to <Block Sponsors>.
 8. Added <Disable SMB button>. 
 9. Added: <ADD> / <REMOVE>  OneDrive buttons in the <Whitelist by path> window.
-10. Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen, Recommended_withDefaultAllowSRP_and_BlockSponsors).
+10.Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen,
+   Recommended_withDefaultAllowSRP_and_BlockSponsors).
 
 
 Version 3.0.0.1
@@ -65,13 +66,10 @@ Version 2.0.1.0
   the User Space. They are automatically whitelisted. 
   <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
   <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
-
 3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote 
    Registry.
-
 4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space 
    autoruns.
-
 5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute,
    CreateProcess, LoadLibrary, and about unusual shortcuts handling.
 
@@ -81,4 +79,4 @@ Version 2.0.0.0:
 2. Protecting (SRP deny execution) writable subfolders of 'C:\Windows' folder. 
 3. "Run By SmartScreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
 4. Updated manual.
-Some minor bugs were corrected.
+5. Some minor bugs were corrected.
