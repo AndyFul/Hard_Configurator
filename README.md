@@ -29,7 +29,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 23. Filtering autoruns from the User Space, and script autoruns from anywhere (Sysinternals Autorunsc).
 24. Enabling&Filtering Advanced SRP logging.
 25. Turning ON/OFF all above restrictions.
-26. ConfigureDefender application to manage advanced Defender settings (ASR, Controlled Folder Access, Network Protection, etc.).
+26. ConfigureDefender application to manage advanced Defender settings (ASR mitigations, Controlled Folder Access, Network Protection, etc.).
 27. Restoring Windows Defaults.
 28. Making System Restore Point.
 29. Saving chosen restrictions as a profile, and restoring when needed.
