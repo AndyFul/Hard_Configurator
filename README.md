@@ -10,7 +10,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 4. Blocking vulnerable system executables via SRP (Bouncer black list).
 5. Protecting (deny execution) Writable subfolders in "C:\Windows" folder (via SRP).
 6. Restricting shortcut execution to some folders only (via SRP).
-7. Enabling Windows Defender PUA protection (Windows 8+).
+7. Enabling Windows Defender PUA protection (via ConfigureDefender).
 8. Protecting MS Office and Adobe Acrobat Reader XI/DC against exploits via malicious documents.
 9. Enabling "Run as administrator" for MSI files.
 10. Disabling PowerShell script execution (Windows 7+).
@@ -29,7 +29,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 23. Filtering autoruns from the User Space, and script autoruns from anywhere (Sysinternals Autorunsc).
 24. Enabling&Filtering Advanced SRP logging.
 25. Turning ON/OFF all above restrictions.
-26. Built-in ConfigureDefender application.
+26. ConfigureDefender application to manage advanced Defender settings (ASR, Controlled Folder Access, Network Protection, etc.).
 27. Restoring Windows Defaults.
 28. Making System Restore Point.
 29. Saving chosen restrictions as a profile, and restoring when needed.
