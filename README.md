@@ -37,6 +37,8 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 31. Choosing/changing GUI skin.
 32. Updating application.
 33. Uninstalling application (Windows defaults restored).
+
+
 Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
 
 Forcing SmartScreen check can be very useful, because normally the SmartScreen Filter in Windows 8+ allows many vectors of infection listed below:
