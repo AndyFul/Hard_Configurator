@@ -1,0 +1,30 @@
+INSTALLATION
+
+1. Close Hard_Configurator and ConfigureDefender (if running). Run Hard_Configurator_setup(x86).exe for 32Bit Windows version or Hard_Configurator_setup(x64).exe for 64Bit Windows version.
+2. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
+
+After updating but before reconfiguring the new settings introduced in ver. 4.0.0.0, you can save your custom-made settings to file, by using <Save Profile> from Hard_Configurator main Window. They can be restored later by using <Load Profile>. This is not required when predefined settings are used.
+Also, the custom extensions from ‘Designated File Types’ list can be saved by using  <Designated File Types><Save Extensions>. Those file extensions can be restored later by using <Designated File Types> <Restore Saved>. This is not required when default list is used.
+
+After updating to the new version, press <Recommended SRP> and next <Recommended Restrictions> to install the new recommended settings in the Windows Registry. Some new settings will overwrite the old ones. <Default Security Level> will be set to Disallowed, 'Windows Script Host' file extensions will be added to Designated File Types list, <Disable Win. Script Host> will be set to OFF, a few additional Windows subfolders will be protected, PowerShell sponsors will be blocked (except Windows 10), and some minor changes will apply.
+
+
+QUICK CONFIGURATION
+
+1. On the first run, let Hard_Configurator make System Restore Point and check/whitelist autoruns - it costs nothing, and can save you a lot of time when in trouble.
+2. When the above job is done, the Tools window may be closed, and the main Hard_Configurator window should appear.
+3. Press first <Recommended SRP> button, and next <Recommended Restrictions> button to make a quick configuration (the order  of pressing the buttons does matter!). 
+4. The changes are applied, when pressing <APPLY CHANGES> button.
+5. Read the help files to get info about Hard_Configurator options.
+6. Full information about a program and SRP can be accessed using <Documentation> button. 
+
+
+FULL DEINSTALLATION of this version.
+1. Run Hard_Configurator (close ConfigureDefender and other instances of Hard_Configurator if running). 
+2. Press <Tools> button and next <Uninstall Hard_Configurator> button.
+3. Follow the displayed instructions.
+
+After deinstallation, the registry values tweaked by Hard_Configurator will be set to Windows defaults!!!
+
+REMARKS
+After Hard_Configurator deinstallation, the System Restore is turned ON, which is the default setting in Windows Vista and Windows 7. It is good to keep this setting ON, when installing security programs. If not required, it can be manually turned OFF, using the the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
