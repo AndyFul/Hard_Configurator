@@ -36,6 +36,10 @@ FULL DEINSTALLATION of this version.
 2. Press <Tools> button and next <Uninstall Hard_Configurator> button.
 3. Follow the displayed instructions.
 
+WARNING!!!
+If Hard_Configurator was used on two or more Admin Accounts (Administrator type of account) in one computer, then before the deinstallation the option <Documents Anti-Exploit> = OFF has to be set on all Admin Accounts! If not, then the registry keys related to <Documents Anti-Exploit> in HKCU hives of some Admin Accounts will not be restored to default values.
+
+
 After deinstallation, the registry values tweaked by Hard_Configurator will be set to Windows defaults!!!
 
 REMARKS
