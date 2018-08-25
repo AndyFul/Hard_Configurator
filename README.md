@@ -45,7 +45,7 @@ Forcing SmartScreen check can be very useful, because normally the SmartScreen F
 
 A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR and VBE) using:
 * the downloader or torrent application (EagleGet, utorrent etc.);
-* container format file (zip, 7z, arj, rar, etc.);
+* container format file (zip, 7z, arj, rar, etc.), with the exception of built-in Windows decompressing option for ZIP files.
 * CD/DVD/Blue-ray disc;
 * CD/DVD/Blue-ray disc image (iso, bin, etc.);
 * non-NTFS USB storage device (FAT32 pendrive, FAT32 USB disk);
