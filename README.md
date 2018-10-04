@@ -1,4 +1,11 @@
 ## Hard_Configurator
+The new version 4.0.0.1 will be pushed to GitHub in the first half of October.
+I removed the actual version 4.0.0.0 from GitHub repository, because on the beginning of Otcober it was flagged as a hack-tool by Microsoft. The detection is related to Configuredefender ver. 1.0.1.1 which is installed with Hard_Configurator. ConfigureDefender ver. 1.0.1.1 is considered as a hack-tool by Microsoft, because it has the option to disable Windows Defender real-time protection.
+
+.
+
+PROGRAM DESCRIPTION.
+
 GUI to Manage Software Restriction Policies (SRP) and harden Windows Home OS (Vista and later versions).
 This program is a configurator that configures Windows built-in security to harden the system. When you close Hard_Configurator it closes all its processes. The protection comes from the reconfigured Windows settings.
 Hard_Configurator can be seen as a Medium Integrity Level ‘Anti-exe + Whitelisting’ (via default deny SRP) + Application Reputation Service (forced SmartScreen) + Windows hardening settings (restricting vulnerable features).  
