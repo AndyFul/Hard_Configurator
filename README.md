@@ -1,6 +1,9 @@
 ## Hard_Configurator
-The new version 4.0.0.1 will be pushed to GitHub in the first half of October.
-I removed the actual version 4.0.0.0 from GitHub repository, because on the beginning of Otcober it was flagged as a hack-tool by Microsoft. The detection is related to Configuredefender ver. 1.0.1.1 which is installed with Hard_Configurator. ConfigureDefender ver. 1.0.1.1 is considered as a hack-tool by Microsoft, because it has the option to disable Windows Defender real-time protection.
+The new version 4.0.0.1 will be pushed to GitHub in the October 2018.
+The actual version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
+it was flagged as a hack-tool by Microsoft. The detection was related to Configuredefender ver. 1.0.1.1 which is installed with
+Hard_Configurator. ConfigureDefender ver. 1.0.1.1 is considered as a hack-tool by Microsoft, because it has the option to disable
+Windows Defender real-time protection. The corrected version of Hard_Configurator was analyzed and accepted by Microsoft.
 
 .
 
