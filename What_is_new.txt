@@ -1,0 +1,105 @@
+Version 4.0.0.2
+1. Corrected the ability to whitelist OneDrive on SUA.
+2. Changed the way of using <Refresh Explorer> option to avoid problems on SUA.
+3. Added the warning before Hard_Configurator deinstallation, about using DocumentAntiExploit tool.
+4. Added the DocumentsAntiExploit tool to the SwitchDefaultDeny application, for managing different MS Office and Adobe Acrobat Reader XI/DC settings on different user accounts.
+5. In the 4.0.0.2 version the <Documents Anti-Exploit> option in Hard_Configurator can only change system-wide settings. Non-system-wide settings are now available only via DocumentsAntiExploit tool.
+6. Added IQY and SETTINGCONTENT-MS file extensions to the default list of Designated File Types and to the hardcoded dangerous extensions in RunBySmartScreen.
+7. Improved Shortcut protection.
+8. Improved the protection of MS Office and Adobe Acrobat Reader XI/DC applications, against the weaponized documents.
+9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead of beeing checked by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) related to MS Office and Adobe Reader, are opened with the warning instruction.
+10. Changed the names of some buttons in the TOOLS menu: 
+<View Blocked Events> --> <Blocked Events / Security Logs>
+<Run  Autoruns: Scripts/UserSpace> --> <Whitelist Autoruns / View Scripts>
+11. Changed 'Allow EXE' option in the <Whitelist by Path> to 'Allow EXE and TMP'. So, both EXE files and TMP files are whitelisted - this option is prepared to work with Avast Hardened Mode Aggressive as default-deny.
+12. Corrected the bug with <Update> button (did not work for the 64-bit version).
+13. Updated Hard_Configurator manual.
+
+Version 4.0.0.0
+0. Deinstallation of Hard_Configurator is available only from <Tools> <Uninstall Hard_Configurator>.
+1. Added <Documents Ant-Exploit button> to block/unblock active content in MS Office and Adobe Acrobat Reader XI / DC.
+2. Added <ConfigureDefender> button to run ConfigureDefender utility (installed with this package).
+3. Added <Allow EXE files> button in 'Whitelist By Path' window. This feature allows all EXE files except ticked in <Block Sponsors>.
+4. Added the Avast_Hardened_Mode_Aggressive profile to work with Avast, set to Hardened Aggressive mode. 
+5. Changed the name of the button <Run SRP/Scripts EventLogView> to <View Blocked Events>.
+6. Extended the logged events in <View Blocked Events> to include Exploit Guard ASR, Controlled Folder Access, Network Protection, and Defender blocked/audited events.
+7. Added some new paths to blacklist writable Windows subfolders.
+8. Corrected the whitelisting of OneDrive executables.
+9. Added the new versions of: Sysinternals Autoruns, NirSoft FullEventView, and 7-ZIP.
+10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default Security Level> = 'Basic User' used in the previous versions. The difference for the user will be visible only with the extended SRP protection for BAT and CMD files.
+11. Added <Update> button to check/install the new Hard_Configurator versions.
+
+
+Version 3.1.0.0
+1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in '%SystemRoot%\Hard_Configurator' folder.
+2. Hard_Configurator does not use NirSoft nircmdc.exe .
+3. Added <Disable Cached Logons> and <UAC CTRL_ALT_DEL> buttons to harden credentials protection outside the home network.
+4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' one compressed file).
+5. Removed the option <No Removable Disks Exec.>.
+6. Corrected the bug related to Maximum Shadow Copy Storage space.
+7. Corrected the <Disable SMB> displaying '?' when SMB 1.0 is not installed (as in Windows 10 Fall Creators Update).
+8. Added 'Restart Computer' possibility after <APPLY CHANGES>, when the changed settings are related to drivers (SMB protocol).
+9. Updated Hard_Configurator manual (with some corrections).
+
+Version 3.0.1.0
+1. Improved method of making System Restore Point (automatical for all supported Windows versions).
+2. Redefined buttons: 
+A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>. They also have additional functionality.
+B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and <Save Profile>. They allow managing user made profiles (except 'DesignatedFile Types' and White Lists).
+3. Added <Save Load> button on the right side of Whitelist buttons to manage Whitelist user profiles.
+4. Added default Whitelist entry for the folder 'C:\ProgramData\Microsoft\Windows Defender'.
+5. Added two paths to protect in Windows folder: 'C:\WINDOWS\debug\WIA' and 'C:\WINDOWS\System32\Tasks_Migrated'
+6. Added <APPLY CHANGES> button.
+7. Added <Block Sponsors> button, that can disable access to 57 Windows executables (via SRP Disallowed rules).
+   The options for blocking powershell.exe, powershell_ise.exe, and cmd.exe were transfered to <Block Sponsors>.
+8. Added <Disable SMB button>. 
+9. Added: <ADD> / <REMOVE>  OneDrive buttons in the <Whitelist by path> window.
+10. Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen, Recommended_withDefaultAllowSRP_and_BlockSponsors).
+
+
+Version 3.0.0.1
+1. Improved autoruns checking.
+2. Minor bugs corrected.
+
+Version 3.0.0.0
+
+1. <Run As SmartScreen> was updated to work with Windows 10 Creators Update.
+2. Some names of the buttons were adjusted to the names used in 'How do Software Restriction Policies work' articles.
+3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, <Block PowerShell Sponsors>, <MSI Elevation>.
+4. Hard_Configurator is distributed as an Inno Setup installation file.
+5. For Windows Vista and Windows 7, automatic System Restore Point creation was changed to manual.
+6. Improved 'Load Defaults' option.
+7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles, from within the program. 
+8. Updated manual and "How do Software Restriction Policies work".
+
+
+Version 2.1.0.0 Polish version
+1. Hard_Configurator is distributed as an Inno Setup installation file.
+2. For Windows Vista version, automatic System Restore Point creation was changed to manual.
+3. Improved 'Load Defaults' option.
+4. Updated Hard_Configurator manual.
+5. Added 'Documentation' option to view Hard_Configurator manual, from within the program. 
+6. Polish version was released (only help files).
+
+Version 2.0.1.0
+1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
+
+2. New <Tools> button with troubleshooting options:
+<Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
+<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User Space. They are automatically whitelisted. 
+<Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
+<Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
+
+3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote Registry.
+
+4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
+
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+
+
+Version 2.0.0.0:
+1. SRP file/folder whitelisting by path (also with wildcards).
+2. Protecting (SRP deny execution) writable subfolders of 'C:\Windows' folder. 
+3. "Run By SmartScreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
+4. Updated manual.
+Some minor bugs were corrected.
