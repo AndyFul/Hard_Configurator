@@ -41,7 +41,8 @@ and CMD files.
 
 
 Version 3.1.0.0
-1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in '%SystemRoot%\Hard_Configurator' folder.
+1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in the folder
+'%SystemRoot%\Hard_Configurator'.
 2. Hard_Configurator does not use NirSoft nircmdc.exe .
 3. Added <Disable Cached Logons> and <UAC CTRL_ALT_DEL> buttons to harden credentials protection outside the home network.
 4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' one compressed
@@ -67,7 +68,8 @@ B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and
    The options for blocking powershell.exe, powershell_ise.exe, and cmd.exe were transfered to <Block Sponsors>.
 8. Added <Disable SMB button>. 
 9. Added: <ADD> / <REMOVE>  OneDrive buttons in the <Whitelist by path> window.
-10. Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen, Recommended_withDefaultAllowSRP_and_BlockSponsors).
+10. Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen,
+Recommended_withDefaultAllowSRP_and_BlockSponsors).
 
 
 Version 3.0.0.1
