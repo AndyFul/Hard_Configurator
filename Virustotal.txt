@@ -1,0 +1,5 @@
+64-bit
+https://www.virustotal.com/#/file/796af765b4c27fa8e7724d34d4012f633965534d087bc275bb7b90c7e53d050e/analysis/1542668189/
+
+32-bit
+https://www.virustotal.com/#/file/caff460955d122d29f68a63112d3bf7698e535be052902dcca49be0b3def85dd/analysis/1542668326/
