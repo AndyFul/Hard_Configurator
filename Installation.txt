@@ -18,13 +18,15 @@ After updating but before reconfiguring the new settings introduced in ver. 4.0.
 file, by using <Save Profile> from Hard_Configurator main Window. They can be restored later by using <Load Profile>. This is not required
 when predefined settings are used.
 Also, the custom extensions from ‘Designated File Types’ list can be saved by using  <Designated File Types><Save Extensions>. 
-Those file extensions can be restored later by using <Designated File Types> <Restore Saved>. This is not required when default list is used.
+Those file extensions can be restored later by using <Designated File Types> <Restore Saved>. This is not required when default list
+is used.
 After updating to the new version:
-1. Press <Recommended SRP> and next <Recommended Restrictions> to install the new recommended settings in the Windows Registry. Some new
-settings will overwrite the old ones. <Default Security Level> will be set to Disallowed, 'Windows Script Host' file extensions will be
-added to Designated File Types list, <Disable Win. Script Host> will be set to OFF, a few additional Windows subfolders will be protected,
-shortcut protection will be improved, PowerShell sponsors will be blocked (except Windows 10), and some minor changes will apply.
-2. If you are using OneDrive, then press <Whitelist By Path> button and find the label 'OneDrive for accounts'. Use first <Remove All> 
+1. Press <Recommended SRP> and next <Recommended Restrictions> to install the new recommended settings in the Windows Registry. 
+Some new settings will overwrite the old ones. <Default Security Level> will be set to Disallowed, 'Windows Script Host' file extensions
+will be added to Designated File Types list, <Disable Win. Script Host> will be set to OFF, a few additional Windows subfolders will be
+protected, shortcut protection will be improved, PowerShell sponsors will be blocked (except Windows 10), and some minor changes will
+apply.
+2. If you are using OneDrive, then press <Whitelist By Path> button and find the label 'OneDrive for accounts'. Use first <Remove All>
 button to remove all the old OneDrive entries and next <Add All> button to whitelist OneDrive on all accounts.
 
 
