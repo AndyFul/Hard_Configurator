@@ -10,6 +10,9 @@ Windows Defender real-time protection. The corrected version of Hard_Configurato
 PROGRAM DESCRIPTION.
 
 GUI to manage Software Restriction Policies (SRP) and harden Windows Home editions (Windows Vista at least).
+
+.
+
 This program can configure Windows built-in security to harden the system. When you close Hard_Configurator it closes all its processes. The real-time protection comes from the reconfigured Windows settings.
 Hard_Configurator can be seen as a Medium Integrity Level smart default-deny setup, which is based on SRP + Application Reputation Service (forced SmartScreen) + Windows hardening settings (restricting vulnerable features).  
 Hard_Configurator makes changes in Windows Registry to accomplish the tasks enumerated below:
