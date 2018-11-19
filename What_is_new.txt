@@ -10,7 +10,8 @@ settings are now available only via DocumentsAntiExploit tool.
 extensions in RunBySmartScreen.
 7. Improved Shortcut protection.
 8. Improved the protection of MS Office and Adobe Acrobat Reader XI/DC applications, against the weaponized documents.
-9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead of beeing checked
+9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader
+attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead of beeing checked
 by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) related to MS Office and Adobe
 Reader, are opened with the warning instruction.
 10. Changed the names of some buttons in the TOOLS menu: 
