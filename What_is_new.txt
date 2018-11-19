@@ -29,11 +29,13 @@ Version 4.0.0.0
 3. Added <Allow EXE files> button in 'Whitelist By Path' window. This feature allows all EXE files except ticked in <Block Sponsors>.
 4. Added the Avast_Hardened_Mode_Aggressive profile to work with Avast, set to Hardened Aggressive mode. 
 5. Changed the name of the button <Run SRP/Scripts EventLogView> to <View Blocked Events>.
-6. Extended the logged events in <View Blocked Events> to include Exploit Guard ASR, Controlled Folder Access, Network Protection, and Defender blocked/audited events.
+6. Extended the logged events in <View Blocked Events> to include Exploit Guard ASR, Controlled Folder Access, Network Protection, and
+Defender blocked/audited events.
 7. Added some new paths to blacklist writable Windows subfolders.
 8. Corrected the whitelisting of OneDrive executables.
 9. Added the new versions of: Sysinternals Autoruns, NirSoft FullEventView, and 7-ZIP.
-10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default Security Level> = 'Basic User' used in the previous versions. The difference for the user will be visible only with the extended SRP protection for BAT
+10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default Security Level> =
+'Basic User' used in the previous versions. The difference for the user will be visible only with the extended SRP protection for BAT
 and CMD files.
 11. Added <Update> button to check/install the new Hard_Configurator versions.
 
