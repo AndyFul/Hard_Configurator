@@ -1,4 +1,4 @@
-## Hard_Configurator
+## Hard_Configurator ver. 4.0.0.2
 
 The previous version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed with
