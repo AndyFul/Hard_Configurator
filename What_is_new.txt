@@ -2,16 +2,22 @@ Version 4.0.0.2
 1. Corrected the ability to whitelist OneDrive on SUA.
 2. Changed the way of using <Refresh Explorer> option to avoid problems on SUA.
 3. Added the warning before Hard_Configurator deinstallation, about using DocumentAntiExploit tool.
-4. Added the DocumentsAntiExploit tool to the SwitchDefaultDeny application, for managing different MS Office and Adobe Acrobat Reader XI/DC settings on different user accounts.
-5. In the 4.0.0.2 version the <Documents Anti-Exploit> option in Hard_Configurator can only change system-wide settings. Non-system-wide settings are now available only via DocumentsAntiExploit tool.
-6. Added IQY and SETTINGCONTENT-MS file extensions to the default list of Designated File Types and to the hardcoded dangerous extensions in RunBySmartScreen.
+4. Added the DocumentsAntiExploit tool to the SwitchDefaultDeny application, for managing different MS Office and Adobe Acrobat Reader
+XI/DC settings on different user accounts.
+5. In the 4.0.0.2 version the <Documents Anti-Exploit> option in Hard_Configurator can only change system-wide settings. Non-system-wide
+settings are now available only via DocumentsAntiExploit tool.
+6. Added IQY and SETTINGCONTENT-MS file extensions to the default list of Designated File Types and to the hardcoded dangerous
+extensions in RunBySmartScreen.
 7. Improved Shortcut protection.
 8. Improved the protection of MS Office and Adobe Acrobat Reader XI/DC applications, against the weaponized documents.
-9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead of beeing checked by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) related to MS Office and Adobe Reader, are opened with the warning instruction.
+9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead of beeing checked
+by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) related to MS Office and Adobe
+Reader, are opened with the warning instruction.
 10. Changed the names of some buttons in the TOOLS menu: 
 <View Blocked Events> --> <Blocked Events / Security Logs>
 <Run  Autoruns: Scripts/UserSpace> --> <Whitelist Autoruns / View Scripts>
-11. Changed 'Allow EXE' option in the <Whitelist by Path> to 'Allow EXE and TMP'. So, both EXE files and TMP files are whitelisted - this option is prepared to work with Avast Hardened Mode Aggressive as default-deny.
+11. Changed 'Allow EXE' option in the <Whitelist by Path> to 'Allow EXE and TMP'. So, both EXE files and TMP files are whitelisted -
+this option is prepared to work with Avast Hardened Mode Aggressive as default-deny.
 12. Corrected the bug with <Update> button (did not work for the 64-bit version).
 13. Updated Hard_Configurator manual.
 
@@ -26,7 +32,8 @@ Version 4.0.0.0
 7. Added some new paths to blacklist writable Windows subfolders.
 8. Corrected the whitelisting of OneDrive executables.
 9. Added the new versions of: Sysinternals Autoruns, NirSoft FullEventView, and 7-ZIP.
-10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default Security Level> = 'Basic User' used in the previous versions. The difference for the user will be visible only with the extended SRP protection for BAT and CMD files.
+10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default Security Level> = 'Basic User' used in the previous versions. The difference for the user will be visible only with the extended SRP protection for BAT
+and CMD files.
 11. Added <Update> button to check/install the new Hard_Configurator versions.
 
 
@@ -34,7 +41,8 @@ Version 3.1.0.0
 1. Blocked external utilities (Nirsoft FullEventLogView, Sysinternals Autoruns, 7-Zip) as standard user, in '%SystemRoot%\Hard_Configurator' folder.
 2. Hard_Configurator does not use NirSoft nircmdc.exe .
 3. Added <Disable Cached Logons> and <UAC CTRL_ALT_DEL> buttons to harden credentials protection outside the home network.
-4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' one compressed file).
+4. Added backup management for Profile Base (whitelist profiles and setting profiles can be 'exported to'/'imported from' one compressed
+file).
 5. Removed the option <No Removable Disks Exec.>.
 6. Corrected the bug related to Maximum Shadow Copy Storage space.
 7. Corrected the <Disable SMB> displaying '?' when SMB 1.0 is not installed (as in Windows 10 Fall Creators Update).
@@ -44,8 +52,10 @@ Version 3.1.0.0
 Version 3.0.1.0
 1. Improved method of making System Restore Point (automatical for all supported Windows versions).
 2. Redefined buttons: 
-A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>. They also have additional functionality.
-B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and <Save Profile>. They allow managing user made profiles (except 'DesignatedFile Types' and White Lists).
+A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>.
+They also have additional functionality.
+B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and <Save Profile>. They allow managing user made profiles
+(except 'DesignatedFile Types' and White Lists).
 3. Added <Save Load> button on the right side of Whitelist buttons to manage Whitelist user profiles.
 4. Added default Whitelist entry for the folder 'C:\ProgramData\Microsoft\Windows Defender'.
 5. Added two paths to protect in Windows folder: 'C:\WINDOWS\debug\WIA' and 'C:\WINDOWS\System32\Tasks_Migrated'
