@@ -78,11 +78,13 @@ Version 3.0.0.0
 
 1. <Run As SmartScreen> was updated to work with Windows 10 Creators Update.
 2. Some names of the buttons were adjusted to the names used in 'How do Software Restriction Policies work' articles.
-3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, <Block PowerShell Sponsors>, <MSI Elevation>.
+3. Added new options: <Disable 16-bits>, <Shell Extension Security>, <Disable Command Prompt>, <Disable Elevation on SUA>, <Block 
+PowerShell Sponsors>, <MSI Elevation>.
 4. Hard_Configurator is distributed as an Inno Setup installation file.
 5. For Windows Vista and Windows 7, automatic System Restore Point creation was changed to manual.
 6. Improved 'Load Defaults' option.
-7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles, from within the program. 
+7. Added 'Documentation' option to view Hard_Configurator manual and 'How do Software Restriction Policies work' articles, from within
+the program. 
 8. Updated manual and "How do Software Restriction Policies work".
 
 
@@ -99,7 +101,8 @@ Version 2.0.1.0
 
 2. New <Tools> button with troubleshooting options:
 <Run SRP/Scripts EventLogView> -  filters the output of NirSoft tool:  FullEventLogView, to retrieve information about blocked events.
-<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User Space. They are automatically whitelisted. 
+<Run  Autoruns: Scripts/UserSpace> - filters out all numerous autoruns from the System Space leaving only a few entries from the User
+Space. They are automatically whitelisted. 
 <Turn ON Advanced SRP logging> - activates Verbose trace logging of SRP, and allows to view the log.
 <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 
@@ -107,7 +110,8 @@ Version 2.0.1.0
 
 4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space autoruns.
 
-5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
+5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: ShellExecute, 
+CreateProcess, LoadLibrary, and about unusual shortcuts handling.
 
 
 Version 2.0.0.0:
