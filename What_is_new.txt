@@ -5,9 +5,11 @@ Version 4.1.1.1
 3. Two buttons <Recommended SRP> and <Recommended Restrictions> are replaced by one green button <Recommended Settings>.
 4. Reorganization of buttons: the violet buttons <Firewall Hardening> and <ConfigureDefender> are now located in the upper part of the
 main window. The button <No Removable Disks Exec.> was replaced by the new option button <Validate Admin Code Signatures> (see point 6).
-5. If Default Deny Protection is turned OFF by 'Switch Default Deny' tool,  then "Run By SmartScreen" option is automatically enabled in Explorer context menu. It can be used for installing safely the applications both on Administrator and Standard User type of accounts.
-6. Added the option <Validate Admin Code Signatures> which changes the UAC settings to enforce cryptographic signatures on any interactive application that requests elevation of privilege. This setting will prevent the user to run from Explorer the applications
-which require Administrative rigts but are not digitally signed.
+5. If Default Deny Protection is turned OFF by 'Switch Default Deny' tool,  then "Run By SmartScreen" option is automatically enabled in 
+Explorer context menu. It can be used for installing safely the applications both on Administrator and Standard User type of accounts.
+6. Added the option <Validate Admin Code Signatures> which changes the UAC settings to enforce cryptographic signatures on any interactive
+application that requests elevation of privilege. This setting will prevent the user to run from Explorer the applications which require
+Administrative rigts but are not digitally signed.
 7. Added the profile "Windows_10_MT_Windows_Security_hardening.hdc" which uses the new option <Validate Admin Code Signatures>.
 8. The option <Restore Windows Defaults> does restore also Windows Defender defaults and removes FirewallHardening Outbound block rules.
 9. All Hard-Configurator native executables are digitally signed by SHA256 certificate (Certum Code Signing CA SHA2).
