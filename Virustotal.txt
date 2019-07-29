@@ -1,5 +1,8 @@
-64-bit
-https://www.virustotal.com/#/file/796af765b4c27fa8e7724d34d4012f633965534d087bc275bb7b90c7e53d050e/analysis/1542668189/
+ver. 4.1.1.1
+64-bit : https://www.virustotal.com/gui/file/4e57960869ffa101f769c52db663b6ed4b15dd1a9d2560f32d9d8c2d773f40cc/detection
+32-bit : https://www.virustotal.com/gui/file/a1a6c9da83e44ee0487fe3749aeca1fc2d4faf8eb92bf6f4b973c6b4e4e1f7cb/detection
 
-32-bit
-https://www.virustotal.com/#/file/caff460955d122d29f68a63112d3bf7698e535be052902dcca49be0b3def85dd/analysis/1542668326/
+
+ver.4.0.0.2
+64-bit : https://www.virustotal.com/gui/file/796af765b4c27fa8e7724d34d4012f633965534d087bc275bb7b90c7e53d050e/detection
+32-bit : https://www.virustotal.com/gui/file/caff460955d122d29f68a63112d3bf7698e535be052902dcca49be0b3def85dd/detection
