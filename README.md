@@ -1,6 +1,8 @@
-## Hard_Configurator ver. 4.0.0.2
+## Hard_Configurator beta ver. 4.1.1.1
 
-The previous version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
+From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate (Open Source Developer Andrzej Pluta).
+
+The version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed with
 Hard_Configurator. ConfigureDefender ver. 1.0.1.1 was considered as a hack-tool by Microsoft, because it had an option to disable
 Windows Defender real-time protection. The corrected version of Hard_Configurator has been analyzed and accepted by Microsoft.
@@ -25,30 +27,32 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 7. Enabling Windows Defender advanced settings, like PUA protection, ASR rules, Network Protection etc. 
 8. Protecting against weaponized documents, when MS Office and Adobe Acrobat Reader XI/DC are used to open them.
 9. Enabling "Run as administrator" for MSI files.
-10. Disabling PowerShell script execution (Windows 7+).
-11. Securing PowerShell by Constrained Language mode (SRP, PowerShell 5.0+)
-12. Disabling execution of scripts managed by Windows Script Host.
-13. Removing "Run As Administrator" option from the Explorer right-click context menu.
-14. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
-15. Disabling Remote Desktop, Remote Assistance, Remote Shell, and Remote Registry.
-16. Disabling execution of 16-bit applications.
-17. Securing Shell Extensions.
-18. Disabling SMB protocols.
-19. Disabling program elevation on Standard User Account.
-20. Disabling Cached Logons.
-21. Forcing Secure Attention Sequence before User Account Control prompt.
-22. Filtering Windows Event Log for blocked file execution events (Nirsoft FullEventLogView).
-23. Filtering autoruns from the User Space, and script autoruns from anywhere (Sysinternals Autorunsc).
-24. Enabling&Filtering Advanced SRP logging.
-25. Turning ON/OFF all above restrictions.
-26. Restoring Windows Defaults.
-27. Making System Restore Point.
-28. Using predefined setting profiles for Windows 7, Windows 8, and Windows 10.
-29. Saving the chosen restrictions as a profile, and restoring when needed.
-30. Backup management for Profile Base (whitelist profiles and setting profiles).
-31. Changing GUI skin.
-32. Updating application.
-33. Uninstalling application (Windows defaults restored).
+10. Hardening Windows Firewall by blocking the Internet access to LOLBins.
+11. Disabling PowerShell script execution (Windows 7+).
+12. Securing PowerShell by Constrained Language mode (SRP, PowerShell 5.0+)
+13. Disabling execution of scripts managed by Windows Script Host.
+14. Removing "Run As Administrator" option from the Explorer right-click context menu.
+15. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
+16. Disabling Remote Desktop, Remote Assistance, Remote Shell, and Remote Registry.
+17. Disabling execution of 16-bit applications.
+18. Securing Shell Extensions.
+19. Disabling SMB protocols.
+20. Disabling program elevation on Standard User Account.
+21. Enabling Validate Admin Code Signatures (UAC setting).
+22. Disabling Cached Logons.
+23. Forcing Secure Attention Sequence before User Account Control prompt.
+24. Filtering Windows Event Log for blocked file execution events (Nirsoft FullEventLogView).
+25. Filtering autoruns from the User Space, and script autoruns from anywhere (Sysinternals Autorunsc).
+26. Enabling&Filtering Advanced SRP logging.
+27. Turning ON/OFF all above restrictions.
+28. Restoring Windows Defaults.
+29. Making System Restore Point.
+30. Using predefined setting profiles for Windows 7, Windows 8, and Windows 10.
+31. Saving the chosen restrictions as a profile, and restoring when needed.
+32. Backup management for Profile Base (whitelist profiles and setting profiles).
+33. Changing GUI skin.
+34. Updating application.
+35. Uninstalling application (Windows defaults restored).
 
 
 Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
