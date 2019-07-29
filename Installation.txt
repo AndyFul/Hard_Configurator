@@ -1,0 +1,48 @@
+INSTALLATION
+
+1. Close Hard_Configurator, ConfigureDefender, SwitchDefaultDeny and DocumentsAntiExploit (if running). 
+2. Run Hard_Configurator_setup(x86).exe for 32Bit Windows version or Hard_Configurator_setup(x64).exe for 64Bit Windows version.
+3. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run, using a shortcut from the Desktop.
+
+
+Updating from version 4.0.0.1 or 4.0.0.2
+The users who applied the custom settings with blocked Sponsors or recommended_enhanced profile, can look at the new entries in <Block Sponsors> option.
+
+
+Updating from the version 4.0.0.0
+After updating:
+1. Add manually IQY and SETTINGCONTENT-MS file extensions to 'Designated File Types' list or use <Designated File Types><Restore Defaults> option. 
+2. Run SwitchDefaultDeny tool on all user accounts to apply the <Documents Anti-Exploit for current account> settings. The chosen settings may be different for different users. 
+
+
+Updating from the version prior to 4.0.0.0
+After updating but before reconfiguring the new settings introduced in ver. 4.0.0.0 and 4.0.0.2, you can save your custom-made settings to file, by using <Save Profile> from Hard_Configurator main Window. They can be restored later by using <Load Profile>. This is not required when predefined settings are used.
+Also, the custom extensions from ‘Designated File Types’ list can be saved by using  <Designated File Types><Save Extensions>. Those file extensions can be restored later by using <Designated File Types> <Restore Saved>. This is not required when default list is used.
+After updating to the new version:
+1. Press <Recommended SRP> and next <Recommended Restrictions> to install the new recommended settings in the Windows Registry. Some new settings will overwrite the old ones. <Default Security Level> will be set to Disallowed, 'Windows Script Host' file extensions will be added to Designated File Types list, <Disable Win. Script Host> will be set to OFF, a few additional Windows subfolders will be protected, shortcut protection will be improved, PowerShell sponsors will be blocked (except Windows 10), and some minor changes will apply.
+2. If you are using OneDrive, then press <Whitelist By Path> button and find the label 'OneDrive for accounts'. Use first <Remove All> button to remove all the old OneDrive entries and next <Add All> button to whitelist OneDrive on all accounts.
+
+
+QUICK CONFIGURATION (after the fresh installation).
+
+1. Run Hard_Configurator and follow the instructions which are displayed on the first run. 
+2. It is recommended to allow Hard_Configurator making the System Restore Point, whitelisting the autoruns and applying Recommended Settings. The restore point can be skipped when the kind of rollback software was installed. 
+3. After those actions, Windows restart will be required.
+4. If Windows Defender is primary real-time protection, then <ConfigureDefender> option in Hard_Configurator (left violet button) can be used to activate advanced Windows Defender settings.
+5. The firewall hardening is also possible by using <FirewallHardening> option (right violet button).
+6. Please read the help files to get info about Hard_Configurator options. Full information about the program and SRP can be accessed using <Documentation> button, available after pressing <General Help> button. 
+It is recommended to visit hard-configurator.com website for detailed information.
+
+
+FULL UNINSTALLATION.
+1. Run Hard_Configurator (close ConfigureDefender, SwitchDefaultDeny, DocumentAntiExploit and other instances of Hard_Configurator if running).  
+2. Press <Tools> button and next <Uninstall Hard_Configurator> button.
+3. Follow the displayed instructions.
+
+
+REMARKS
+
+After Hard_Configurator uninstallation:
+1. The registry values tweaked by Hard_Configurator are set to Windows defaults!!!
+2. The System Restore is turned ON. It is good to keep this setting ON, when installing security programs. If not required, it can be manually turned OFF, using the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
+3. The DocumentsAntiExploit tool is copied to the Public Desktop, and it is available for managing the MS Office and Adobe Acrobat Reader XI/DC settings on the particular account. Do not delete it, until you are sure that its protection is turned OFF, on all user accounts.
