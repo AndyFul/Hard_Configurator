@@ -1,6 +1,6 @@
 Version 4.1.1.1
 1. Added "Paranoid Extensions" (259 potentially dangerous file type extensions).
-2. Added FirewallHardening tool, which blocks by Windows Firewall many LOLBins and allow the user to block any application.
+2. Added FirewallHardening tool, which blocks by Windows Firewall many LOLBins and allows the user to block any application.
 3. Removed explorer.exe paths from FirewallHardening LOLBins on Windows 8 and 8.1., for compatibility with SmartScreen.
 4. Two buttons <Recommended SRP> and <Recommended Restrictions> are replaced by one green button <Recommended Settings>.
 5. Reorganization of buttons: the violet buttons <Firewall Hardening> and <ConfigureDefender> are now located in the upper part of the
@@ -9,7 +9,7 @@ main window. The button <No Removable Disks Exec.> was replaced by the new optio
 Explorer context menu. It can be used for installing safely the applications both on Administrator and Standard User type of accounts.
 7. Added the option <Validate Admin Code Signatures> which changes the UAC settings to enforce cryptographic signatures on any interactive
 application that requests elevation of privilege. This setting will prevent the user to run from Explorer the applications which require
-Administrative rigts but are not digitally signed.
+Administrative rights, but are not digitally signed.
 8. Added the profile "Windows_10_MT_Windows_Security_hardening.hdc" which uses the new option <Validate Admin Code Signatures>.
 9. The option <Restore Windows Defaults> does restore also Windows Defender defaults and removes FirewallHardening Outbound block rules.
 10. All Hard-Configurator native executables are digitally signed by SHA256 certificate (Certum Code Signing CA SHA2).
