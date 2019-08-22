@@ -1,3 +1,6 @@
+ver. 5.0.0.0
+64-bit : https://www.virustotal.com/gui/file/9c5831f2b12c8bf567f40ec77cdf7244d8a2b7cca8cce973ebfc6e2f4df29454/detection
+32-bit : https://www.virustotal.com/gui/file/3eb6d04f249b5f0e8050f3597851c42994960e6a5feb3951d8e08781f3e6adad/detection
 ver. 4.1.1.1
 64-bit : https://www.virustotal.com/gui/file/4e57960869ffa101f769c52db663b6ed4b15dd1a9d2560f32d9d8c2d773f40cc/detection
 32-bit : https://www.virustotal.com/gui/file/a1a6c9da83e44ee0487fe3749aeca1fc2d4faf8eb92bf6f4b973c6b4e4e1f7cb/detection
