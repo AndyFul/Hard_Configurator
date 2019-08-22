@@ -1,3 +1,7 @@
+Version 5.0.0.0
+1. Added new version of ConfigureDefender with additional ASR rule: "Block persistence through WMI event subscription".
+2. Minor bugs corrected.
+
 Version 4.1.1.1
 1. Added "Paranoid Extensions" (259 potentially dangerous file type extensions).
 2. Added FirewallHardening tool, which blocks by Windows Firewall many LOLBins and allows the user to block any application.
