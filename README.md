@@ -1,6 +1,10 @@
-## Hard_Configurator beta ver. 4.1.1.1
+## Hard_Configurator ver. 5.0.0.0
 
 From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate (Open Source Developer Andrzej Pluta).
+
+WARNING!!!
+Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 via Microsoft Family Safety.
+Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
 
 The version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed with
