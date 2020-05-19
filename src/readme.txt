@@ -1,1 +1,1 @@
-
+Please note that the source code is poorly documented and not optimized. It contains much dead code, repeated code blocks (should be replaced by functions), patches, etc. Anyway it can be interesting for some users.
