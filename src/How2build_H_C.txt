@@ -1,0 +1,23 @@
+Please note that the source code is poorly documented and not optimized. It contains much dead code, repeated code blocks
+(should be replaced by functions), patches, etc. Anyway, it can be interesting for some users.
+
+The H_C can be build by using AutoIt - The code was tested on Autoit ver. 3.3.14.2 and SciTE4AutoIt3 ver 16.612.1119.0 .
+Use "Compile with options" for the proper .au3 file by using the right click Explorer context menu. After compilation, rename executables (EXE files) as below:
+
+Hard_Configurator.au3 ---> Hard_Configurator(x64).exe and Hard_Configurator(x86).exe
+DocumentsAntiExploit.au3 ---> DocumentsAntiExploit(x64).exe and DocumentsAntiExploit(x86).exe
+FirewallHardening.au3 ---> FirewallHardening(x64).exe and FirewallHardening(x86).exe
+SwitchDefaultDeny.au3 ---> SwitchDefaultDeny(x64).exe and SwitchDefaultDeny(x86).exe
+
+ConfigureDefender\ConfigureDefender.au3 ---> ConfigureDefender_x64.exe and ConfigureDefender_x86.exe
+Copy the executables to the Hard_Configurator folder.
+
+InstallBySmartScreen\InstallBySmartScreen.au3 ---> InstallBySmartScreen(x64).exe and InstallBySmartScreen(x86).exe
+Copy the executables to the Hard_Configurator folder.
+
+RunBySmartscreen\RunBySmartscreen.au3 ---> RunBySmartscreen(x64).exe and RunBySmartscreen(x86).exe
+Copy the executables to the Hard_Configurator folder.
+
+Hard_Configurator is semi-portable. Copy the Hard_Configurator folder to %WinDir% and run Hard_Configurator(x64).exe (for Windows 64-bit) or Hard_Configurator(x86).exe (for Windows 32-bit). You can also run SwitchDefaultDeny.exe to switch off/on the protection and run DocumentsAntiExploit tool.
+
+
