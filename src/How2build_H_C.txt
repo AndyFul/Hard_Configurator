@@ -27,7 +27,7 @@ Run Hard_Configurator(x64).exe (for Windows 64-bit) or Hard_Configurator(x86).ex
 You can also run SwitchDefaultDeny(x64).exe (or SwitchDefaultDeny(x86).exe) to switch off/on the protection and run
 DocumentsAntiExploit tool.
 
-The Hard_Configurator folder on GitHub contains all files and folders except some folders like Skin, Icons, Tools that are
+The Hard_Configurator folder on GitHub contains all files and folders except some folders like Skins, Icons, Tools that are
 not important for inspecting the code (these folders are included in Hard_Configurator.zip archive).
 
 
