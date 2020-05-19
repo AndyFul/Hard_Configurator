@@ -1,0 +1,40 @@
+INSTALLATION
+
+1. Close Hard_Configurator, ConfigureDefender, SwitchDefaultDeny and DocumentsAntiExploit (if running). 
+2. Run Hard_Configurator_setup(x86).exe for 32Bit Windows version or Hard_Configurator_setup(x64).exe for 64Bit Windows version.
+3. The program will be installed in 'Windows\Hard_Configurator' folder. It can be run by using a shortcut from the Desktop.
+
+
+Updating from previous versions.
+Because of several important changes in version 5.0.1.1, it is recommended (just after update) to load one of the predefined setting profiles or simply apply first the Recommended Settings and next adjust the restrictions. This will properly activate the new features. The whitelisted entries will not be changed, except adjusting the Unrestricted and Disallowed rules for EXE (TMP) and MSI files.
+If the user wants to globally allow EXE (TMP) and MSI files, then the profile "Windows_*_Basic_Recommended_Settings.hdc" can be applied (* denotes the Windows version). This setting profile requires an antivirus with strong proactive protection for EXE and MSI files.
+If the user wants to block also EXE (TMP) and MSI files in UserSpace on Windows 8+, then the profile "Windows_*_Strict_Recommended_Settings.hdc" can be applied. On Windows 7 (Vista) the Recommended Settings can block EXE and MSI files in UserSpace by default.
+
+
+QUICK CONFIGURATION (after the fresh installation).
+
+1. Run Hard_Configurator and follow the instructions which are displayed on the first run. 
+2. It is recommended to allow Hard_Configurator making the System Restore Point, whitelisting the autoruns and applying Recommended Settings. The restore point can be skipped when the kind of rollback software was installed. 
+3. After those actions, Windows restart will be required.
+4. If Windows Defender is primary real-time protection, then <ConfigureDefender> option in Hard_Configurator (left violet button) can be used to activate advanced Windows Defender settings. It is recommended to apply <HIGH> Protection Level. The Windows restart is required to apply the new settings.
+5. The firewall hardening is also possible by using <FirewallHardening> option (right violet button). It is recommended to apply 'Recommended H_C' rules and turn ON "Start logging events'. The Windows restart is required to apply the new settings.
+6. If you want to use Command Prompt or PowerShell with Administrator rights, then the option <Hide 'Run As Administrator'> should be set to OFF.
+7. If you use the archiver application or email client application installed in the system, then keep it updated. In the Recommended Settings the below applications are supported:
+Archivers: Windows built-in Zip archiver, 7-Zip, ALZip, Bandizip, B1 Free Archiver, Explzh, ExpressZip, IArc, PeaZip, PKZip, PowerArchiver, WinRar,  WinZip.
+EmailClients: Mail for Windows 10 (Windows app), Outlook, Claws-mail, eM Client, Foxmail, Hiri, Mailspring, PostBox, Spike, Thunderbird, and any online email client.  
+8. Please read the help files to get info about Hard_Configurator options. Full information about the program and SRP can be accessed using <Documentation> button, available after pressing <General Help> button. 
+It is recommended to visit hard-configurator.com website for detailed information.
+
+
+FULL UNINSTALLATION.
+1. Run Hard_Configurator (close ConfigureDefender, SwitchDefaultDeny, DocumentAntiExploit and other instances of Hard_Configurator if running).  
+2. Press <Tools> button and next <Uninstall Hard_Configurator> button.
+3. Follow the displayed instructions.
+
+
+REMARKS
+
+After Hard_Configurator uninstallation:
+1. The registry values tweaked by Hard_Configurator are set to Windows defaults (also those configured via ConfigureDefender and FirewallHardening)!!!
+2. The System Restore is usually turned ON. It is good to keep this setting ON, when installing security programs. If not required, it can be manually turned OFF, using the Control Panel or running the Windows tool --> SystemPropertiesProtection.exe  .
+3. The DocumentsAntiExploit tool is copied to the Public Desktop, and it is available for managing the MS Office and Adobe Acrobat Reader XI/DC settings on the particular account. Do not delete it, until you are sure that its protection is turned OFF, on all user accounts.

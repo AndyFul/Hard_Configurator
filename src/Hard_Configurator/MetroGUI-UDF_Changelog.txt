@@ -1,0 +1,18 @@
+v5.1
+
+New features:
++ Added support for OnEventMode - The UDF will automatically detect this if you enable OnEventMode before including the MetroUDF. You can also manually enable it using _Metro_EnableOnEventMode.
++ Added _Metro_InputBox - A modern looking input box that allows entering a PW or other details.
++ Added a new parameter "$tMargin" to _Metro_AddControlButtons and _Metro_AddControlButton_Back, to allow custom margin size (free space from the corners) $iGUI_LIST
++ Added _Metro_ToggleSwitch, _Metro_CheckboxSwitch, toggles between checked/unchecked states and then return the current state.  -> Should only be used to handle user clicks
++ Added GUIAccelerator to _Metro_MsgBox to allow closing the MsgBox faster by pressing enter to click the default button.
+
+Optimizations:
+* Aligned the toggle/radio text to the left instead of center
+* Increased hover effect visibilty on the Metro Toggle when using a light theme.
+
+Bugfixes:
+* Added a workaround for the resize cursor getting stuck on controls very close to the window border. 
+* Fixed hover effect of toggle checked being stuck despite the $NoAnimation parameter being set to true for startup.
+* Added a new parameter "$NoHoverEffect" to _Metro_RadioCheck and _Metro_CheckboxCheck to prevent the hover effect from appearing/freezing when calling the function manually without user interaction.
+		 -> Should be used anytime the checkbox/radio is not "clicked" by the user but checked manually during startup otherwise the hover effect is stuck until the mouse is moved over the control

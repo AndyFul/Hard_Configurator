@@ -1,0 +1,4 @@
+Please read carefully the 'Quick Configuration' and 'What is new?' info which will be displayed after installation/update. They contain important information about configuring the new features.
+
+If you are using the Desktop protection (Windows Defender Ransomware protection or another), then untick the option to create application shortcut, because this action will be prevented anyway. 
+If so, then the shortcuts to Hard_Configurator and SwitchDefaultDeny have to be created by dragging the items from Start Menu to Desktop or using Explorer context menu. Hard_Configurator program folder is located inside the Windows folder.
