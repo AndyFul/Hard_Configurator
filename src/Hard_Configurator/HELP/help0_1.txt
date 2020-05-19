@@ -1,0 +1,16 @@
+6. There are two 3-D buttons visible on the bottom of Main Menu Window: <Load Profile> and <Save Profile>, which can be used to load other predefined program settings, or save user favorite settings (except White List profiles and Designated File Types).
+
+7. There are also important green buttons <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions>. Any of them can switch OFF the settings in the panel above and remembers the last settings in that panel. They can be restored when pressing the green button the second time. But, there is one requirement - meanwhile, you cannot turn on any setting in the panel. If you prefer to turn on some settings in the panel, they overwrite the previous settings.
+
+8. The red button <APPLY CHANGES> works as follows:
+A) The "RESTART COMPUTER" alert is displayed, when changes related to drivers have to be applied.
+B) The "LOG OFF" alert is displayed when SRP <Enforcement>, or <Hide 'Run As Administrator'> settings have been changed.
+C) The splash window "Refreshing SRP Rules" is displayed, when only SRP Unrestricted or Disallowed rules have to be updated. These rules are not applied immediately after writing into the Registry, so they have to be refreshed.
+D) Otherwise, the splash window "No need to refresh settings." is displayed. This does not mean that no changes have been applied, because many Windows Policies are applied immediately after writing the values into the Registry.
+
+9. If some buttons are grayed out, it means that those options are not supported by the Operating System or actual settings do not allow applying them. 
+
+10. Hard_Configurator is very flexible and allows for applying many different security setups. But, it is not recommended to add other restrictions until the user will familiarize himself with Recommended Settings and will be sure that these settings are useful in daily work. Adding more restrictions is usually unnecessary and makes the setup less useful.
+
+
+click the <NEXT> button to continue ...

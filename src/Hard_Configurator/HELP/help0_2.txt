@@ -1,0 +1,11 @@
+11. The Recommended Settings can apply a strong security setup based on default-deny Software Restriction Policies (SRP). They can be slightly different on different Windows versions, because each new Windows version has got stronger protection. For example, the Windows SmartScreen integration with Explorer is supported only on Windows 8 and higher versions. So, on Windows 8+ with Recommended Settings, the "Install By SmartScreen" entry in the right-click Explorer context menu is available. It forces SmartScreen check before running EXE / MSI files and allows the user to bypass safely the default-deny SRP. 
+
+12. On Windows 8+, the Recommended Settings apply for the set-and-forget security setup. The user can see the difference only when installing new applications. 
+Windows Updates, software auto-updates, and scheduled tasks are not blocked in this setup, which makes it very usable. Portable applications located outside 'Windows' and 'Program Files ...' folders, can be whitelisted, and then run as usual. If the user wants to use Command Prompt or PowerShell with Administrator rights, then the option <Hide 'Run As Administrator'> should be set to OFF.
+
+13. Installing applications on Windows 8+ with Recommended Settings.
+The installations made via standalone EXE or MSI application installer can be done by using "Install By SmartScreen" entry in the right-click Explorer context menu. This entry will not work for non-standalone installers, for example when the installation must be done from CD/DVD drives, CD/DVD images, archives containing installation files copied from CD/DVD, etc. 
+The installations performed by running executables (EXE/MSI) directly from the Web Browser will be usually blocked (except for some web browsers like native Edge or Opera). If so, then the standalone application installer has to be executed via "Install By SmartScreen" from the Downloads folder.
+The EXE and MSI files will be blocked when started directly from the archiver application or email client - this prevents bypassing SmartScreen by the malware delivered via archives and email attachments.
+
+click the <NEXT> button to continue ...

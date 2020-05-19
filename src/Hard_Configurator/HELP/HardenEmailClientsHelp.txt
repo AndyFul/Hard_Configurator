@@ -1,0 +1,18 @@
+<Harden Email Clients> option blocks the execution of EXE and MSI files from email client applications.
+This can prevent bypassing the SmartScreen AppRep feature on Windows 8+ or Avast CyberCapture by executing EXE and MSI attachments directly from the archiver application. To execute such files, the attachments have to be first downloaded to the computer.
+
+Pressing this button changes between the settings:
+MSI --> ON --> OFF
+
+The 'MSI' setting blocks only the execution of MSI files.
+The 'ON'  setting blocks the execution of EXE and MSI files.
+The 'OFF' setting removes restrictions.
+
+Hard_Configurator supports the below email client applications:
+Mail for Windows 10 (Windows app), Outlook, Claws-mail, eM Client, Foxmail, Hiri, Mailspring, PostBox, Spike, Thunderbird.  
+
+REMARKS
+You can keep <Harden Email Clients> = 'OFF' when applying the Strict_Recommended_Settings because the temporary locations used by the supported email clients are in the user AppData folder that is blocked by default in this setting profile.
+
+
+See 'Hard_Configurator - Manual.pdf' for more help.

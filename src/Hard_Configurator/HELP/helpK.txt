@@ -1,0 +1,14 @@
+<Disable Elevation on SUA>
+Available settings: 
+ON   - Automatically deny elevation requests
+OFF1 - Prompt for credentials on the secure desktop
+OFF3 - Prompt for credentials
+
+If this option is set to 'ON', then any operation that requires elevation of privilege will fail on any Standard User Account. When used with Default Deny SRP, this setting locks 'Standard User Account', so the user cannot install/run new desktop applications. They are blocked by SRP, and 'Run as administrator' entry in the Explorer context menu is blocked by <Disable Elevation on SUA> setting (one cannot bypass SRP). 
+There are no problems with Windows Updates, scheduled system tasks, and installing/updating Universal Applications from Microsoft Store. But, all new installations/updates of desktop applications, have to be made on 'Administrator Account'.
+
+One can temporarily turn OFF this option (by using Administrator Account) to allow program installation on SUA. 
+<Disable Elevation on SUA> is not activated when using Recommended Settings, because many users do not like such configuration.
+It should be mentioned, that the above two account configuration is very secure and very hard to exploit, even when not using third-party security software (anti-exe, anti-exploit, HIPS). 
+
+See also 'Hard_Configurator - Manual.pdf' for more help.

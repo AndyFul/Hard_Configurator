@@ -1,0 +1,9 @@
+Hard_Configurator can manage the user-made White List Profiles. 
+
+<Save the current White List> option saves the current, active White List in the White List Profile Base. The base is placed in the Windows Registry. Each White List Profile contains: White List entries, the name of the White List, and the short info. So, while saving the profile, the user first has to write the name of the current, active White List, and next is asked to put some info on the profile (for example the creation date/time, and the short White List characteristic). The names of the saved White List Profiles are visible on the left panel. If the profile with the same name is already in the base, the user is asked if it should be overwritten.
+
+<Remove White List> option removes the chosen White List Profile from the Profile Base.
+
+<Load White List> option loads the White List from the chosen White List Profile. The loaded White List, overwrites the current, active White List. Before loading the profile, it is recommended to view info about the profile using <View White List Info> option. Please, do not forget to <APPLY CHANGES> after loading the White List.
+
+<View White List Info> option allows viewing info about the chosen profile, which was written by the user while saving the White List. The info usually contains some useful information, as for example the creation date/time, and the short White List characteristic.

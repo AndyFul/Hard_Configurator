@@ -1,0 +1,8 @@
+REMARKS
+If you want to run the executable file in UserSpace with SRP set to 'Basic User' or 'Disallowed', then it can be done via 'Run as administrator' entry in the right-click Explorer context menu. But, bypassing SRP with Administrative Rights can be dangerous. Hard_Configurator provides a safer option by replacing 'Run as administrator' with 'Install By SmartScreen' entry.
+
+WARNING
+When applying SRP with 'Default Deny' type security level ('Disallowed' or 'Basic User' setting), the SystemSpace folders must be whitelisted - if not, then SRP would block many important files and that could make Windows unusable! 
+When installing SRP, Hard_Configurator whitelists by default Windows and Program Files folders (also Program Files (x86) folder on Windows 64-bit).
+
+See 'Hard_Configurator - Manual.pdf' for more help.

@@ -1,0 +1,6 @@
+In this program, SRP is used as a simple default-deny/whitelisting protection, that is based on Windows built-in security features. Executables can be run without SRP restrictions in SystemSpace, that contains UAC protected folders: 'Windows' and 'Program Files' (and 'Program Files (x86)' in 64-bit versions). 
+Outside of these folders (= UserSpace), executables will be blocked by default. The list of monitored file extensions (Designated File Types) can be accessed by pressing <Designated File Types> button. 
+Additionally, in the Recommended Settings on Windows 8+ (and some other predefined setting profiles) two hidden folders on system disk: ProgramData and AppData, are whitelisted for EXE, TMP and MSI files to allow application auto-updates (see <More SRP ...><Update Mode>).
+These SRP settings and <Forced SmartScreen> feature are the core elements of Hard_Configurator smart-default-deny protection.
+
+See 'Hard_Configurator - Manual.pdf' for more help.

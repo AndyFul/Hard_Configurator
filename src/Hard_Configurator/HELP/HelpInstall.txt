@@ -1,0 +1,5 @@
+For System Safety Hard_Configurator is going to:
+* check/whitelist some programs (autoruns) that are loaded at the boot time;
+* make reports about UserSpace autoruns. 
+
+Press YES button to continue. Press NO button to skip these actions.

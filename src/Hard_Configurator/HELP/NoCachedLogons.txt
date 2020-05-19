@@ -1,0 +1,6 @@
+<Disable Cached Logons> setting is related to Active Directory Domain (ADD) credential caching. The default Windows configuration caches the last logon credentials for users who log on interactively to ADD. Caching the credentials, let users log on to the domain when no domain controllers are available or when the machine is disconnected from the network. Normally, home networks don't use Active Directory, but rather HomeGroup to share files and printers. Typically, in the home networks (even with Active Directory), the Cached Logons feature can be disabled. Secure caching means that the system's Local Security Authority (LSA) stores a hash of the password hash (double hashing) in the system registry. The cached log-on credentials are stored in the 'HKLM\Security\Cache' registry key, which can be available only with system privileges.
+
+<Disable Cached Logons> = 'ON'   disables storing cached log-on ADD credentials.
+<Disable Cached Logons> = 'OFF'  enables storing cached log-on ADD credentials.
+
+See 'Hard_Configurator - Manual.pdf' for more help.

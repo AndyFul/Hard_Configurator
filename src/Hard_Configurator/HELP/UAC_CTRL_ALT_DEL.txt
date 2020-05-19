@@ -1,0 +1,7 @@
+<UAC_CTRL_ALT_DEL> setting turns ON/OFF the Secure Attention Sequence (SAS), before User Account Control (UAC) prompt. Instead of being automatically taken to a secure desktop with the UAC elevation prompt, users have to press Ctrl+Alt+Del keystroke combination, before the secure desktop is presented. As the SAS can’t be emulated other than by physically pressing Ctrl+Alt+Del, the user can be sure that the secure desktop is genuine (not simulated by the malware).
+The SAS is rather inconvenient (not recommended) if the application elevation is required on a regular basis, but it offers additional protection against malware programs, that can simulate the behavior of common system applications. 
+
+Warning.
+This feature sometimes fails to show the SAS prompt, which can have unexpected consequences while updating Windows. It is recommended to turn it off while making Windows Updates.
+
+See 'Hard_Configurator - Manual.pdf' for more help.

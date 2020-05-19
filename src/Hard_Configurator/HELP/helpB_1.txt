@@ -1,0 +1,9 @@
+"By default, PUA protection quarantines the file so they won't run. PUA will be blocked only at download or install-time. A file will be included for blocking if it meets one of the following conditions:
+* The file is being scanned from the browser
+* The file has Mark of the Web set
+* The file is in the %downloads% folder
+* Or if the file in the %temp% folder "
+https://blogs.technet.microsoft.com/mmpc/2015/11/25/shields-up-on-potentially
+-unwanted-applications-in-your-enterprise/
+
+See 'Hard_Configurator - Manual.pdf' for more help.

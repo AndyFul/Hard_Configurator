@@ -1,0 +1,13 @@
+Hard_Configurator can back up its Profile Base (all saved Whitelist Profiles and Settings Profiles) into one compressed backup file with the '.hbp' extension. It is useful when making a fresh Windows installation, because user Whitelist Profiles are stored in the Registry and Setting Profiles in the folder :
+'C:\Windows\Hard_Configurator\Configuration'.
+They will be lost when making a fresh Windows installation. So, before the fresh installation, the user has to make a backup, and next, copy the backup file (or the folder with backup files) to the pen drive or another non-system disk. 
+
+Hard_Configurator saves by default the backup files in the folder:
+'C:\Windows\Hard_Configurator\Backup'
+After the installation, the Profile Base can be recovered from any backup file.
+
+<Export Profiles> makes a backup of the actual Profile Base.
+
+<Import Profiles> imports new profiles from the backup. Importing the profiles do not change the actual Hard_Configurator settings (SRP settings and Restriction settings), only Profile Base is updated. When the user wants to change  Hard_Configurator settings, it is possible from the main window by pressing the option buttons or by loading the profile from the Profile Base (the buttons: <Load Save > for Whitelist Profiles and <Load Profile> for Setting Profiles). Imported profiles do not overwrite the profiles that were already in the Profile Base. If the profile in the backup has the same name as the profile in the Profile Base, then it will not be imported. 
+
+<List Profiles in Backup> displays the report about profiles in the backup file. The report shows all profiles contained in the backup and points out which profiles will not be imported (because they have the same names as some profiles in the Profile Base).

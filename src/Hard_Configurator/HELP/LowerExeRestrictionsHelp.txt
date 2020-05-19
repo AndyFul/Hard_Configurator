@@ -1,0 +1,13 @@
+<Update Mode> set to ON, allows the execution of EXE (TMP) and MSI files in the hidden folders: ProgramData and user AppData, except the Current Users Startup folder. 
+
+<Update Mode> set to MSI, allows only MSI files in ProgramData and user AppData folders. It is applied, for example, in the setting profile for Avast Hardened Mode Aggressive with EXE files whitelisted globally by another option.
+
+<Update Mode> set to OFF, disables the Update Mode in ProgramData and user AppData folders.
+
+The <Update Mode> settings can be overwritten by the global whitelisting rules available for EXE (TMP) or MSI files via <Whitelist By Path> options: "Allow EXE and TMP" or "Allow MSI". These rules can allow EXE (TMP) or MSI files in all UserSpace locations.
+
+In the default Explorer settings, ProgramData and user AppData folders are not visible for the user, and they are commonly used when installing / updating applications. <Update Mode> options do not allow other executable files (like scripts, etc.). 
+Lowering the restrictions for EXE (TMP) and MSI files on Windows 8+ is covered by Windows SmartScreen Application Reputation, so it does not lower the preventive protection of Hard_Configurator settings on the pre-execution stage. Yet, it does not block rare cases of primary EXE (TMP) or MSI payloads on the post-exploitation stage. Other types of payloads (like scripts, etc.) are mostly blocked, except when the exploit can get access to the command line to execute script Interpreter or another LOLBin.
+The setting <Update Mode> = ON is included in the Hard_Configurator Recommended Settings on Windows 8+ and some other setting profiles. It is well suited for most users, because it avoids much of whitelisting and application updating problems. It is a strong security setup in the home environment on a well-updated system with well-updated software.
+
+click the <NEXT> button to continue ...

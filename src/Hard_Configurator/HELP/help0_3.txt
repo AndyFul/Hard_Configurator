@@ -1,0 +1,11 @@
+14. The standalone installer executed from the archive container will be blocked. The archive has to be unpacked by the archiver application and standalone installer can be run via "Install By SmartScreen". The following archivers are supported: Windows native ZIP, 7-Zip, ALZip, B1 Free Archiver, Bandizip, Explzh, ExpressZip, IZArc, PeaZip, PKZip, PowerArchiver, WinRar, and WinZip. It is highly recommended to use one of the supported archivers, and keep it well updated.
+
+15. Installing applications by using CD/DVD, CD/DVD image files, non-standalone installers like archives containing the files copied from CD/DVD, etc.
+In such cases, switching off the Hard_Configurator protection is required on all Windows versions (see SwitchDefaultDeny tool). But, installing applications in this way should be done with caution, after checking the installation source to be sure that it is safe. Such installations are not checked by SmartScreen.
+
+16. Installing applications on Windows Vista or Windows 7 with Recommended Settings.
+On Windows 7 (Vista) the Recommended Settings are similar to Strict Recommended Settings on Windows 8+, because the ProgramData and user Appdata folders are not whitelisted for EXE and MSI files (<More SRP ...> <Update Mode> = OFF).
+The "Install By SmartScreen" entry is not available, and the only way to bypass default-deny SRP is via "Run as administrator" entry (not recommended on Standard User Account) or by switching off the protection (see SwitchDefaultDeny tool). Both ways should be used with caution (especially the first), after checking the executable to be sure that it is safe. 
+This default-deny setup will be much less usable for many users, because it requires more whitelisting and more manual software updates. It can be recommended only for advanced users who do not mind when updates have to be done manually. Such a setup is slightly stronger as post-exploitation protection, because EXE / MSI primary payloads will be blocked also in ProgramData and AppData folders.
+
+click the <NEXT> button to continue ...

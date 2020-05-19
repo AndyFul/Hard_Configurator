@@ -1,0 +1,1 @@
+This information would be useful, when loading the White List profile, after some time. While loading, the info about the White List is shown. So, if the user has chosen the wrong profile, then he can cancel loading it. The info text must not be too long - it will be cut off after 25 lines or after writing 1400 characters.

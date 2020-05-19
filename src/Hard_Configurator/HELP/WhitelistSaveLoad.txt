@@ -1,0 +1,6 @@
+Please, press the proper button below, to save or
+load the White List into the file on disk or close
+the window by pressing the <Cancel> button.
+After checking the autoruns the Whitelist is saved
+automatically into the file: autoruns_??????_????. 
+The wildcards ??????_????  mean date_time.

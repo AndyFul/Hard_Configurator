@@ -1,0 +1,1 @@
+This information can be useful, when loading the profile after some time. So, if the user is going to choose by accident the wrong profile, then he can cancel the action. The info text must not be too long - it will be cut off after 25 lines or after writing 1400 characters.

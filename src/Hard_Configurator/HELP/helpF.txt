@@ -1,0 +1,19 @@
+If <Block Remote Access> is set to ON, then the below remote features are disabled by
+Administrator: 
+* Remote Assistance (solicited and unsolicited)
+* Remote Desktop
+* Remote Shell Access
+* Remote Registry Access
+The user cannot enable those remote features via System Properties and Control Panel.
+
+If <Block Remote Access> set to OFF, then the user can enable or disable the remote 
+features via System Properties and Control Panel.
+
+It is recommended for home users to keep <Block Remote Access> set to 'ON'. 
+Remote connections are frequently exploited by malware and hackers.
+
+REMARK
+Changing this option (either set to 'ON' or to 'OFF') always stops 'Remote Registry'
+service, if it was started. 
+
+See 'Hard_Configurator - Manual.pdf' for more help.

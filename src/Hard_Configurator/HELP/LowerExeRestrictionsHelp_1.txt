@@ -1,0 +1,14 @@
+<Update Mode> set to OFF is included in the Recommended Settings on Windows 7 (and Vista), where Windows SmartScreen is not integrated with Explorer. These settings can block the EXE (TMP) / MSI primary payloads and can be recommended for users who install / use unpatched and vulnerable software. 
+Turning OFF the <Update Mode> will require more attention when installing or updating applications. Furthermore, on Standard User type of account, installing / updating applications in UserSpace, will usually require turning off (temporarily) the Hard_Configurator default-deny protection.
+
+<Update Mode> = ON is applied in the Hard_Configurator profile prepared for Avast Antivirus (with CyberCapture). 
+<Update Mode> = MSI is applied in the Hard_Configurator profile prepared for Avast Antivirus set to Hardened Aggressive Mode with EXE files whitelisted globally by another option.
+
+If the Avast Hardened Aggressive mode is not available via Avast modern GUI, then it can be set in Avast by using:
+Menu > Settings > Troubleshooting > Open old settings.
+
+The CyberCapture feature is turned ON by default in Avast. It works only for EXE files originated from the Internet Zone (file must have got MOTW). Furthermore, it does not work for files contained in archives (with some exceptions), flash drives, CD/DVD drives, and Memory Cards. 
+For Windows 8+, the Hard_Configurator Recommended Settings force both SmartScreen Application Reputation and CyberCapture, via the right-click Explorer context menu entry: 'Install By SmartScreen'. 
+On Windows 7 (and Vista), the SmartScreen Application Reputation is not supported. But still, the CyberCapture can be forced via 'Install application' entry in the right-click Explorer context menu. Both "Install by SmartScreen" and "Install application" can add the 'Mark Of The Web' to the EXE file before executing it. This triggers AvastCyberCapture also for files contained in archives, flash drives, CD/DVD drives, Memory Cards, ISO images. 
+
+See 'Hard_Configurator - Manual.pdf' for more help.

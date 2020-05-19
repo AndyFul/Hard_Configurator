@@ -1,0 +1,8 @@
+(A) Keep <Forced SmartScreen> = 'Administrator', when SRP is activated. If so, the users can safely:
+1. Run programs (with a mouse click or pressing ENTER button) which have been already installed or put on the Whitelist.
+2. Open the media files, documents, and other file types, which are not on the 'Designated File Types' list.
+3. Install new programs from UserSpace by using 'Install By SmartScreen' entry from the Explorer context menu (only EXE and MSI files).
+
+(B) Keep <Forced SmartScreen> = 'Standard User' when SRP is deactivated. If so, then ‘Run By SmartScreen’ entry from the Explorer context menu can be used on demand to safely run / open any file. 
+
+See 'Hard_Configurator - Manual.pdf' for more help.
