@@ -3,7 +3,8 @@ Please note that the source code is poorly documented and not optimized. It cont
 
 The H_C can be build by using AutoIt - The code was tested on Autoit ver. 3.3.14.2 and SciTE4AutoIt3 ver 16.612.1119.0 .
 Download the file Hard_Configurator.zip and unpack it. Copy the Hard_Configurator folder to %WinDir%.
-Use "Compile with options" for the proper .au3 files by using the right-click Explorer context menu. After compilation, rename executables (EXE files) as below:
+Use "Compile with options" for the proper .au3 files by using the right-click Explorer context menu. After compilation, 
+rename executables (EXE files) as below:
 
 Hard_Configurator.au3 ---> Hard_Configurator(x64).exe and Hard_Configurator(x86).exe
 DocumentsAntiExploit.au3 ---> DocumentsAntiExploit(x64).exe and DocumentsAntiExploit(x86).exe
@@ -20,8 +21,11 @@ RunBySmartscreen\RunBySmartscreen.au3 ---> RunBySmartscreen(x64).exe and RunBySm
 Copy the executables to the Hard_Configurator folder.
 
 Hard_Configurator is semi-portable. The Hard_Configurator folder can be copied to another machine into %WinDir% folder. 
-Run Hard_Configurator(x64).exe (for Windows 64-bit) or Hard_Configurator(x86).exe (for Windows 32-bit). You can also run SwitchDefaultDeny(x64).exe (or SwitchDefaultDeny(x86).exe) to switch off/on the protection and run DocumentsAntiExploit tool.
+Run Hard_Configurator(x64).exe (for Windows 64-bit) or Hard_Configurator(x86).exe (for Windows 32-bit). 
+You can also run SwitchDefaultDeny(x64).exe (or SwitchDefaultDeny(x86).exe) to switch off/on the protection and run
+DocumentsAntiExploit tool.
 
-The Hard_Configurator folder on GitHub contains all files and folders except some folders like Skin, Icons, Tools that are not important for inspecting the code (these folders are included in Hard_Configurator.zip archive).
+The Hard_Configurator folder on GitHub contains all files and folders except some folders like Skin, Icons, Tools that are
+not important for inspecting the code (these folders are included in Hard_Configurator.zip archive).
 
 
