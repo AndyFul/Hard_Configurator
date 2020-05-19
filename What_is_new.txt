@@ -33,7 +33,8 @@ Archivers> = ON, and <Harden Email Clients> = ON are added to the H_C Recommende
 The <Update Mode> = ON setting still blocks the EXE (TMP) and MSI files in other folders from UserSpace like: Desktop, Documents,
 Downloads, Music, Movies, Pictures, non-system partitions, and USB drives. The user has to use "Install By SmartScreen" entry to run
 standalone application installers.
-9. Added some new H_C setting profiles. For example, the Windows_8_Strict_Recommended_Settings and Windows_10_Strict_Recommended_Settings apply for Recommended Settings used in H_C 5.0.0.0 and prior versions, which did not use the
+9. Added some new H_C setting profiles. For example, the Windows_8_Strict_Recommended_Settings and
+Windows_10_Strict_Recommended_Settings apply for Recommended Settings used in H_C 5.0.0.0 and prior versions, which did not use the
 <Update Mode> feature.
 10. Whitelisted the folder ImplicitAppShortcuts (only for shortcuts).
 11. Whitelisted the shortcuts in the user Desktop, when the Desktop location is redirected. This can happen when the user chooses the
