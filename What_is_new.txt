@@ -1,3 +1,52 @@
+Version beta 5.1.1.1
+1. Fixed the GUI bug related to whitelisting by hash.
+
+Version 5.0.1.1 
+1. Added the integrity module which can check and solve problems when SRP is tampered by another application.
+2. Added a quick method to refresh SRP rules.
+3. Added the new setting profile Windows_*_Basic_Recommended_Settings.hdc and included it in Hard_Configurator manual.
+4. Removed the "All files" SRP Enforcement setting due to possible incompatibilities with 3rd party security solutions. Furthermore,
+this setting is not used in Hard_Configurator predefined profiles and it is not well integrated with Recommended Settings on Windows
+8+.
+5. Improved the SRP rules related to <Update Mode> and <Harden Archivers> (added support for Explzh archiver).
+6. Corrected some minor bugs.
+
+Version beta 5.0.0.1
+1. The new version of ConfigureDefender 2.1.1.1
+Corrected a bug related to the error when "Defender Security Log" is empty. 
+Removed event Id=1117 from Defender Security Log.
+Extended the maximal number of entries in the Log to 300.
+Extended the "Cloud Time Check Limit" in HIGH Protection Level from 10s to 20s. 
+2. The new version of FirewallHardening 1.0.1.1 
+Added curl.exe to FirewallHardening LolBins, and curl.exe, certutil.exe to FirewallHardening 'Recommended H_C' rules. Removed the bug
+related to displaying the last blocked event.
+3. The new version of DocumentsAntiExploit tool - improved/corrected the Outlook macro protection.
+4. The new version of SwitchDefaultDeny 2.0.0.1 - adjusted to work with <Update Mode>.
+5. Changed the name of the H_C option <Run As SmartScreen> to <Forced SmartScreen>.
+6. Changed the name "Run As SmartScreen" (of the entry in the Explorer context menu) to "Install By SmartScreen".
+7. Added prevention against SmartScreen DLL hijacking (included in "Install By SmartScreen" and "Run By SmartScreen").
+8. Added 3 new options <Update Mode>, <Harden Archivers>, and <Harden Email Clients>. The <Update Mode> allows the execution of EXE
+(TMP) and MSI files in ProgramData and AppData folders, which allows the applications to auto-update without losing much of the H_C
+protection. These folders are hidden for the users in the Explorer default settings. The <Harden Archivers> and <Harden Email Clients>
+support the <Update Mode> to prevent bypassing the Hard_Configurator Recommended Settings. The settings <Update Mode> = ON, <Harden
+Archivers> = ON, and <Harden Email Clients> = ON are added to the H_C Recommended Settings on Windows 8+.
+The <Update Mode> = ON setting still blocks the EXE (TMP) and MSI files in other folders from UserSpace like: Desktop, Documents,
+Downloads, Music, Movies, Pictures, non-system partitions, and USB drives. The user has to use "Install By SmartScreen" entry to run
+standalone application installers.
+9. Added some new H_C setting profiles. For example, the Windows_8_Strict_Recommended_Settings and Windows_10_Strict_Recommended_Settings apply for Recommended Settings used in H_C 5.0.0.0 and prior versions, which did not use the
+<Update Mode> feature.
+10. Whitelisted the folder ImplicitAppShortcuts (only for shortcuts).
+11. Whitelisted the shortcuts in the user Desktop, when the Desktop location is redirected. This can happen when the user chooses the
+Desktop backup in OneDrive or manually changes the path to the Desktop. After changing the path to the user Desktop, it is required to
+sign off from the account or refresh the Explorer. After that, the shortcuts on the Desktop in the new location will be automatically
+whitelisted.
+12. Added to the H_C manual many details related to Recommended Settings and Avast profiles, which can use now the <Update Mode>
+feature.
+13. Added the option to whitelisting globally the MSI files (<Whitelist By Path> "Allow MSI"). In the version 5.0.0.1, this setting is
+used when the user applies the profile "Windows_10_MT_Windows_Security_hardening.hdc" - both EXE (TMP) and MSI files are allowed. In
+the old setting profile "Windows_10_MT_Windows_Security_hardening.hdc", only EXE (TMP) files are globally allowed.
+
+
 Version 5.0.0.0
 1. Added new version of ConfigureDefender with additional ASR rule: "Block persistence through WMI event subscription".
 2. Minor bugs corrected.
