@@ -1,0 +1,68 @@
+IsPowerShellBlocked
+IsPowerShell_iseBlocked
+Isbitsadmin.exeBlocked
+IsCsc.exeBlocked
+Ishh.exeBlocked
+Isieexec.exeBlocked
+Isiexplore.exeBlocked
+IsInstallUtil.exeBlocked
+IsMsBuild.exeBlocked
+Ismshta.exeBlocked
+IsPresentationHost.exeBlocked
+Isreg.exeBlocked
+Isregini.exeBlocked
+IsRegSvcs.exeBlocked
+Iswmic.exeBlocked
+Isbash.exeBlocked
+IsRegAsm*Blocked
+Isschtasks.exeBlocked
+Iswindbg.exeBlocked
+Isforfiles.exeBlocked
+Issc.exeBlocked
+
+;********* Beginning of ini section *********
+
+SKIN=MAmbre
+ListColor=14671585
+White List
+Skip DLLs
+ON
+ON
+OFF
+ON
+
+ON
+OFF
+Administrator
+ON
+OFF
+ON
+OFF
+ON
+ON
+ON1
+ON
+OFF
+Adobe + VBA
+OFF
+OFF
+OFF
+OFF
+OFF
+END
+
+;********* Beginning of profile info section *********
+
+No Elevation Hardened & Enhanced SUA on Windows 8 and 8.1.
+
+This setting profile is prepared for two account security solution: daily work on highly restricted Standard User Account (SUA), and admin work on Administrator Account (AA). All applications have to be installed system-wide (for all users) on Administrator Account, but most of them will be run on SUA.
+
+In this profile, applications cannot elevate when started as standard user on SUA. The user can open documents, media, photos, etc., and run previously installed applications which do not require elevation of privileges. But, there is no possibility to run/install new programs when working on such protected SUA. 
+Only system processes and system scheduled tasks can run with high privileges when working on SUA. So, all the admin work like: installing & updating programs, running programs with elevation, etc., must be done on Administrator Account. 
+This profile additionally blocks some vulnerable Sponsors & LOLBins (via SRP) which are commonly abused. 
+
+The work on Administrator Account can be done after using SwitchDefaultDeny tool to turn off the Hard_Configurator default-deny protection. This work should be repeated periodically to keep the software well updated. The new application installations can be safely performed (on demand) via 'Run By SmartScreen' entry in the right-click Explorer context menu.
+Rarely, some blocked Sponsors or LOLBins can be used by the legal software, so it is recommended to look at <Tools> <Blocked Events / Security Logs> for troubleshooting.
+
+After finishing admin work and turning on default-deny protection via SwitchDefaultDeny tool, the user may continue the daily work on SUA.
+

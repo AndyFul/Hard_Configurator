@@ -1,0 +1,45 @@
+IsPowerShellBlocked
+IsPowerShell_iseBlocked
+
+;********* Beginning of ini section *********
+
+SKIN=MAmbre
+ListColor=14671585
+White List
+Skip DLLs
+ON
+ON
+OFF
+ON
+OFF
+OFF
+OFF
+OFF
+ON
+
+ON
+OFF
+OFF3
+OFF
+ON1
+ON
+OFF
+Adobe + VBA
+ON
+MSI
+MSI
+ON
+OFF
+END
+
+;********* Beginning of profile info section *********
+
+This profile is prepared to work on Windows 7 and Vista with Avast antivirus set to Hardened Aggressive mode. 
+Settings applied: "Recommended settings" for Windows 7 + "enabled <Update Mode>, <Harden Archivers> and <Harden Email Clients> + "allowed EXE files in UserSpace".
+
+These settings allow running any EXE file from the Userspace, but such a file is also checked by Avast reputation cloud.
+For security reasons, the script execution (PowerShell, Windows Script Host) is disabled on all accounts. 
+The Windows Script Host scripts (JS, JSE, VBE, VBS, WSF, WSH) can be executed via elevated Command Prompt or elevated PowerShell. 
+When protecting the computers of children, the MSI Sponsor msiexec.exe can be also blocked via <Block Sponsors> to prevent MSI installations which are not as well protected by Avast (not supported by Hardened Aggressive mode) as EXE installations.
+
+In this profile, most applications can auto-update. The 'Install application' entry in the right-click Explorer context menu should be used to run standalone MSI application installers. The EXE application installers can be run normally because they are allowed by SRP.

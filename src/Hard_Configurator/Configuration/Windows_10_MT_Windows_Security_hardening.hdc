@@ -1,0 +1,49 @@
+IsMshta.exeBlocked
+IsMstsc.exeBlocked
+IsWmic.exeBlocked
+
+;********* Beginning of ini section *********
+
+SKIN=MAmbre
+ListColor=14671585
+White List
+Skip DLLs
+ON
+ON
+ON
+OFF
+OFF
+OFF
+OFF
+Standard User
+ON
+
+ON
+ON
+OFF3
+OFF
+ON1
+OFF
+OFF
+Adobe + VBA
+ON
+OFF
+OFF
+OFF
+ON
+END
+
+;********* Beginning of profile info section *********
+
+Harden Windows 10 while maintaining maximum functionality and compatibility (proposed on Malwaretips forum by @Windows_Security).
+Settings applied: "Recommended Settings" for Windows 10 + "allowed EXE and MSI files in UserSpace" + "three blocked Sponsors" + "Windows Scripts allowed with admin rights" + "only signed executables can elevate" + "Run By SmartScreen"
+
+Please note: This profile allow installing/executing/updating unsigned applications only if they do not require Administrative rights. There are no such restrictions for signed applications.
+
+In this profile, most applications can auto-update. The EXE and MSI application installers can be run normally because they are allowed by SRP.
+It is recommended to use this profile with ConfigureDefender HIGH Protection Level (if WD is the main antivirus) and "Recommended H_C" firewall outbound block rules (see <FirewallHardening> option).
+
+The profile works best when the user installs digitally signed applications (EXE / MSI). The unsigned applications which do not require Administrative rights can be run safely via "Run By SmartScreen" entry from the right-click Explorer context menu.
+
+When the unsigned file is blocked because it cannot elevate, the Error message is displayed which ends with:
+"... A referral was returned from the server".

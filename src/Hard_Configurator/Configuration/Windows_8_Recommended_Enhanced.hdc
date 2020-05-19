@@ -1,0 +1,61 @@
+IsPowerShellBlocked
+IsPowerShell_iseBlocked
+Isbitsadmin.exeBlocked
+IsCsc.exeBlocked
+Ishh.exeBlocked
+Isieexec.exeBlocked
+Isiexplore.exeBlocked
+IsInstallUtil.exeBlocked
+IsMsBuild.exeBlocked
+Ismshta.exeBlocked
+IsPresentationHost.exeBlocked
+Isreg.exeBlocked
+Isregini.exeBlocked
+IsRegSvcs.exeBlocked
+Iswmic.exeBlocked
+Isbash.exeBlocked
+IsRegAsm*Blocked
+Isschtasks.exeBlocked
+Iswindbg.exeBlocked
+Isforfiles.exeBlocked
+Issc.exeBlocked
+
+;********* Beginning of ini section *********
+
+SKIN=MAmbre
+ListColor=14671585
+White List
+Skip DLLs
+ON
+ON
+OFF
+ON
+
+ON
+ON
+Administrator
+ON
+OFF
+ON
+OFF
+OFF3
+OFF
+ON1
+ON
+OFF
+Adobe + VBA
+OFF
+ON
+ON
+ON
+OFF
+END
+
+;********* Beginning of profile info section *********
+
+This profile was prepared for Windows 8 and 8.1. 
+Settings applied: "Recommended Settings" for Windows 8 + "some Sponsors are blocked" + "Windows Script Host blocked also with admin rights"
+
+These settings apply additional restrictions to the "Recommended Settings", so it is recommended to use <Tools> <Blocked Events / Security Logs> occasionaly for troubleshooting.
+
+If the user wants to use Command Prompt or PowerShell with Administrator rights, then the option <Hide 'Run As Administrator'> should be set to OFF. 
