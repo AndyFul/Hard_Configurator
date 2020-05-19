@@ -6,8 +6,7 @@ Version 5.0.1.1
 2. Added a quick method to refresh SRP rules.
 3. Added the new setting profile Windows_*_Basic_Recommended_Settings.hdc and included it in Hard_Configurator manual.
 4. Removed the "All files" SRP Enforcement setting due to possible incompatibilities with 3rd party security solutions. Furthermore,
-this setting is not used in Hard_Configurator predefined profiles and it is not well integrated with Recommended Settings on Windows
-8+.
+this setting is not used in Hard_Configurator predefined profiles and it is not well integrated with Recommended Settings on Windows 8+.
 5. Improved the SRP rules related to <Update Mode> and <Harden Archivers> (added support for Explzh archiver).
 6. Corrected some minor bugs.
 
