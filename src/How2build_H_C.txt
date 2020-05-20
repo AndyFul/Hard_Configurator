@@ -3,9 +3,8 @@ Please note that the source code is poorly documented and not optimized. It cont
 
 The H_C can be build by using AutoIt - The code was tested on Autoit ver. 3.3.14.2 and SciTE4AutoIt3 ver 16.612.1119.0 .
 Download the file Hard_Configurator.zip and unpack it (password = hard_configurator5111). Copy the Hard_Configurator folder
-to %WinDir% and use file explorer
-with high privileges to compile the files. The compilation can be also done in another location, but then the executables
-will not have embedded icons.
+to %WinDir% and use file explorer with high privileges to compile the files. The compilation can be also done in another 
+location, but then the executables will not have embedded icons.
 Use "Compile with options" for the proper .au3 files by using the right-click Explorer context menu. After compilation, 
 rename executables (EXE files) as below:
 
