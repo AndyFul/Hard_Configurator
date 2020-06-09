@@ -80,4 +80,5 @@ If SRP is deactivated, then Hard_Configurator options can be changed to force Sm
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
 Contact: 
+Andrzej Pluta
 hardconfigurator@gmail.com
