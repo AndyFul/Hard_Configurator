@@ -1,3 +1,6 @@
+ver. 5.1.1.1 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
+https://www.virustotal.com/gui/file/f1ac6f5d819276c851e07db1807d0b4a315630fc565e8fa233f16cfb42577ef6/detection
+
 ver. 5.0.0.0
 64-bit : https://www.virustotal.com/gui/file/9c5831f2b12c8bf567f40ec77cdf7244d8a2b7cca8cce973ebfc6e2f4df29454/detection
 32-bit : https://www.virustotal.com/gui/file/3eb6d04f249b5f0e8050f3597851c42994960e6a5feb3951d8e08781f3e6adad/detection
