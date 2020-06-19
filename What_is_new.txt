@@ -1,7 +1,15 @@
+Version 5.1.1.1 (stable version) 
+The main differences from the last stable ver. 5.0.0.0 are included in beta versions : 5.0.0.1, 5.0.1.1, and 5.1.1.1.
+There are some minor changes as compared to the latest beta ver. 5.1.1.1:
+1. Executables are signed by the new code signing certificate valid until June 2021.
+2. Added the tip text feature for some important buttons in ConfigureDefender, DocumentsAntiExploit and FirewallHardening.
+3. Updated versions of ConfigureDefender ver. 3.0.0.1, DocumentsAntiExploit ver. 1.0.1.1, FirewallHardening ver. 2.0.0.0, and
+RunBySmartScreen 3.1.0.1.
+
 Version beta 5.1.1.1
 1. Fixed the GUI bug related to whitelisting by hash.
 
-Version 5.0.1.1 
+Version beta 5.0.1.1 
 1. Added the integrity module which can check and solve problems when SRP is tampered by another application.
 2. Added a quick method to refresh SRP rules.
 3. Added the new setting profile Windows_*_Basic_Recommended_Settings.hdc and included it in Hard_Configurator manual.
