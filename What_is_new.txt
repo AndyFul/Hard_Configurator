@@ -1,3 +1,10 @@
+Version 5.1.1.2 (stable version)
+This version is essentially the same as ver. 5.1.1.1, except that DocumentsAntiExploit tool executable was replaced by its 
+standalone version. This can matter if after the uninstallation of H_C the user will want to use DocumentsAntiExploit tool
+(without Hard_Configurator) to harden MS Office or Adobe Acrobat Reader XI/DC.
+In the Hard_Configurator main window, the version is still displayed as 5.1.1.1, because the executable is the same as in
+the ver. 5.1.1.1.
+
 Version 5.1.1.1 (stable version) 
 The main differences from the last stable ver. 5.0.0.0 are included in beta versions : 5.0.0.1, 5.0.1.1, and 5.1.1.1.
 There are some minor changes as compared to the latest beta ver. 5.1.1.1:
