@@ -23,8 +23,8 @@ When using SWH restrictions, the user can consider the RunBySmartScreen tool. It
 
 # Quick configuration
 
-Run SWH - the restrictions are automatically configured.
-Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
+1. Run SWH - the restrictions are automatically configured.
+2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
 
 Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
 
