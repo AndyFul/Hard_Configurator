@@ -6,7 +6,7 @@ THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTH
 Distribution
 Hard_Configurator may be freely distributed (but not sell) as long as no modification is made to it. 
 Hard_Configurator can use as external software Sysinternals Autoruns, NirSoft FullEventLogView, command line 7-ZIP, and Nulsoft
-Scriptable Nullsoft System which have additional Software License Terms.
+Scriptable Install System that have additional Software License Terms.
 
 I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23,
 trancexx, Valuater, and many others, for sharing their insightful code.
