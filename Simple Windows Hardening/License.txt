@@ -4,6 +4,7 @@ THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTH
 
 Distribution
 Simple Windows Hardening application may be freely distributed (but not sell) as long as no modification is made to it.
+This application uses Nulsoft Scriptable Nullsoft System which have additional Software License Terms.
 
 I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23,
 trancexx, Valuater, and many others, for sharing their insightful code.
