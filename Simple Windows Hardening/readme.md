@@ -1,4 +1,4 @@
-# Simple Windows Hardening ver. 1.0.0.1
+# Simple Windows Hardening ver. 1.0.0.2
 
 Simple Windows Hardening (SWH) is a portable application that works on Windows 10 (Home and Pro editions). It is a simple configurator (front end) of advanced security that is already present in Windows 10, but which is not activated by default. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. It is not intended to work as a standalone security solution, but to support antivirus by reducing the attack surface in the home environment. After the initial configuration made via SWH, it can be closed and all protection comes from the Windows built-in features.
 
