@@ -37,3 +37,5 @@ SWH is incompatible with SRP introduced via Group Policies Object (GPO) availabl
 
 SWH will also conflict with any software which uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before installing SWH it will be necessary to uninstall the conflicting application or it will be detected and SWH will replace the SRP settings with predefined settings.
 
+SWH uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated SWH version. The old versions can rarely produce some issues.
+
