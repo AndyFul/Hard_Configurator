@@ -9,6 +9,7 @@ From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executa
 WARNING!!!
 Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 via Microsoft Family Safety.
 Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
+Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
 The version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed with
