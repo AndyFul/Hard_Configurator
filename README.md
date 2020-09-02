@@ -41,7 +41,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 12. Securing PowerShell by Constrained Language mode (SRP, PowerShell 5.0+)
 13. Disabling execution of scripts managed by Windows Script Host.
 14. Removing "Run As Administrator" option from the Explorer right-click context menu.
-15. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+).
+15. Forcing SmartScreen check for files without 'Mark Of The Web' (Windows 8+) and preventing DLL hijacking of SmartScreen.
 16. Disabling Remote Desktop, Remote Assistance, Remote Shell, and Remote Registry.
 17. Disabling execution of 16-bit applications.
 18. Securing Shell Extensions.
@@ -67,10 +67,10 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
 
 Forcing SmartScreen check can protect the user, when normally the SmartScreen Filter (in Windows 8+) is bypassed.
-That can happen if you have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR or VBE) when using:
+That can happen if you have got the executable file (EXE, MSI, etc.) when using:
 
 * the downloader or torrent application (EagleGet, utorrent etc.);
-* container format file (zip, 7z, arj, rar, etc.), with the exception of ZIP built-in Windows management.
+* container format file (zip, 7z, arj, rar, etc.), with the exception of some unpackers like ZIP built-in Windows unpacker.
 * CD/DVD/Blue-ray disc;
 * CD/DVD/Blue-ray disc image (iso, bin, etc.);
 * non-NTFS USB storage device (FAT32 pendrive, FAT32 USB disk);
