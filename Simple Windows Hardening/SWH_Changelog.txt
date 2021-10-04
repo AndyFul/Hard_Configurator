@@ -1,0 +1,5 @@
+SWH ver. 1.0.1.0 beta2
+
+1. Added support for Windows 11.
+2. Added SLK and ELF file extensions to the default protected extensions.
+3. Added the option * SRP Policy Scope * that can also apply the SRP restrictions to high privileged processes. It can be recommended when the computer is used both in the Home environment and in the Business local network. Applying restrictions for high privileged processes makes also sense when using older Windows 10 versions or vulnerable software.
