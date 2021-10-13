@@ -1,6 +1,6 @@
 # Simple Windows Hardening ver. 1.0.1.0 beta
 
-This beta version (SWH_beta2.exe) works on Windows 10 and Windows 11.
+This beta version (SWH_beta3.exe) works on Windows 10 and Windows 11.
 
 
 # Simple Windows Hardening ver. 1.0.0.2
