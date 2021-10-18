@@ -1,4 +1,4 @@
-SWH ver. 1.0.1.0 beta3 (points 1-3 were already included in beta 2)
+SWH ver. 1.0.1.0 beta4 (points 1-4 were already included in beta 3)
 
 1. Added support for Windows 11.
 2. Added SLK and ELF file extensions to the default protected extensions.
@@ -7,3 +7,4 @@ SWH ver. 1.0.1.0 beta3 (points 1-3 were already included in beta 2)
    Applying restrictions for high privileged processes makes also sense when using older Windows 10 versions or 
    vulnerable software.
 4. Corrected the configuration bug in * SRP Policy Scope * setting.
+5. Improved compatibility with H_C settings in the switched OFF mode.
