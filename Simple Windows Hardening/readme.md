@@ -1,4 +1,4 @@
-## Simple Windows Hardening ver. 1.0.1.0 - October 2021
+# Simple Windows Hardening ver. 1.0.1.0 - October 2021
 
 This version works on Windows 10 and Windows 11.
 
@@ -12,7 +12,7 @@ SWH application is a simplified version of Hard_Configurator. Generally, it will
 The restrictions made by SWH can be switched OFF/ON by using two switches on the right of the green buttons:   Software Restriction Policies   and   Windows Hardening . In the OFF position, the restrictions are remembered and next removed - Windows default settings are applied for previously restricted features. When switching ON, the remembered settings are restored. Furthermore, in the ON position the configurable settings can be changed by the user from the Settings menu.
 
 
-# The EXE / MSI 0-day malware
+## The EXE / MSI 0-day malware
 
 The SWH application does not apply restrictions to EXE and MSI files, because these files are often used to install/update applications. Nowadays, many antivirus solutions have very good detection of such files, as compared to the detection of scripts. But still, the antivirus proactive features can have a problem with 0-day malware. In the home environment, the main delivery vectors of 0-day malware are spam emails and flash drives (USB drives). 
 
@@ -24,7 +24,7 @@ Flash drives (USB drives) shared with other people.
 When using SWH restrictions, the user can consider the RunBySmartScreen tool. It allows checking any EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
 
 
-# Quick configuration
+## Quick configuration
 
 1. Run SWH - the restrictions are automatically configured.
 2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
@@ -32,7 +32,7 @@ When using SWH restrictions, the user can consider the RunBySmartScreen tool. It
 Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
 
 
-# Software  incompatibilities
+## Software  incompatibilities
 
 Windows built-in SRP is incompatible with Child Account activated on Windows 10 via Microsoft Family Safety. Such an account disables most SRP restrictions. This issue is persistent even after removing the Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
 
