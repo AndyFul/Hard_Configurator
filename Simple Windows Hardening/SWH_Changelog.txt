@@ -1,4 +1,4 @@
-SWH ver. 1.0.1.0 beta4 (points 1-4 were already included in beta 3)
+SWH ver. 1.0.1.0
 
 1. Added support for Windows 11.
 2. Added SLK and ELF file extensions to the default protected extensions.
