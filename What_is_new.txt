@@ -4,11 +4,11 @@ Restrictions> change the background color from green to blue.
 2. Fixed some minor bugs.
 3. Added finger.exe to blocked sponsors and also to the H_C Enhanced profiles.
 4. Added some EXE files to FirewallHardening LOLBin Blocklist: csc, cvtres, CasPol, finger, ilasm, jsc, Microsoft.Workflow.Compiler,
-mscorsvw, ngen, ngentask, vbc.
+   mscorsvw, ngen, ngentask, vbc.
 5. Added SLK and ELF file extensions to the default protected extensions in SRP and RunBySmartscreen.
 6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators) - it can be
-used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should
-be used only by very experienced users.
+   used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should
+   be used only by very experienced users.
 7. New version of ConfigureDefender:
 - Added some useful information to the Help and manual.
 - Added "Send All" setting to Automatic Sample Submission.
