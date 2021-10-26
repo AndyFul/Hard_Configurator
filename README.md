@@ -1,6 +1,7 @@
 ## Hard_Configurator ver. 6.0.0.0 (October 2021)
 
 This version supports also Windows 11.
+
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
 From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use <More SRP... ><Update Mode> = ON, which whitelists
 the EXE and MSI files in ProgramData and user AppData folders (other files are blocked like in ver. 5.0.0.0). If one is happy with blocking the EXE and MSI files in ProgramData and user AppData folders, then it is necessary to set <More SRP... ><Update Mode> = OFF.
