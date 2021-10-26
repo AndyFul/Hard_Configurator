@@ -1,9 +1,28 @@
-Version 5.1.1.2 (stable version)
+Version 6.0.0.0 (stable)
+1. Introduced two color-changing buttons. When the restrictions are OFF, the buttons <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions> change the background color from green to blue.
+2. Fixed some minor bugs.
+3. Added finger.exe to blocked sponsors and also to the H_C Enhanced profiles.
+4. Added some EXE files to FirewallHardening LOLBin Blocklist: csc, cvtres, CasPol, finger, ilasm, jsc, Microsoft.Workflow.Compiler, mscorsvw, ngen, ngentask, vbc.
+5. Added SLK and ELF file extensions to the default protected extensions in SRP and RunBySmartscreen.
+6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators) - it can be used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should be used only by very experienced users.
+7. New version of ConfigureDefender:
+- Added some useful information to the Help and manual.
+- Added "Send All" setting to Automatic Sample Submission.
+- Updated ASR rules (1 new rule added).
+- Added the Warn mode to ASR rules.
+- Added INTERACTIVE Protection Level which uses ASR rules set to Warn.
+- Added the <Info> button next to the Protection Levels buttons. It displays information about which settings are enabled in DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
+- Redesigned slightly the layout of the Exploit Guard section.
+- Added support for event Id=1120.
+- Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some important disk sectors will be still protected (Id = 1127).
+8. Added support for Windows 11.
+
+Version 5.1.1.2 (stable)
 This version is essentially the same as ver. 5.1.1.1, except that DocumentsAntiExploit tool executable was replaced by its 
 standalone version. This can matter if after the uninstallation of H_C the user will want to use DocumentsAntiExploit tool
 (without Hard_Configurator) to harden MS Office or Adobe Acrobat Reader XI/DC.
 
-Version 5.1.1.1 (stable version) 
+Version 5.1.1.1 (stable) 
 The main differences from the last stable ver. 5.0.0.0 are included in beta versions : 5.0.0.1, 5.0.1.1, and 5.1.1.1.
 There are some minor changes as compared to the latest beta ver. 5.1.1.1:
 1. Executables are signed by the new code signing certificate valid until June 2021.
