@@ -1,4 +1,4 @@
-## Hard_Configurator ver. 6.0.0.0 (October 2021)
+# Hard_Configurator ver. 6.0.0.0 (October 2021)
 
 This version supports also Windows 11.
 
@@ -8,7 +8,7 @@ the EXE and MSI files in ProgramData and user AppData folders (other files are b
 
 From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate (Open Source Developer Andrzej Pluta).
 
-# WARNING!!!
+## WARNING!!!
 Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 and 11 via Microsoft Family Safety.
 Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
 Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
@@ -19,7 +19,7 @@ Hard_Configurator. ConfigureDefender ver. 1.0.1.1 was considered as a hack-tool 
 Windows Defender real-time protection. The corrected version of Hard_Configurator has been analyzed and accepted by Microsoft.
 
 
-# PROGRAM DESCRIPTION.
+## PROGRAM DESCRIPTION.
 
 GUI to manage Software Restriction Policies (SRP) and harden Windows Home editions (Windows Vista at least).
 The most comprehensive information about Hard_Configurator (including the manual, FAQ, articles about SRP, etc.), is available on https://hard-configurator.com/, thanks to the cooperative work of my friends from Malwaretips forum. There is also an informative Malwaretips thread about Hard_Configurator: https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
@@ -86,6 +86,6 @@ If SRP is deactivated, then Hard_Configurator options can be changed to force Sm
 
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
-Contact: 
+## Contact: 
 Andrzej Pluta
 hardconfigurator@gmail.com
