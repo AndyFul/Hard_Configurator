@@ -1,3 +1,6 @@
+ver. 6.0.0.0 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
+https://www.virustotal.com/gui/file/34f363fb8003c7b3c67bac82a08abffd2abe5a22d7ab12a49dc6074f25556aaf/detection
+
 ver. 5.1.1.2 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
 corrected installer: https://www.virustotal.com/gui/file/8a2d4841345e98e2bc80d1ef02cae5a29d4db8484d9808dde19aff72dc651ea8/detection
 first installer:     https://www.virustotal.com/gui/file/0d3fd416a983d9cbd0b415b3a0d36b7e58780a48425d6b0b5e94e00179012066/detection
