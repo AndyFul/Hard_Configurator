@@ -1,5 +1,6 @@
-## Hard_Configurator ver. 5.1.1.2
+## Hard_Configurator ver. 6.0.0.0 (October 2021)
 
+This version supports also Windows 11.
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
 From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use <More SRP... ><Update Mode> = ON, which whitelists
 the EXE and MSI files in ProgramData and user AppData folders (other files are blocked like in ver. 5.0.0.0). If one is happy with blocking the EXE and MSI files in ProgramData and user AppData folders, then it is necessary to set <More SRP... ><Update Mode> = OFF.
@@ -7,7 +8,7 @@ the EXE and MSI files in ProgramData and user AppData folders (other files are b
 From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate (Open Source Developer Andrzej Pluta).
 
 WARNING!!!
-Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 via Microsoft Family Safety.
+Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 and 11 via Microsoft Family Safety.
 Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
 Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
