@@ -1,20 +1,26 @@
 Version 6.0.0.0 (stable)
-1. Introduced two color-changing buttons. When the restrictions are OFF, the buttons <Switch OFF/ON SRP> and <Switch OFF/ON Restrictions> change the background color from green to blue.
+1. Introduced two color-changing buttons. When the restrictions are OFF, the buttons <Switch OFF/ON SRP> and <Switch OFF/ON
+Restrictions> change the background color from green to blue.
 2. Fixed some minor bugs.
 3. Added finger.exe to blocked sponsors and also to the H_C Enhanced profiles.
-4. Added some EXE files to FirewallHardening LOLBin Blocklist: csc, cvtres, CasPol, finger, ilasm, jsc, Microsoft.Workflow.Compiler, mscorsvw, ngen, ngentask, vbc.
+4. Added some EXE files to FirewallHardening LOLBin Blocklist: csc, cvtres, CasPol, finger, ilasm, jsc, Microsoft.Workflow.Compiler,
+mscorsvw, ngen, ngentask, vbc.
 5. Added SLK and ELF file extensions to the default protected extensions in SRP and RunBySmartscreen.
-6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators) - it can be used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should be used only by very experienced users.
+6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators) - it can be
+used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should
+be used only by very experienced users.
 7. New version of ConfigureDefender:
 - Added some useful information to the Help and manual.
 - Added "Send All" setting to Automatic Sample Submission.
 - Updated ASR rules (1 new rule added).
 - Added the Warn mode to ASR rules.
 - Added INTERACTIVE Protection Level which uses ASR rules set to Warn.
-- Added the <Info> button next to the Protection Levels buttons. It displays information about which settings are enabled in DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
+- Added the <Info> button next to the Protection Levels buttons. It displays information about which settings are enabled in DEFAULT,
+  HIGH, INTERACTIVE, and MAX Protection Levels.
 - Redesigned slightly the layout of the Exploit Guard section.
 - Added support for event Id=1120.
-- Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some important disk sectors will be still protected (Id = 1127).
+- Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some important disk sectors will be
+  still protected (Id = 1127).
 8. Added support for Windows 11.
 
 Version 5.1.1.2 (stable)
