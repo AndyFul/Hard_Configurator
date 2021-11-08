@@ -1047,8 +1047,6 @@ OptimizeASRExclusions()
     GUICtrlCreateLabel ("**** - file / folder exclusions not supported.", 20, 560+$dx+$dy+$dz+$dr, 300, 16,$SS_LEFT,-1)
     GUICtrlSetFont (-1, 10, 600)
 
-333333
-
 ;   Create a label
     GUICtrlCreateLabel ($breakline & $breakline & $breakline & $breakline, 20, 590+$dx+$dy+$dz+$dr, 435, 10,$SS_LEFT,-1)
     GUICtrlSetFont (-1, 10, 600)
