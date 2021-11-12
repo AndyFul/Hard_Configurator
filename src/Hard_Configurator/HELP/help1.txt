@@ -1,8 +1,0 @@
-<(Re)Install SRP> button makes changes in the Registry to install Windows SRP (Software Restriction Policies).
-Installed SRP will not block programs, unless the user is going to change some SRP settings.
-
-1. SRP parameters can be changed when using the buttons: <Whitelist By Hash>, <Whitelist By Path>, <Designated File Types>, <Default Security Level>, and <Enforcement>. Two SRP options: "Ignore certificate rules" and "All users except local administrators" are hardcoded, and set to ON.
-
-2. SRP restrictions can be bypassed when using 'Run as administrator' entry from the right-click Explorer context menu. But, running new files with Administrative Rights can be dangerous for many users, so Hard_Configurator can replace 'Run As Administrator' in the Explorer context menu, with safer 'Install By SmartScreen' entry (see also the help for <Hide 'Run As Administrator'> and <Forced SmartScreen> options).
-
-click the <NEXT> button to continue ...

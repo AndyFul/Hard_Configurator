@@ -1,8 +1,0 @@
-<Shell Extension Security> 
-If this option is set to 'ON', Windows is directed to run only those shell extensions that have been approved by an administrator. Any approved shell extension must be an entry at the Registry key:
-'HKLM\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved'
-
-Securing shell extension blocks the well-known path, that malware can exploit for persistence.
-This option is not included in Recommended Settings, because some applications may have problems with context menus, etc. But, it can be used by advanced users, who know how to overcome problems with shell integration.
-
-See also 'Hard_Configurator - Manual.pdf' for more help.

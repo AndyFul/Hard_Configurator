@@ -1,6 +1,0 @@
-<Block Windows Script Host> button disables/enables execution of Windows Script Host scripts. If this option is 'ON', then execution of JS, JSE, VBS, VBE, WSF, and WSH scripts is disabled. 
-This feature is not included in the Recommended Settings, because Hard_Configurator uses <Default Security Level> set to 'Disallowed', that applies an extended Windows Script Protection. 
-Keep this option ON, if SRP <Default Security Level> is not set to 'Disallowed'. It is important, because scripts are the weak point of most antimalware programs. 
-Alternatively, you can block wscript.exe and cscript.exe via <Block Sponsors>.
-
-click the <NEXT> button to continue ...

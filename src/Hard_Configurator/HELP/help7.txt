@@ -1,8 +1,0 @@
-Setting <Protect Windows Folders> to 'ON' denies the execution from
-'C:\Windows' subfolders, that are writable (no UAC protection). 
-This protection uses SRP Disallowed rules, so it denies the execution
-even if SRP Default Security Level is set to 'Unrestricted'.
-The execution is allowed for programs started with Administrative
-Rights (or higher) independently of SRP security levels.
-
-See 'Hard_Configurator - Manual.pdf' for more help.

@@ -1,2 +1,0 @@
-<Disable Untrusted Fonts> button activates/deactivates the Blocking Untrusted Fonts feature in Windows 10.
-This setting is turned OFF because actually on Windows 10, GDI font parsing is sandboxed in a highly-restricted AppContainer. 

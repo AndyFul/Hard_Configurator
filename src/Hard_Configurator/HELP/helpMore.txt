@@ -1,8 +1,0 @@
-<MORE ...> button opens a menu with additional restriction options. 
-The numbers on the right of this button, show the actual status of those
-restrictions. For example, #1010110 means that the first, third, fifth and
-sixth options from additional restrictions are set to 'ON' and others are
-set to 'OFF'.
-Some options are not marked as recommended, so they do not change
-their status when pressing <Recommended Settings> button.
-Those options can be used only by advanced users.

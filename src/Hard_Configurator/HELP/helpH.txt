@@ -1,8 +1,0 @@
-<Disable 16-bits>
-If this option is set to 'ON', then access to 16-bit applications is disabled.
-
-REMARKS
-32-bit applications that rely on 16-bit components will not run properly with <Disable 16-bits> = 'ON'. 
-Windows 64-bit has not got NTVDM subsystem, so 16-bit applications cannot run (yet, there are 64-bit NTVDM alternatives available on GitHub). In Windows 64-bit/32-bit is possible to run 16-bit applications into 32-bit virtual machine or DosBox (DOS emulator).
-
-See also 'Hard_Configurator - Manual.pdf' for more help.
