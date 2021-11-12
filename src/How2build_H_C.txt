@@ -2,8 +2,7 @@ Please note that the source code is poorly documented and not optimized. It cont
 (should be replaced by functions), patches, etc. Anyway, it can be interesting for some users.
 The H_C can be build by using AutoIt - The code was tested on Autoit ver. 3.3.14.2.
 Download the file Hard_Configurator.zip and unpack it (password = hard_configurator5111). Copy the Hard_Configurator folder
-to %WinDir% and use file explorer with high privileges to compile the files. The compilation can be also done in another 
-location, but then the executables will not have embedded icons.
+to %WinDir% and use file explorer with high privileges to compile the files.
 Use "Compile Script (x64)" or "Compile Script (x86)" for the proper .au3 files by using the right-click Explorer context menu. 
 After compilation, rename executables (EXE files) as below:
 
@@ -25,8 +24,3 @@ Hard_Configurator is semi-portable. The Hard_Configurator folder can be copied t
 Run Hard_Configurator(x64).exe (for Windows 64-bit) or Hard_Configurator(x86).exe (for Windows 32-bit). 
 You can also run SwitchDefaultDeny(x64).exe (or SwitchDefaultDeny(x86).exe) to switch off/on the protection and run
 DocumentsAntiExploit tool.
-
-The Hard_Configurator folder on GitHub contains all files and folders except some folders like Skins, Icons, Tools that are
-not important for inspecting the code (these folders are included in Hard_Configurator.zip archive).
-
-
