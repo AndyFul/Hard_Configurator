@@ -80,9 +80,9 @@ That can happen if you have got the executable file (EXE, MSI, etc.) when using:
 
 so the file does not have the proper Alternate Data Stream attached (Mark Of The Web).
 
-Forcing the SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space. It is a complementary to SRP, that covers file execution as standard user. If "Run as administrator" option is removed from the Explorer right-click context menu, while SRP and "Run As SmartScreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Application on the run.
+Forcing the SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space. It is a complementary to SRP, that covers file execution as standard user. If "Run as administrator" option is removed from the Explorer right-click context menu, while SRP and "Forced SmartScreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Application on the run.
 
-If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This change adds "Run By Smartscreen" option to Explorer context menu.
+If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This change adds "Install By Smartscreen" option to Explorer context menu.
 
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
