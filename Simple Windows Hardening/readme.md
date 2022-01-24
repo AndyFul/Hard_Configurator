@@ -17,9 +17,9 @@ The restrictions made by SWH can be switched OFF/ON by using two switches on the
 The SWH application does not apply restrictions to EXE and MSI files, because these files are often used to install/update applications. Nowadays, many antivirus solutions have very good detection of such files, as compared to the detection of scripts. But still, the antivirus proactive features can have a problem with 0-day malware. In the home environment, the main delivery vectors of 0-day malware are spam emails and flash drives (USB drives). 
 
 The user has to be very careful when running EXE/MSI files originated from:
-Internet web links embedded in the emails.
-Attachments embedded in the emails.
-Flash drives (USB drives) shared with other people.
+1. Internet web links embedded in the emails.
+2. Attachments embedded in the emails.
+3. Flash drives (USB drives) shared with other people.
 
 When using SWH restrictions, the user can consider the RunBySmartScreen tool. It allows checking any EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
 
