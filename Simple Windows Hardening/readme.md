@@ -28,10 +28,12 @@ When using SWH restrictions, the user can consider the RunBySmartScreen tool. It
 
 1. Run SWH - the restrictions are automatically configured.
 2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
-3. If MS Office is installed, then it is recommendable to open Excel and block macros without notification and apply in SWH the
-   "Paranoid Extensions" (Settings >> Protected SRP Extensions). This is not necessary when ASR rules for MS Office, Adobe Reader,
-   and WMI are enabled with Microsoft Defender as the main Antivirus. The ASR rules can be configured by using the ConfigureDefender
-   tool: https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
+3. If MS Office is installed, then it is recommendable to make some additional hardening:
+   - open Excel and block macros without notification (do it on each user account),
+   - apply in SWH the "Paranoid Extensions" (Settings >> Protected SRP Extensions). 
+   This is not necessary when ASR rules for MS Office, Adobe Reader, and WMI are enabled with Microsoft Defender as the main Antivirus.
+   The ASR rules can be configured by using the ConfigureDefender tool:
+   https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
 4. If necessary, then also other applications from the H_C_HardeningTools repository can be used to increase the security
    (RunBySmartScreen, FirewallHardening, and DocumentsAntiExploit).
     
