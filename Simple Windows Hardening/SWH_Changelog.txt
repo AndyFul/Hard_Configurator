@@ -1,3 +1,7 @@
+SWH ver. 1.0.1.1
+Added the option <AppInstaller> to restrict the installation of UWP apps via the web browser or downloaded packages:
+.msix, .appx, .msibundle, .appxbundle
+
 SWH ver. 1.0.1.0
 
 1. Added support for Windows 11.
