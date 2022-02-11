@@ -1,3 +1,12 @@
+Version 6.0.0.1 beta
+1. Added <Block AppInstaller> option.
+2. New FirewallHardening version 2.0.1.1.
+- added the options to load/save the external BlockLists.
+- added new LOLBins: bitsadmin.exe (blocked via Exploit Protection), calc, certoc, certreq, cmd, desktopimgdownldr, 
+  dllhost, ExtExport, findstr, ieexec (new path), notepad, pktmon, Register-cimprovider, verclsid, wsl, wuauclt.exe, 
+  xwizard.
+
+
 Version 6.0.0.0 (stable)
 1. Introduced two color-changing buttons. When the restrictions are OFF, the buttons <Switch OFF/ON SRP> and <Switch OFF/ON
 Restrictions> change the background color from green to blue.
