@@ -1,4 +1,8 @@
-# Hard_Configurator ver. 6.0.0.0 (October 2021)
+# Hard_Configurator ver. 6.0.0.1 beta1 (February 2022)
+https://github.com/AndyFul/Hard_Configurator/raw/master/H_C_6001_beta1.exe
+
+Hard_Configurator ver. 6.0.0.0 (stable)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.0.0.exe
 
 This version supports also Windows 11.
 
