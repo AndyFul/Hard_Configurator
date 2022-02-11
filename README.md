@@ -72,7 +72,7 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 
 Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
 
-Forcing SmartScreen check can protect the user, when normally the SmartScreen Filter (in Windows 8+) is bypassed.
+Forcing SmartScreen check can protect the user, when normally the SmartScreen for Explorer (in Windows 8+) is bypassed.
 That can happen if you have got the executable file (EXE, MSI, etc.) when using:
 
 * the downloader or torrent application (EagleGet, utorrent etc.);
