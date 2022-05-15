@@ -21,22 +21,21 @@ The user has to be very careful when running EXE/MSI files originated from:
 2. Attachments embedded in the emails.
 3. Flash drives (USB drives) shared with other people.
 
-When using SWH restrictions, the user can consider the RunBySmartScreen tool. It allows checking any EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
+When using SWH restrictions, the user can consider using the RunBySmartScreen tool or enable the Antivirus file reputation
+lookup (available in Avast, Norton, Microsoft Defender, Comodo, etc.)
+
+RunBySmartScreen allows checking any EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
 
 
 ## Quick configuration
 
 1. Run SWH - the restrictions are automatically configured.
 2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
-3. If MS Office is installed, then it is recommendable to make some additional hardening:
-   - open Excel and block macros without notification (do it on each user account),
-   - apply in SWH the "Paranoid Extensions" (Settings >> Protected SRP Extensions).
- 
-   This is not necessary when ASR rules for MS Office, Adobe Reader, and WMI are enabled with Microsoft Defender as the main Antivirus.
-   The ASR rules can be configured by using the ConfigureDefender tool:
-   https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
+3. If MS Office is installed, then it is recommendable to make some additional hardening which is explained in the
+   * Documents Anti-Exploit * section of the SWH manual. 
 4. If necessary, then also other applications from the H_C_HardeningTools repository can be used to increase the security
-   (RunBySmartScreen, FirewallHardening, and DocumentsAntiExploit).
+   (ConfigureDefender, RunBySmartScreen, FirewallHardening, and DocumentsAntiExploit):
+   https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
     
 Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
 
