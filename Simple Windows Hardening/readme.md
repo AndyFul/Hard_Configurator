@@ -1,4 +1,4 @@
-# Simple Windows Hardening ver. 1.0.1.0 - October 2021
+# Simple Windows Hardening ver. 1.1.1.1 - May 2022
 
 This version works on Windows 10 and Windows 11.
 
