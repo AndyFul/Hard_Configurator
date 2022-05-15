@@ -1,3 +1,15 @@
+SWH ver. 1.1.1.1
+1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some 
+legacy file formats.
+New default extensions
+  ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSB, XLSM, XLT, XLTM, XSL.
+New Paranoid extensions  
+  ACCDU, ARJ, BZIP, BZIP2, DOC, ECF, FAT, HWP, IMG, ISO, LHA, NTFS, MCL, PA, PPA, PPT, PPTX, REV, R00, R01, R02, R03, R04,
+  R05, R06, R07, R08, R09, TBZ, TPZ, TXZ, TZ, VHD, VHDX, WLL, WWL, XAR, XIP, XLS, XLSX, XSL, XZ.
+2. Improved policies for Adobe Acrobat Reader XI/DC.
+3. Corrected some minor bugs.
+
+
 SWH ver. 1.0.1.1
 Added the option <AppInstaller> to restrict the installation of UWP apps via the web browser or downloaded packages:
 .msix, .appx, .msibundle, .appxbundle
