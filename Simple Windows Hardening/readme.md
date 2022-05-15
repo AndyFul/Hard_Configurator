@@ -24,7 +24,7 @@ The user has to be very careful when running EXE/MSI files originated from:
 When using SWH restrictions, the user can consider using the RunBySmartScreen tool or enable the Antivirus file reputation
 lookup (available in Avast, Norton, Microsoft Defender, Comodo, etc.)
 
-RunBySmartScreen allows checking any EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
+RunBySmartScreen allows (on demand) checking of the EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
 
 
 ## Quick configuration
