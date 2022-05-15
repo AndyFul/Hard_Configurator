@@ -1,5 +1,5 @@
 SWH ver. 1.1.1.1
-1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some 
+1. Added several file extensions to the "Protected SRP Extensions", mostly for MS Excel Add-ins, Query files, and some 
 legacy file formats.
 New default extensions
   ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSB, XLSM, XLT, XLTM, XSL.
