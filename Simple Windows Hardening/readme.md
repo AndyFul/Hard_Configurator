@@ -3,9 +3,9 @@
 This version works on Windows 10 and Windows 11.
 
 ## Overview
-Simple Windows Hardening (SWH) is a portable application that works on Windows 10 (Home and Pro editions). It is a simple configurator (front end) of advanced security that is already present in Windows 10, but which is not activated by default. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. It is not intended to work as a standalone security solution, but to support antivirus by reducing the attack surface in the home environment. After the initial configuration made via SWH, it can be closed and all protection comes from the Windows built-in features.
+Simple Windows Hardening (SWH) works on Windows 10 and higher versions (Home and Pro editions). It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
 
-The security setup is adjusted to prevent fileless malware and keep usability. So, the EXE and MSI files are not restricted in SWH, except when executed from archives and email clients. But, scripts, shortcuts, and other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, most initial vectors of attack are not related to EXE or MSI files, but other files are used instead.
+The security setup is adjusted to keep usability and prevent fileless malware in the home environment. So, the EXE and MSI files are not restricted in SWH, except when executed from archives and email clients. But non-executable files like scripts, shortcuts, and other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, many initial vectors of attack are performed via non-executable files.
 
 SWH application is a simplified version of Hard_Configurator. Generally, it will apply the Hard_Configurator Windows_10_Basic_Recommended_Settings (without Forced SmartScreen). These settings can be modified (in a limited way) in SWH, because sometimes on some computers they should be allowed for usability.
 
@@ -31,11 +31,8 @@ RunBySmartScreen allows (on demand) checking of the EXE/MSI file against the Mic
 
 1. Run SWH - the restrictions are automatically configured.
 2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
-3. If MS Office is installed, then it is recommendable to make some additional hardening which is explained in the
-   * Documents Anti-Exploit * section of the SWH manual. 
-4. If necessary, then also other applications from the H_C_HardeningTools repository can be used to increase the security
-   (ConfigureDefender, RunBySmartScreen, FirewallHardening, and DocumentsAntiExploit):
-   https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
+3. If MS Office (or Adobe Acrobat Reader) is installed, then it is recommendable to make some additional hardening by using
+   DocumentsAntiExploit tool. More info is included in the "DocumentsAntiExploit tool - Manual". 
     
 Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
 
