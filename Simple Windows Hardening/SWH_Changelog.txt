@@ -1,7 +1,8 @@
 SWH ver. 2.0.0.0
-1. Removed some extensions related to Excel from the "Protected SRP Extensions": XLS, XLSB, XLSM, XLSX, XLT, XLTM, XML, XSL
-2. Removed the option * Documents Anti-Exploit *. 
-3. SWH is now published together with DocumentsAntiExploit tool that can be used to protect MS Office and Adobe Acrobat Reader.
+1. Removed * Documents Anti-Exploit * option.
+2. Added DocumentAntiExploit tool.
+3. Removed some Excel extensions:  XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL
+
 
 SWH ver. 1.1.1.1
 1. Added several file extensions to the "Protected SRP Extensions", mostly for MS Excel Add-ins, Query files, and some 
