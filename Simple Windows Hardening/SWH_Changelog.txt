@@ -10,8 +10,10 @@ legacy file formats.
 New default extensions
   ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSB, XLSM, XLT, XLTM, XSL.
 New Paranoid extensions  
-  ACCDU, ARJ, BZIP, BZIP2, DOC, ECF, FAT, HWP, LHA, NTFS, MCL, PA, PPA, PPT, PPTX, REV, R00, R01, R02, R03, R04, R05, R06,
-  R07, R08, R09, TBZ, TPZ, TXZ, TZ, WLL, WWL, XAR, XIP, XLS, XLSX, XSL, XZ.
+  ACCDU, ARJ, BZIP, BZIP2, DOC, ECF, FAT, HWP, LHA, IMG, ISO, NTFS, MCL, PA, PPA, PPT, PPTX, REV, R00, R01, R02, R03,
+  R04, R05, R06, R07, R08, R09, TBZ, TPZ, TXZ, TZ, VHD, VHDX, WLL, WWL, XAR, XIP, XLS, XLSX, XSL, XZ.
+  Disk image extensions: ISO, IMG, VHDX, can be blocked by SWH settings only if a 3-rd party application is set to
+  open them (and not by Windows built-in File Explorer).
 2. Improved policies for Adobe Acrobat Reader XI/DC.
 3. Corrected some minor bugs.
 
