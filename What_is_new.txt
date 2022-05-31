@@ -1,5 +1,6 @@
 Version 6.0.1.0 beta
-1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some legacy file formats: 
+1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some legacy
+file formats: 
 New default extensions
 ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
 New Paranoid extensions  
@@ -30,21 +31,21 @@ Restrictions> change the background color from green to blue.
 4. Added some EXE files to FirewallHardening LOLBin Blocklist: csc, cvtres, CasPol, finger, ilasm, jsc, Microsoft.Workflow.Compiler,
    mscorsvw, ngen, ngentask, vbc.
 5. Added SLK and ELF file extensions to the default protected extensions in SRP and RunBySmartscreen.
-6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators) - it can be
-   used especially on the older Windows versions to improve post-exploitation protection on default Admin account. This switch should
-   be used only by very experienced users.
+6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators).
+   It can be used especially on the older Windows versions to improve post-exploitation protection on default Admin account.
+   This switch should be used only by very experienced users.
 7. New version of ConfigureDefender:
 - Added some useful information to the Help and manual.
 - Added "Send All" setting to Automatic Sample Submission.
 - Updated ASR rules (1 new rule added).
 - Added the Warn mode to ASR rules.
 - Added INTERACTIVE Protection Level which uses ASR rules set to Warn.
-- Added the <Info> button next to the Protection Levels buttons. It displays information about which settings are enabled in DEFAULT,
-  HIGH, INTERACTIVE, and MAX Protection Levels.
+- Added the <Info> button next to the Protection Levels buttons. It displays information about which settings are enabled in
+  DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
 - Redesigned slightly the layout of the Exploit Guard section.
 - Added support for event Id=1120.
-- Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some important disk sectors will be
-  still protected (Id = 1127).
+- Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some important disk sectors
+  will be still protected (Id = 1127).
 8. Added support for Windows 11.
 
 Version 5.1.1.2 (stable)
@@ -57,8 +58,8 @@ The main differences from the last stable ver. 5.0.0.0 are included in beta vers
 There are some minor changes as compared to the latest beta ver. 5.1.1.1:
 1. Executables are signed by the new code signing certificate valid until June 2021.
 2. Added the tip text feature for some important buttons in ConfigureDefender, DocumentsAntiExploit and FirewallHardening.
-3. Updated versions of ConfigureDefender ver. 3.0.0.1, DocumentsAntiExploit ver. 1.0.1.1, FirewallHardening ver. 2.0.0.0, and
-RunBySmartScreen 3.1.0.1.
+3. Updated versions of ConfigureDefender ver. 3.0.0.1, DocumentsAntiExploit ver. 1.0.1.1, FirewallHardening ver. 2.0.0.0,
+   and RunBySmartScreen 3.1.0.1.
 
 Version beta 5.1.1.1
 1. Fixed the GUI bug related to whitelisting by hash.
@@ -68,7 +69,8 @@ Version beta 5.0.1.1
 2. Added a quick method to refresh SRP rules.
 3. Added the new setting profile Windows_*_Basic_Recommended_Settings.hdc and included it in Hard_Configurator manual.
 4. Removed the "All files" SRP Enforcement setting due to possible incompatibilities with 3rd party security solutions. Furthermore,
-this setting is not used in Hard_Configurator predefined profiles and it is not well integrated with Recommended Settings on Windows 8+.
+this setting is not used in Hard_Configurator predefined profiles and it is not well integrated with Recommended Settings
+on Windows 8+.
 5. Improved the SRP rules related to <Update Mode> and <Harden Archivers> (added support for Explzh archiver).
 6. Corrected some minor bugs.
 
@@ -79,8 +81,8 @@ Removed event Id=1117 from Defender Security Log.
 Extended the maximal number of entries in the Log to 300.
 Extended the "Cloud Time Check Limit" in HIGH Protection Level from 10s to 20s. 
 2. The new version of FirewallHardening 1.0.1.1 
-Added curl.exe to FirewallHardening LolBins, and curl.exe, certutil.exe to FirewallHardening 'Recommended H_C' rules. Removed the bug
-related to displaying the last blocked event.
+Added curl.exe to FirewallHardening LolBins, and curl.exe, certutil.exe to FirewallHardening 'Recommended H_C' rules.
+Removed the bug related to displaying the last blocked event.
 3. The new version of DocumentsAntiExploit tool - improved/corrected the Outlook macro protection.
 4. The new version of SwitchDefaultDeny 2.0.0.1 - adjusted to work with <Update Mode>.
 5. Changed the name of the H_C option <Run As SmartScreen> to <Forced SmartScreen>.
