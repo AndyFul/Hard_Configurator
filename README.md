@@ -1,7 +1,10 @@
 # Hard_Configurator ver. 6.0.1.0 beta1 (May 2022)
 https://github.com/AndyFul/Hard_Configurator/raw/master/H_C_6010_beta1.exe
 
-This version blocks MS Excel files when opened from the Desktop or File Explorer. Still, these files can be opened from the running Excel. If this behavior is too inconvenient then the Excel extensions can be removed from <Designated File Types>. But then it is recommendable to open SwitchDefaultDeny and use the DocumentsAntiExploit tool to add some more restrictions to MS Office applications. The details are included in the "DocumentsAntiExploit tool - Manual.pdf" available in the installation folder.
+This version blocks MS Excel files when opened from the Desktop or File Explorer. Still, these files can be opened from the running Excel.
+If this behavior is too inconvenient then the Excel extensions can be removed from <Designated File Types>. But then it is recommendable
+to open SwitchDefaultDeny and use the DocumentsAntiExploit tool to add some more restrictions to MS Office applications. The details are 
+included in the "DocumentsAntiExploit tool - Manual.pdf" available in the installation folder.
   
 Stable version:
 Hard_Configurator ver. 6.0.0.0
@@ -10,15 +13,19 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_
 This version supports also Windows 11.
 
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
-From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use <More SRP... ><Update Mode> = ON, which whitelists
-the EXE and MSI files in ProgramData and user AppData folders (other files are blocked like in ver. 5.0.0.0). If one is happy with blocking the EXE and MSI files in ProgramData and user AppData folders, then it is necessary to set <More SRP... ><Update Mode> = OFF.
+From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use <More SRP... ><Update Mode> = ON, which 
+whitelists the EXE and MSI files in ProgramData and user AppData folders (other files are blocked like in ver. 5.0.0.0). If one is happy with 
+blocking the EXE and MSI files in ProgramData and user AppData folders, then it is necessary to set <More SRP... ><Update Mode> = OFF.
 
-From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate (Open Source Developer Andrzej Pluta).
+From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA SHA2" certificate
+(Open Source Developer Andrzej Pluta).
 
 ## WARNING!!!
 Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 and 11 via Microsoft Family Safety.
-Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
-Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
+Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, 
+Windows has to be refreshed or reset.
+Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. 
+Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
 The version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed with
@@ -29,11 +36,15 @@ Windows Defender real-time protection. The corrected version of Hard_Configurato
 ## PROGRAM DESCRIPTION.
 
 GUI to manage Software Restriction Policies (SRP) and harden Windows Home editions (Windows Vista at least).
-The most comprehensive information about Hard_Configurator (including the manual, FAQ, articles about SRP, etc.), is available on https://hard-configurator.com/, thanks to the cooperative work of my friends from Malwaretips forum. There is also an informative Malwaretips thread about Hard_Configurator: https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
-.
+The most comprehensive information about Hard_Configurator (including the manual, FAQ, articles about SRP, etc.), is available on 
+https://hard-configurator.com/, thanks to the cooperative work of my friends from Malwaretips forum. There is also an informative Malwaretips 
+thread about Hard_Configurator: https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
 
-This program can configure Windows built-in security to harden the system. When you close Hard_Configurator it closes all its processes. The real-time protection comes from the reconfigured Windows settings.
-Hard_Configurator can be seen as a Medium Integrity Level smart default-deny setup, which is based on SRP + Application Reputation Service (forced SmartScreen) + Windows hardening settings (restricting vulnerable features).  
+
+This program can configure Windows built-in security to harden the system. When you close Hard_Configurator it closes all its processes. The 
+real-time protection comes from the reconfigured Windows settings.
+Hard_Configurator can be seen as a Medium Integrity Level smart default-deny setup, which is based on SRP + Application Reputation Service 
+(forced SmartScreen) + Windows hardening settings (restricting vulnerable features).  
 Hard_Configurator makes changes in Windows Registry to accomplish the tasks enumerated below:
 
 1. Enabling Software Restriction Policies in Windows Home editions.
@@ -73,7 +84,8 @@ Hard_Configurator makes changes in Windows Registry to accomplish the tasks enum
 35. Uninstalling application (Windows defaults restored).
 
 
-Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. Also, the user can quickly apply custom settings saved in profiles.
+Most of the above tasks can be made by hand using Windows regedit. Anyway, with Hard_Configurator, it can be done more quickly and safely. 
+Also, the user can quickly apply custom settings saved in profiles.
 
 Forcing SmartScreen check can protect the user, when normally the SmartScreen for Explorer (in Windows 8+) is bypassed.
 That can happen if you have got the executable file (EXE, MSI, etc.) when using:
@@ -87,12 +99,17 @@ That can happen if you have got the executable file (EXE, MSI, etc.) when using:
 
 so the file does not have the proper Alternate Data Stream attached (Mark Of The Web).
 
-Forcing the SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space. It is a complementary to SRP, that covers file execution as standard user. If "Run as administrator" option is removed from the Explorer right-click context menu, while SRP and "Forced SmartScreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen Application on the run.
+Forcing the SmartScreen check, can protect in a smart way file execution with Administrative Rights in the User Space. It is a complementary 
+to SRP, that covers file execution as standard user. If "Run as administrator" option is removed from the Explorer right-click context menu, 
+while SRP and "Forced SmartScreen" are both activated, then the user can only execute files that are whitelisted or checked by SmartScreen 
+Application on the run.
 
-If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This change adds "Install By Smartscreen" option to Explorer context menu.
+If SRP is deactivated, then Hard_Configurator options can be changed to force SmartScreen check without invoking Administrative Rights. This 
+change adds "Install By Smartscreen" option to Explorer context menu.
 
-Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
+Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install Windows Updates, 
+Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
 ## Contact: 
-Andrzej Pluta
+Andrzej Pluta (@Andy Ful)
 hardconfigurator@gmail.com
