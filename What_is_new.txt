@@ -1,3 +1,18 @@
+Version 6.0.1.0 beta
+1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some legacy file formats: 
+New default extensions
+ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
+New Paranoid extensions  
+ACCDU, ARJ, BZIP, BZIP2, DOC, ECF, FAT, HWP, IMG, ISO, LHA, NTFS, MCL, PA, PPA, PPT, PPTX, REV, R00, R01, R02, R03, R04, 
+R05, R06, R07, R08, R09, TBZ, TPZ, TXZ, TZ, VHD, VHDX, WLL, WWL, XAR, XIP, XLS, XLSX, XSL, XZ.
+Disk image extensions: ISO, IMG, VHDX, can be blocked by SWH settings only if a 3-rd party application is set to open them
+(and not Windows built-in File Explorer).
+2. Added new versions of DocumentsAntiExploit, RunBySmartscreen and FirewallHardening tools.
+3. Improved policies for Adobe Acrobat Reader XI/DC.
+4. Corrected some minor bugs.
+5. Updated H_C manual and some help files.
+
+
 Version 6.0.0.1 beta
 1. Added <Block AppInstaller> option.
 2. New FirewallHardening version 2.0.1.1.
