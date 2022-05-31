@@ -37,7 +37,7 @@ Windows Defender real-time protection. The corrected version of Hard_Configurato
 
 GUI to manage Software Restriction Policies (SRP) and harden Windows Home editions (Windows Vista at least).
 The most comprehensive information about Hard_Configurator (including the manual, FAQ, articles about SRP, etc.), is available on 
-https://hard-configurator.com/, thanks to the cooperative work of my friends from Malwaretips forum. There is also an informative Malwaretips 
+https://hard-configurator.com/ (temporarily closed in June 2022), thanks to the cooperative work of my friends from Malwaretips forum. There is also an informative Malwaretips 
 thread about Hard_Configurator: https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
 
 
