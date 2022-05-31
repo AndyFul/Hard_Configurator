@@ -2,7 +2,7 @@
 https://github.com/AndyFul/Hard_Configurator/raw/master/H_C_6010_beta1.exe
 
 This version blocks MS Excel files when opened from the Desktop or File Explorer. Still, these files can be opened from the running Excel.
-If this behavior is too inconvenient then the Excel extensions can be removed from <Designated File Types>. But then it is recommendable
+If this behavior is too inconvenient then the Excel extensions can be removed from the "Designated File Types". But then it is recommendable
 to open SwitchDefaultDeny and use the DocumentsAntiExploit tool to add some more restrictions to MS Office applications. The details are 
 included in the "DocumentsAntiExploit tool - Manual.pdf" available in the installation folder.
   
