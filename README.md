@@ -1,16 +1,7 @@
-# Hard_Configurator ver. 6.0.1.0 beta1 (May 2022)
-https://github.com/AndyFul/Hard_Configurator/raw/master/H_C_6010_beta1.exe
+# Hard_Configurator ver. 6.0.1.1 (JUly 2022)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
 
-This version blocks MS Excel files when opened from the Desktop or File Explorer. Still, these files can be opened from the running Excel.
-If this behavior is too inconvenient then the Excel extensions can be removed from the "Designated File Types". But then it is recommendable
-to open SwitchDefaultDeny and use the DocumentsAntiExploit tool to add some more restrictions to MS Office applications. The details are 
-included in the "DocumentsAntiExploit tool - Manual.pdf" available in the installation folder.
-  
-Stable version:
-Hard_Configurator ver. 6.0.0.0
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.0.0.exe
-
-This version supports also Windows 11.
+Support for Windows 11 added from version 6.0.0.0.
 
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
 From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use "More SRP... " - "Update Mode" = ON, which 
