@@ -1,6 +1,15 @@
+Version 6.0.1.1
+1. Adjusted the default extensions in <Designated File Types> to those used in Simple Windows Hardening. So, some popular
+   Excel extenions are not blocked in default setup: XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
+2. Updated the manual and some help files.
+4. Added new option in DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granual.
+3. Added the button <MORE ...><Remove Obsolete Restrictions>.
+5. Added a new digital certificate.
+
+
 Version 6.0.1.0 beta
 1. Added several file extensions to the <Designated File Types>, mostly for MS Excel Add-ins, Query files, and some legacy
-file formats: 
+   file formats: 
 New default extensions
 ACCDA, ACCDU, CSV, DQY, ECF, MDA, PA, PPA, PPAM, RTF, WLL, WWL, XLA, XLAM, XLL, XLM, XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
 New Paranoid extensions  
