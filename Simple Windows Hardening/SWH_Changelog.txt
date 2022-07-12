@@ -1,3 +1,8 @@
+SWH ver. 2.0.0.1
+1. Added new option in DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granular.
+2. Added a new digital certificate.
+
+
 SWH ver. 2.0.0.0
 1. Removed * Documents Anti-Exploit * option.
 2. Added DocumentAntiExploit tool.
