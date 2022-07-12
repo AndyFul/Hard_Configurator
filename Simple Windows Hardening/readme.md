@@ -1,9 +1,9 @@
-# Simple Windows Hardening ver. 2.0.0.0 - May 2022
+# Simple Windows Hardening ver. 2.0.0.1 - July 2022
 
 This version works on Windows 10 and Windows 11.
 
 ## Overview
-Simple Windows Hardening (SWH) works on Windows 10 and higher versions (Home and Pro editions). It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
+Simple Windows Hardening (SWH) works on Windows Home and Pro editions. It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
 
 The security setup is adjusted to keep usability and prevent fileless malware in the home environment. So, the EXE and MSI files are not restricted in SWH, except when executed from archives and email clients. But non-executable files like scripts, shortcuts, and other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, many initial vectors of attack are performed via non-executable files.
 
