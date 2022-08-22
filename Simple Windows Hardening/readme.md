@@ -1,6 +1,8 @@
 # Simple Windows Hardening ver. 2.0.0.1 - July 2022
 
-This version works on Windows 10 and Windows 11.
+This version works on Windows 10 and Windows 11 up to ver 22H1.
+
+## The current Windows 11 Insider version 22H2 is not compatible with SWH. This is probably related to the introduction of Smart App Control which conflicts currently with Windows built-in SRP. If this issue will be solved by Microsoft, then SWH will work also on Windows 11 ver. 22H2.
 
 ## Overview
 Simple Windows Hardening (SWH) works on Windows Home and Pro editions. It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
