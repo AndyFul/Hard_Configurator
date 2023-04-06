@@ -21,10 +21,13 @@ From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executa
 (Open Source Developer Andrzej Pluta).
 
 ## WARNING!!!
-Windows built-in Software Restriction Policies are incompatible with Child Account activated on Windows 10 and 11 via Microsoft Family Safety.
-Such an account disables most SRP restrictions. This issue is persistent even after removing Child Account. To recover SRP functionality, 
-Windows has to be refreshed or reset.
-Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. 
+Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule turns off 
+SRP.
+The Child Account activated on Windows 10 or 11 via Microsoft Family Safety also disables most SRP restrictions. 
+This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or 
+reset.
+Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major 
+Windows upgrades. 
 Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
 The version 4.0.0.0 was corrected in the October 2018 to match Microsoft requirements, because on the beginning of Otcober
