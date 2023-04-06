@@ -10,7 +10,7 @@ Support for Windows 11 22H2 added in the new beta version (Hard_Configurator_Bet
 Support for Windows 11 up to ver. 21H1 added from version 6.0.0.0.
 
 
-## Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver 6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new beta version (Hard_Configurator_Beta_6.1.1.1.exe). The new beta version can also work with enabled Smart App Control.
+## Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver. 6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new beta version (Hard_Configurator_Beta_6.1.1.1.exe). The new beta version can also work with enabled Smart App Control.
 
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
 From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use "More SRP... " - "Update Mode" = ON, which 
