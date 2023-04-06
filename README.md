@@ -1,10 +1,13 @@
-# Hard_Configurator ver. 6.0.1.1 (July 2022)
+# Hard_Configurator ver. 6.1.1.1 beta (April 2023)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta_6.1.1.1.exe
+
+# Hard_Configurator ver. 6.0.1.1 (July 2022) - no support for Windows 11 22H2
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
 
-Support for Windows 11 22H2 added in the new beta version (6.1.1.1 beta)
+Support for Windows 11 22H2 added in the new beta version (Hard_Configurator_Beta_6.1.1.1.exe)
 Support for Windows 11 up to ver. 21H1 added from version 6.0.0.0.
 
-## In Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver 6.0.1.1 cannot use SRP (restrictions fron the left panel in H_C ). This issue is corrected in the new beta version (6.1.1.1 beta). The new beta version can also work with enabled Smart App Control.
+## Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver 6.0.1.1 cannot use SRP (restrictions fron the left panel in H_C ). This issue is corrected in the new beta version (6.1.1.1 beta). The new beta version can also work with enabled Smart App Control.
 
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and prior).
 From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use "More SRP... " - "Update Mode" = ON, which 
