@@ -5,7 +5,8 @@ Version 6.1.1.1 beta
    Windows_11_SAC_ON_NoSRP.hdc
 3. Added certoc.exe, cipher.exe, pnputil.exe, and scp.exe to the list of blocked sponsors.
 4. Added the ONE extension (OneNote document).
-5. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings include also all ON1 settings. ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update. 
+5. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings include also all ON1 settings. ON2 settings
+require resetting (ON2 --> OFF --> ON2) after the current update. 
 6. Updated H_C manual (info about possible issues related to the activated AppLocker).
 
 
