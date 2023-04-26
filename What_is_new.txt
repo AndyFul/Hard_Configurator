@@ -8,6 +8,7 @@ Version 6.1.1.1 beta
 5. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings include also all ON1 settings. 
    ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update. 
 6. Updated H_C manual (info about possible issues related to the activated AppLocker).
+7. Corrected some minor bugs.
 
 
 Version 6.0.1.1
