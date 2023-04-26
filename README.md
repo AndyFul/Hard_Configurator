@@ -24,9 +24,8 @@ From version 4.1.1.1 (July 2019) Hard_Configurator installer and all its executa
 Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule turns off 
 SRP.
 
-The Child Account activated on Windows 10 or 11 via Microsoft Family Safety also disables most SRP restrictions. 
-This issue is persistent even after removing Child Account. To recover SRP functionality, Windows has to be refreshed or 
-reset.
+The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. 
+This issue is persistent even after removing Child Account because (due to a bug) the AppLocker rules are not removed. To recover SRP functionality, one must remove the AppLocker rules manually from the directory %Windir%\System32\AppLocker.
 
 Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major 
 Windows upgrades. 
