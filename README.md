@@ -1,5 +1,5 @@
-# Hard_Configurator ver. 6.1.1.1 beta (April 2023)
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta_6.1.1.1.exe
+# Hard_Configurator ver. 6.1.1.1 beta 2 (26 April 2023)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta2_6.1.1.1.exe
 
 # Hard_Configurator ver. 6.0.1.1 (July 2022) - no support for Windows 11 22H2
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
