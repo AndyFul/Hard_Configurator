@@ -5,7 +5,7 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta2_
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
 
 
-Support for Windows 11 22H2 added in the new beta version (Hard_Configurator_Beta_6.1.1.1.exe)
+Support for Windows 11 22H2 added in the new beta version.
 
 Support for Windows 11 up to ver. 21H1 added from version 6.0.0.0.
 
