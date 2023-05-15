@@ -76,7 +76,7 @@ Please be careful, if you are not certain that the blocked file is safe, then wa
 
 ## Software  incompatibilities
 
-Wndows built-in SRP cannot work with AppLocker (introduced via GPO or MDM WMI Bridge). In such a case, SimpleWindowsHardening shows
+Windows built-in SRP cannot work with AppLocker (introduced via GPO or MDM WMI Bridge). In such a case, SimpleWindowsHardening shows
 an alert. Furthermore, the options related to SRP are Switched OFF and removed from the Settings.
 
 From the year 2022, AppLocker (GPO) policies can work on Windows 10/11 Home and Pro. AppLocker is activated by default on Windows 11
