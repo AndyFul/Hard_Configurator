@@ -4,7 +4,7 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Harde
 # Simple Windows Hardening ver. 2.0.0.1 - August 2022
 https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2001.zip
 
-Support for Windows 11 22H2 added in the new beta version.
+## Support for Windows 11 22H2 added in the new beta version.
 
 Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, SimpleWindowsHardening ver. 
 2.0.0.1 (and prior) cannot use the SWH options related to SRP. This issue is corrected in the new beta version.
