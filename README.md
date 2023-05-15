@@ -5,10 +5,7 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta2_
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
 
 
-Support for Windows 11 22H2 added in the new beta version.
-
-Support for Windows 11 up to ver. 21H1 added from version 6.0.0.0.
-
+## Support for Windows 11 22H2 added in the new beta version.
 
 Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver. 
 6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new beta version. The new 
