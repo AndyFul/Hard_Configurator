@@ -1,8 +1,17 @@
+# Simple Windows Hardening ver. 2.1.1.1 beta - May 2023
+https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2111_beta.zip
+
 # Simple Windows Hardening ver. 2.0.0.1 - August 2022
+https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2001.zip
 
-This version works on Windows 10 and Windows 11 up to ver 22H1.
+Support for Windows 11 22H2 added in the new beta version.
 
-## The current Windows 11 Insider version 22H2 is not compatible with SWH. This is probably related to the introduction of Smart App Control which conflicts currently with Windows built-in SRP. If this issue will be solved by Microsoft, then SWH will work also on Windows 11 ver. 22H2.
+Support for Windows 11 up to ver. 21H1 added from version 6.0.0.0.
+
+Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, SimpleWindowsHardening ver. 
+2.0.0.1 (and prior) cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new beta version.
+The new beta version can also work with enabled Smart App Control.
+
 
 ## Overview
 Simple Windows Hardening (SWH) works on Windows Home and Pro editions. It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
