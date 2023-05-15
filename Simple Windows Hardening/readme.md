@@ -12,18 +12,37 @@ The new beta version can also work with enabled Smart App Control.
 
 
 ## Overview
-Simple Windows Hardening (SWH) works on Windows Home and Pro editions. It is a portable application that allows configuring Windows built-in features to support antivirus and prevent fileless malware. This security is based on Software Restriction Policies (SRP) and some useful Windows Policies. SWH is adjusted to the home environment. After the initial configuration, it can be closed and all protection comes from the Windows built-in features.
+Simple Windows Hardening (SWH) works on Windows Home and Pro editions. It is a portable application that allows configuring Windows 
+built-in features to support antivirus and prevent fileless malware. SWH is adjusted to the home environment. After the initial 
+configuration, it can be closed and all protection comes from the Windows built-in features.
 
-The security setup is adjusted to keep usability and prevent fileless malware in the home environment. So, the EXE and MSI files are not restricted in SWH, except when executed from archives and email clients. But non-executable files like scripts, shortcuts, and other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, many initial vectors of attack are performed via non-executable files.
+SWH is based on Software Restriction Policies (SRP) and some useful Windows Policies. 
+Users on Windows 11 should bear in mind that Microsoft stopped the development of SRP a few years ago. One cannot exclude the 
+possibility that some problems related to SRP may arise in the future on Windows 11. It is also possible that Microsoft will remove 
+SRP on Windows 12. 
+SWH is tested via Windows Insider program, so any possible problem is recognized in advance and reported on the Dev. Website.
 
-SWH application is a simplified version of Hard_Configurator. Generally, it will apply the Hard_Configurator Windows_10_Basic_Recommended_Settings (without Forced SmartScreen). These settings can be modified (in a limited way) in SWH, because sometimes on some computers they should be allowed for usability.
+The security setup is adjusted to keep usability and prevent fileless malware in the home environment. So, the EXE and MSI files are 
+not restricted in SWH, except when executed from archives and email clients. But non-executable files like scripts, shortcuts, and 
+other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, many initial vectors of attack 
+are performed via non-executable files.
 
-The restrictions made by SWH can be switched OFF/ON by using two switches on the right of the green buttons:   Software Restriction Policies   and   Windows Hardening . In the OFF position, the restrictions are remembered and next removed - Windows default settings are applied for previously restricted features. When switching ON, the remembered settings are restored. Furthermore, in the ON position the configurable settings can be changed by the user from the Settings menu.
+SWH application is a simplified version of Hard_Configurator. Generally, it will apply the Hard_Configurator 
+Windows_10_Basic_Recommended_Settings (without Forced SmartScreen). These settings can be modified (in a limited way) in SWH, because 
+sometimes on some computers they should be allowed for usability.
+
+The restrictions made by SWH can be switched OFF/ON by using two switches on the right of the green buttons:   Software Restriction 
+Policies   and   Windows Hardening . In the OFF position, the restrictions are remembered and next removed - Windows default settings 
+are applied for previously restricted features. When switching ON, the remembered settings are restored. Furthermore, in the ON 
+position the configurable settings can be changed by the user from the Settings menu.
 
 
 ## The EXE / MSI 0-day malware
 
-The SWH application does not apply restrictions to EXE and MSI files, because these files are often used to install/update applications. Nowadays, many antivirus solutions have very good detection of such files, as compared to the detection of scripts. But still, the antivirus proactive features can have a problem with 0-day malware. In the home environment, the main delivery vectors of 0-day malware are spam emails and flash drives (USB drives). 
+The SWH application does not apply restrictions to EXE and MSI files, because these files are often used to install/update 
+applications. Nowadays, many antivirus solutions have very good detection of such files, as compared to the detection of scripts. But 
+still, the antivirus proactive features can have a problem with 0-day malware. In the home environment, the main delivery vectors of 
+0-day malware are spam emails and flash drives (USB drives). 
 
 The user has to be very careful when running EXE/MSI files originated from:
 1. Internet web links embedded in the emails.
@@ -36,7 +55,10 @@ lookup (available in Avast, Norton, Microsoft Defender, Comodo, etc.).
 RunBySmartscreen is available as a part of Hard_Confugurator Hardening Tools (together with ConfigureDefender and FirewallHardening):
 https://github.com/AndyFul/ConfigureDefender/tree/master/H_C_HardeningTools
 
-RunBySmartScreen allows (on demand) checking of the EXE/MSI file against the Microsoft SmartScreen Application Reputation service in the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
+RunBySmartScreen allows (on demand) checking of the EXE/MSI file against the Microsoft SmartScreen Application Reputation service in 
+the cloud. Many such files are accepted by SmartScreen, and this is the best way to avoid the 0-day malware. If the EXE/MSI file is 
+not recognized by SmartScreen as safe or malicious, then the simplest method is waiting a minimum one day before running the unsafe 
+file. After one day most of the malicious links are dead and most of the 0-day malware are properly detected by a good antivirus.
 
 
 ## Quick configuration
@@ -46,7 +68,10 @@ RunBySmartScreen allows (on demand) checking of the EXE/MSI file against the Mic
 3. If MS Office (or Adobe Acrobat Reader) is installed, then it is recommendable to make some additional hardening by using
    DocumentsAntiExploit tool. More info is included in the "DocumentsAntiExploit tool - Manual". 
     
-Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
+Please keep updated your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most 
+users will probably do not see any difference, but rarely a legal script or file with unsafe extension will be blocked by SWH 
+settings. You can use blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. 
+Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
 
 
 ## Software  incompatibilities
