@@ -51,11 +51,25 @@ Please keep updated your system/software. Use SWH on the default settings for so
 
 ## Software  incompatibilities
 
-Windows built-in SRP is incompatible with Child Account activated on Windows 10 via Microsoft Family Safety. Such an account disables most SRP restrictions. This issue is persistent even after removing the Child Account. To recover SRP functionality, Windows has to be refreshed or reset.
+Wndows built-in SRP cannot work with AppLocker (introduced via GPO or MDM WMI Bridge). In such a case, SimpleWindowsHardening shows
+an alert. Furthermore, the options related to SRP are Switched OFF and removed from the Settings.
 
-SWH is incompatible with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. GPO refresh feature will overwrite the SWH settings related to SRP. So, before installing SWH, the SRP has to be removed from GPO.
+From the year 2022, AppLocker (GPO) policies can work on Windows 10/11 Home and Pro. AppLocker is activated by default on Windows 11
+ver. 22H2 or later (also on Windows Home), so SRP is disabled in the default configuration.
 
-SWH will also conflict with any software which uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before installing SWH it will be necessary to uninstall the conflicting application or it will be detected and SWH will replace the SRP settings with predefined settings.
+SimpleWindowsHardening ver. 2.1.1.1 can enable SRP on Windows 11, and SRP can also work with enabled Smart App Control (SAC). 
 
-SWH uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use the updated SWH version. The old versions can rarely produce some issues.
+Windows built-in SRP is incompatible with Child Account activated on Windows 10+ via Microsoft Family Safety. Child Account adds some
+AppLocker rules (via MDM), so SRP cannot work. Unfortunately, after removing Child Account, the AppLocker Policy files are not removed
+(unpleasant bug)! These policy files have to be removed manually to recover the SRP functionality.
+
+SimpleWindowsHardening settings are not compatible with SRP introduced via Group Policies Object (GPO) available in Windows Pro,
+Education, and Enterprise editions. The GPO refresh feature will overwrite the SimpleWindowsHardening settings. So, before installing 
+SimpleWindowsHardening, SRP has to be removed from GPO.
+
+SimpleWindowsHardening will also conflict with any software which uses SRP, but such applications are rare (CryptoPrevent, SBGuard, 
+AskAdmin, Ultra Virus Killer). Before installing SimpleWindowsHardening it will be necessary to uninstall the conflicting application. 
+
+SWH uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major Windows upgrades. Please use 
+the updated SWH version. The old versions can rarely produce some issues.
 
