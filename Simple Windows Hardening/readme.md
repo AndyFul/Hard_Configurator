@@ -1,5 +1,5 @@
 # Simple Windows Hardening ver. 2.1.1.1 beta - May 2023
-https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2111_beta.zip
+https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2111_beta1.zip
 
 # Simple Windows Hardening ver. 2.0.0.1 - August 2022
 https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2001.zip
