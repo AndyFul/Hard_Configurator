@@ -1,6 +1,7 @@
 # WARNING!
 The domain hard-configurator.com is currently (May 2023) used by some malicious actors. Please do not use it.
-Someone tries to fool people who wants to get the information about Hard_Configurator.
+Someone tries to fool people who want to get information about Hard_Configurator.
+
 
 # Hard_Configurator ver. 6.1.1.1 beta 3 (17 May 2023)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_Beta3_6.1.1.1.exe
