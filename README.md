@@ -1,5 +1,5 @@
 # WARNING!
-The domain hard-configurator.com is currently (May 2023) used by some malicious actors. Please do not use it.
+The actually fake domain hard-configurator.com is currently (May 2023) used by some malicious actors. Please do not use it.
 Someone tries to fool people who want to get information about Hard_Configurator.
 
 
