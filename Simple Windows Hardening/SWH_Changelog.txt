@@ -3,7 +3,8 @@ SWH ver. 2.1.1.1 beta
 2. Added the ONE extension (OneNote document) to the Paranoid extensions set.
 3. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings
    include all ON1 settings.
-   ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update. 
+   ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update.
+4. Corrected a minor bug related to Settings Menu.
 
 
 SWH ver. 2.0.0.1
