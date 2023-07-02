@@ -47,7 +47,6 @@ Microsoft.
 ## PROGRAM DESCRIPTION.
 
 GUI to manage Software Restriction Policies (SRP) and harden Windows Home editions (Windows Vista at least).
-The old Hard_Configurator website: https://hard-configurator.com/ is now discontinued and not supported by the author. 
 The informative Malwaretips thread about Hard_Configurator can be found here:
 https://malwaretips.com/threads/hard_configurator-windows-hardening-configurator.66416/
 
@@ -110,8 +109,7 @@ That can happen if you have got the executable file (EXE, MSI, etc.) when using:
 so the file does not have the proper Alternate Data Stream attached (Mark Of The Web).
 
 Hard_Configurator is based on Windows built-in security, so there is no need to turn off the program restrictions to install 
-Windows Updates, 
-Universal Applications from Windows Store, and perform system Scheduled Tasks.
+Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
 ## Contact: 
 Andrzej Pluta (@Andy Ful)
