@@ -1,4 +1,4 @@
-Version 6.1.1.1 beta
+Version 6.1.1.1
 1. Added support for Windows 11 ver. 22H2
 2. Added new setting profiles:
    Windows_11_SAC_ON_Recommended_Settings.hdc
@@ -9,6 +9,7 @@ Version 6.1.1.1 beta
    ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update. 
 6. Updated H_C manual (info about possible issues related to the activated AppLocker).
 7. Corrected some minor bugs.
+8. Added a new digital certificate.
 
 
 Version 6.0.1.1
