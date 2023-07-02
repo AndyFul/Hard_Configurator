@@ -1,4 +1,4 @@
-Version 6.1.1.1
+Version 6.1.1.1 (no functional changes from the latest beta)
 1. Added support for Windows 11 ver. 22H2
 2. Added new setting profiles:
    Windows_11_SAC_ON_Recommended_Settings.hdc
