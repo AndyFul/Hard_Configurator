@@ -10,11 +10,10 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
 
 
-## Support for Windows 11 22H2 added in the new beta version.
-
+## Support for Windows 11 22H2
 Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver. 
-6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new beta version. The new 
-beta version can also work with enabled Smart App Control.
+6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new version 6.1.1.1. 
+From this version the H_C can also work with enabled Smart App Control.
 
 Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ works differently as compared to ver. 5.0.0.0 (and 
 prior versions). 
