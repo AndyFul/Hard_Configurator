@@ -1,14 +1,15 @@
-SWH ver. 2.1.1.1 beta
+SWH ver. 2.1.1.1
 1. Added support for Windows 11 ver. 22H2
 2. Added the ONE extension (OneNote document) to the Paranoid extensions set.
 3. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings
    include all ON1 settings.
    ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update.
 4. Corrected a minor bug related to the Settings Menu.
+5. Added new digital certificate
 
 
 SWH ver. 2.0.0.1
-1. Added new option in DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granular.
+1. Added a new option in the DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granular.
 2. Added a new digital certificate.
 
 
