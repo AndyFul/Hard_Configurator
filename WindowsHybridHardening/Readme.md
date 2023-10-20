@@ -12,7 +12,7 @@ Some important post-exploitation mitigations of vulnerable applications (MS Offi
 
 ## Software incompatibilities
 
-1. WindowsHybridHardening Light application is a simplified version of WindowsHybridHardening. Both WindowsHybridHardening (WHH) versions share some resources and settings, so they should not run together.
+1. WindowsHybridHardening Light application is a simplified version of WindowsHybridHardening (not yet published). Both WindowsHybridHardening (WHH) versions share some resources and settings, so they should not run together.
 2. The WHH SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHH, the SRP has to be removed from GPO.
 3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before using WHH, the conflicting application should be uninstalled.
 4. WHH is not intended to run with activated AppLocker policies.
