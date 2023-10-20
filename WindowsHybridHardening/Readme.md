@@ -1,6 +1,10 @@
+## WARNING
+
+WindowsHybridHardening Light is an application in the early stage of development. It can have some bugs, so it is recommended to make a System Restore Point, before using it.
+
 ## PROGRAM DESCRIPTION.
 
-Windows Hybrid Hardening Light (WHH) works on Windows 10/11 (Home and Pro editions). It allows configuring Windows built-in features to support antivirus and prevent malware. WHH is a hybrid of two different Windows built-in security layers: Software Restriction Policies (SRP) and Windows Defender Application Control (WDAC). After the initial configuration, it can be closed, and all protection comes from the Windows built-in features.
+Windows Hybrid Hardening Light (WHH) works on Windows 10/11 (Home and Pro editions). It allows configuring Windows built-in features to support antivirus and prevent malware. WHH is a hybrid of two Windows built-in security layers: Software Restriction Policies (SRP) and Windows Defender Application Control (WDAC). After the initial configuration, it can be closed, and all protection comes from the Windows built-in features.
 
 WHH is adjusted to the home environment. SRP is still the best Windows built-in solution at home to prevent attack vectors via scripts, shortcuts, and other files with active content. WDAC is the best prevention against malicious EXE, DLL, and MSI files.
 
