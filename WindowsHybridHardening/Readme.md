@@ -27,6 +27,16 @@ When the SWH switch is ON, the below SRP and hardening setup is applied:
 
 After switching OFF, all the above restrictions are removed - Windows default values are applied for them. The user can restore the restrictions by switching ON again.
 
+## WDAC SWITCH
+
+When the WDAC switch is ON, the WDAC policies for EXE, DLL, and MSI files are applied. Those policies use Microsoft's Intelligent Security Graph (ISG) to restrict by default the EXE, DLL, and MSI files, except for:
+1. SystemSpace, defined in WindowsHybridHardening as all locations on the SYSTEM-drive that are Non-Writable. All writable locations on the SYSTEM-drive + all locations on Non-SYSTEM-drives belong to UserSpace (can be blocked by WDAC).
+2. Locations initially blocked in UserSpace on the SYSTEM-drive, but unblocked by modifying the file/folder ACL permissions. The unblocked locations become Non-Writable. Unblocking extends the SystemSpace to include these locations.
+3. Windows OS components, Microsoft signed applications, and MS Store apps (whitelisted by EKU). They are allowed in all locations (also in UserSpace).
+4. Folders whitelisted by the user.
+  
+Writable location means the folder or file, which content can be modified or deleted by a process running with standard (or lower) rights - otherwise, the location is Non-Writable. 
+
 
 ## Software incompatibilities
 
