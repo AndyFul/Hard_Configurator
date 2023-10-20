@@ -18,14 +18,14 @@ When the SWH switch is ON, the below SRP and hardening setup is applied:
 Menu >> SRP file types
 3. The %WinDir%  folder (usually c:\Windows) is hardened by adding the writable subfolders to UserSpace.
 4. SRP is configured to block also local Administrators.
-5. The shortcuts are blocked in UserSpace by default, except for some standard locations like Desktop or Menu Start. If necessary, shortcuts in non-standard locations can be whitelisted:
-
+5. The shortcuts are blocked in UserSpace by default, except for some standard locations like Desktop or Menu Start. If necessary, shortcuts in non-standard locations can be
+6. whitelisted:
 Whitelist (blue button) >>  Whitelist By Path >> Add Path*Wildcards
-6. SRP in SWH is configured to allow EXE and MSI files, but they are still blocked when the user tries to run them directly from archiver or email client applications.
-7. Remote Access is blocked.
-8. Protocol SMBv1 is blocked.
-9. Cached Logons are disabled.
-10. Execution of 16-bit processes is disabled.
+7. SRP in SWH is configured to allow EXE and MSI files, but they are still blocked when the user tries to run them directly from archiver or email client applications.
+8. Remote Access is blocked.
+9. Protocol SMBv1 is blocked.
+10. Cached Logons are disabled.
+11. Execution of 16-bit processes is disabled.
 
 After switching OFF, all the above restrictions are removed - Windows default values are applied for them. The user can restore the restrictions by switching ON again.
 
