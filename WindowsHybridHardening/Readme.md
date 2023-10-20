@@ -49,5 +49,6 @@ Writable location means the folder or file, which content can be modified or del
 2. The WHH SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHH, the SRP has to be removed from GPO.
 3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before using WHH, the conflicting application should be uninstalled.
 4. WHH is not intended to run with activated AppLocker policies.
+5. If the user installed Hard_Configurator (SimpleWindowsHardening), then after applying WHH restrictions the settings can change. So, it is not recommended to use WHH alongside Hard_Configurator (SimpleWindowsHardening).
 
    
