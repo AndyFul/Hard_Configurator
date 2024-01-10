@@ -1,19 +1,21 @@
 ## WARNING
 
-WindowsHybridHardening Light is an application in the early stage of development. It can have some bugs, so it is recommended to make a System Restore Point, before using it.
+WindowsHybridHardening Light is a security-oriented application, so making a System Restore Point is recommended before using it.
 
 ## PROGRAM DESCRIPTION.
 
-Windows Hybrid Hardening Light (WHH) works on Windows 10/11 (Home and Pro editions). It allows configuring Windows built-in features to support antivirus and prevent malware. WHH is a hybrid of two Windows built-in security layers: Software Restriction Policies (SRP) and Windows Defender Application Control (WDAC). After the initial configuration, it can be closed, and all protection comes from the Windows built-in features.
-Both SRP and WDAC work well with any antivirus.
+Windows Hybrid Hardening Light (WHHLight) is a simplified configurator of Windows built-in application control features.
+It works on Windows 10 and 11 to support antivirus and prevent malware. WHHLight is a hybrid of Windows built-in security layers: SmartScreen, Software Restriction Policies (SRP), and Windows Defender Application Control (WDAC).
+After the initial configuration, WHHLight can be closed, and all protection comes from the Windows built-in features.
+SmartScreen, SRP, and WDAC work well with any antivirus (no need to use Microsoft Defender).
 
-WHH is adjusted to the home environment. SRP is still the best Windows built-in solution at home to prevent attack vectors via scripts, shortcuts, and other files with active content. WDAC is the best prevention against malicious EXE, DLL, and MSI files.
+WHHLight is adjusted to the home environment. SRP is still the best Windows built-in solution at home to prevent attack vectors via scripts, shortcuts, and other files with active content. WDAC is the best prevention against malicious EXE, DLL, and MSI files.
 
 The hybrid of SRP and WDAC simplifies proper whitelisting. The folder whitelisted in WDAC allows only EXE, DLL, and MSI files but not scripts and other file types.
 
-WHH uses the RunBySmartscreen tool available via the right-click option on the Explorer context menu. It allows execution with SmartScreen check of standalone EXE/MSI installers from non-NTFS storage devices (like flash drives).
+WHHLight uses the RunBySmartscreen tool available via the right-click option on the Explorer context menu. It allows execution with SmartScreen check of standalone EXE/MSI installers from non-NTFS storage devices (like flash drives).
 
-Some important post-exploitation mitigations of vulnerable applications (MS Office, Adobe Acrobat Reader, etc.) can be configured via DocumentsAntiExploit, FirewallHardening, and ConfigureDefender (tools included in the WHH installation package). The ConfigureDefender tool can be used only when Microsoft Defender real-time protection is enabled.
+Some important post-exploitation mitigations of vulnerable applications (MS Office, Adobe Acrobat Reader, etc.) can be configured via DocumentsAntiExploit, FirewallHardening, and ConfigureDefender (tools included in the WHHLight installation package). The ConfigureDefender tool can be used only when Microsoft Defender real-time protection is enabled.
 
  [Videos about WHHLight](https://www.youtube.com/@AndyKula-sk3dt/)
 
@@ -49,10 +51,10 @@ Writable location means the folder or file, which content can be modified or del
 
 ## Software incompatibilities
 
-1. WindowsHybridHardening Light application is a simplified version of WindowsHybridHardening (not yet published). Both WindowsHybridHardening (WHH) versions share some resources and settings, so they should not run together.
-2. The WHH SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHH, the SRP has to be removed from GPO.
+1. WindowsHybridHardening Light application is a simplified version of WindowsHybridHardening (not yet published). Both WindowsHybridHardening versions share some resources and settings, so they should not run together.
+2. The WHHLight SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHHLight, the SRP has to be removed from GPO.
 3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before using WHH, the conflicting application should be uninstalled.
 4. WHH is not intended to run with activated AppLocker policies.
-5. If the user installed Hard_Configurator (SimpleWindowsHardening), then after applying WHH restrictions the settings can change. So, it is not recommended to use WHH alongside Hard_Configurator (SimpleWindowsHardening).
+5. If the user installed Hard_Configurator (SimpleWindowsHardening), the settings can change after applying WHHLight restrictions. So, it is not recommended to use it alongside Hard_Configurator (SimpleWindowsHardening).
 
    
