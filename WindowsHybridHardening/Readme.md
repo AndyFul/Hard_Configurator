@@ -4,7 +4,7 @@ WindowsHybridHardening Light is a security-oriented application, so making a Sys
 
 ## PROGRAM DESCRIPTION.
 
-Windows Hybrid Hardening Light (WHHLight) is a simplified configurator of Windows built-in application control features.
+Windows Hybrid Hardening Light (WHHLight) is a simplified configurator of (Windows built-in) application control features.
 It works on Windows 10 and 11 to support antivirus and prevent malware. WHHLight is a hybrid of Windows built-in security layers: SmartScreen, Software Restriction Policies (SRP), and Windows Defender Application Control (WDAC).
 After the initial configuration, WHHLight can be closed, and all protection comes from the Windows built-in features.
 SmartScreen, SRP, and WDAC work well with any antivirus (no need to use Microsoft Defender).
