@@ -20,7 +20,7 @@ Some important post-exploitation mitigations of vulnerable applications (MS Offi
 
 ## [Videos about WHHLight](https://www.youtube.com/@AndyKula-sk3dt/)
 
-
+##
 ## SWH SWITCH.
 
 When the SWH switch is ON, the below SRP and hardening setup is applied:
