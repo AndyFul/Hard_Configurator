@@ -18,7 +18,7 @@ WHHLight uses the RunBySmartscreen tool available via the right-click option on 
 
 Some important post-exploitation mitigations of vulnerable applications (MS Office, Adobe Acrobat Reader, etc.) can be configured via DocumentsAntiExploit, FirewallHardening, and ConfigureDefender (tools included in the WHHLight installation package). The ConfigureDefender tool can be used only when Microsoft Defender real-time protection is enabled.
 
-## [Videos about WHHLight](https://www.youtube.com/@AndyKula-sk3dt/)
+[Videos about WHHLight](https://www.youtube.com/@AndyKula-sk3dt/)
 
 ##
 ## SWH SWITCH.
