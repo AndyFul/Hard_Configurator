@@ -2,12 +2,13 @@
 
 WindowsHybridHardening Light is a security-oriented application, so making a System Restore Point is recommended before using it.
 
+
 ## PROGRAM DESCRIPTION.
 
 Windows Hybrid Hardening Light (WHHLight) is a simplified configurator of (Windows built-in) application control features.
 It works on Windows 10 and 11 to support antivirus and prevent malware. WHHLight is a hybrid of Windows built-in security layers: SmartScreen, Software Restriction Policies (SRP), and Windows Defender Application Control (WDAC).
 After the initial configuration, WHHLight can be closed, and all protection comes from the Windows built-in features.
-SmartScreen, SRP, and WDAC work well with any antivirus (no need to use Microsoft Defender).
+SmartScreen, SRP, and WDAC work well with any antivirus - Microsoft Defender is not required.
 
 WHHLight is adjusted to the home environment. SRP is still the best Windows built-in solution at home to prevent attack vectors via scripts, shortcuts, and other files with active content. WDAC is the best prevention against malicious EXE, DLL, and MSI files.
 
@@ -20,7 +21,6 @@ Some important post-exploitation mitigations of vulnerable applications (MS Offi
  [Videos about WHHLight](https://www.youtube.com/@AndyKula-sk3dt/)
 
 
-
 ## SWH SWITCH.
 
 When the SWH switch is ON, the below SRP and hardening setup is applied:
@@ -28,15 +28,16 @@ When the SWH switch is ON, the below SRP and hardening setup is applied:
 2. By default, SRP in the SWH setup allows EXE, DLL, and MSI files. Other files with active content (unsafe files) are allowed only in %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)%. The locations outside these folders belong to the SRP UserSpace, where unsafe files are blocked by default. The SRP UserSpace is larger than the WDAC UserSpace. The unsafe files are recognized mostly by the file extensions. These extensions can be added/removed via the application menu: Menu >> SRP file types
 3. The %WinDir%  folder (usually c:\Windows) is hardened by adding the writable subfolders to UserSpace.
 4. SRP is configured to block also local Administrators.
-5. The shortcuts are blocked in UserSpace by default, except for some standard locations like Desktop or Menu Start. If necessary, shortcuts in non-standard locations can be
+5. Windows SmartScreen is enabled as Administrator policy.
+6. The shortcuts are blocked in UserSpace by default, except for some standard locations like Desktop or Menu Start. If necessary, shortcuts in non-standard locations can be
    whitelisted: Whitelist (blue button) >>  Whitelist By Path >> Add Path*Wildcards
 7. SRP in SWH is configured to allow EXE and MSI files, but they are still blocked when the user tries to run them directly from archiver or email client applications.
 8. Remote Access is blocked.
 9. Protocol SMBv1 is blocked.
 10. Cached Logons are disabled.
-11. Execution of 16-bit processes is disabled.
 
-After switching OFF, all the above restrictions are removed - Windows default values are applied for them. The user can restore the restrictions by switching ON again.
+After switching OFF, all the above restrictions are removed (except for the Administrator policy of SmartScreen) - Windows default values are applied for them. The user can restore the restrictions by switching ON again. 
+Additionally, SWH resets some policies used in the Hard_Configurator or WHH full version: Block Desktop and Downloads folders (OFF), Block LOLBins (OFF), Restrict elevation of executables (OFF), Disable Windows Script Host (OFF), Disable execution of 16-bit processes (ON), Hide 'Run as administrator' option (OFF), Enforce shell extension security (OFF), Run As SmartScreen (OFF), Enable MSI elevation (OFF), UAC Secure Credential Prompting (OFF).
 
 ## WDAC SWITCH
 
@@ -55,6 +56,6 @@ Writable location means the folder or file, which content can be modified or del
 2. The WHHLight SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHHLight, the SRP has to be removed from GPO.
 3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before using WHH, the conflicting application should be uninstalled.
 4. WHH is not intended to run with activated AppLocker policies.
-5. If the user installed Hard_Configurator (SimpleWindowsHardening), the settings can change after applying WHHLight restrictions. So, it is not recommended to use it alongside Hard_Configurator (SimpleWindowsHardening).
+5. If the user installed Hard_Configurator (SimpleWindowsHardening), the settings can change after applying WHHLight restrictions. So, using it alongside Hard_Configurator (SimpleWindowsHardening) is not recommended.
 
    
