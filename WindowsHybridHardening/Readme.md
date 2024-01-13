@@ -54,7 +54,7 @@ Writable location means the folder or file, which content can be modified or del
 
 1. WindowsHybridHardening Light application is a simplified version of WindowsHybridHardening (not yet published). Both WindowsHybridHardening versions share some resources and settings, so they should not run together.
 2. The WHHLight SRP settings can conflict with SRP introduced via Group Policies Object (GPO) available in Windows Pro, Education, and Enterprise editions. Before using WHHLight, the SRP has to be removed from GPO.
-3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin, Ultra Virus Killer). Before using WHH, the conflicting application should be uninstalled.
+3. WHH will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using WHH, the conflicting application should be uninstalled.
 4. WHH is not intended to run with activated AppLocker policies.
 5. If the user installed Hard_Configurator (SimpleWindowsHardening), the settings can change after applying WHHLight restrictions. So, using it alongside Hard_Configurator (SimpleWindowsHardening) is not recommended.
 
