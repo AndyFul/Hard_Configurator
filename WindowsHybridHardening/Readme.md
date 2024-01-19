@@ -1,3 +1,7 @@
+## WindowsHybridHardening ver. 1.0.1.1 (January 2024)
+https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_1011.exe
+
+
 ## WARNING
 
 WindowsHybridHardening Light is a security-oriented application, so making a System Restore Point is recommended before using it.
