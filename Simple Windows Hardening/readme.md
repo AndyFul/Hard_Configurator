@@ -1,4 +1,4 @@
-# Simple Windows Hardening ver. 2.1.1.1 - July 2023 - added support for Windows 11 22H2
+# Simple Windows Hardening ver. 2.1.1.1 - July 2023 - added support for Windows 11 22H2 and later versions
 https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2111.zip
 
 # Simple Windows Hardening ver. 2.0.0.1 - August 2022 - no support for Windows 11 22H2
@@ -21,7 +21,7 @@ SRP on Windows 12.
 SWH is tested via the Windows Insider program, so any possible problem is recognized in advance and reported on the Dev. Website.
 
 The security setup is adjusted to keep usability and prevent fileless malware in the home environment. So, the EXE and MSI files are 
-not restricted in SWH, except when executed from archives and email clients. But non-executable files like scripts, shortcuts, and 
+not restricted in SWH, except when executed from archives and email clients. However non-executable files like scripts, shortcuts, and 
 other files with unsafe extensions are restricted. Such a setup can be very efficient because nowadays, many initial vectors of attack 
 are performed via non-executable files.
 
@@ -63,10 +63,10 @@ file. After one day most of the malicious links are dead and most of the 0-day m
 
 1. Run SWH - the restrictions are automatically configured.
 2. Log OFF the account or reboot is required, depending on what restrictions were applied before running SWH.
-3. If MS Office (or Adobe Acrobat Reader) is installed, then it is recommendable to make some additional hardening by using
+3. If MS Office (or Adobe Acrobat Reader) is installed, then it is recommended to make some additional hardening by using
    DocumentsAntiExploit tool. More info is included in the "DocumentsAntiExploit tool - Manual". 
     
-Please keep updating your system/software. Use SWH on the default settings for some time, until you will be accustomed to it. Most 
+Please keep updating your system/software. Use SWH on the default settings for some time, until you are accustomed to it. Most 
 users will probably not see any difference, but rarely a legal script or file with an unsafe extension will be blocked by SWH 
 settings. You can use the blue buttons  View Blocked Events   and  Manage the Whitelist  to recognize and whitelist the blocked files. 
 Please be careful, if you are not certain that the blocked file is safe, then wait one day or two before whitelisting it.
@@ -82,15 +82,15 @@ ver. 22H2 or later (also on Windows Home), so SRP is disabled in the default con
 
 SimpleWindowsHardening ver. 2.1.1.1 can enable SRP on Windows 11, and SRP can also work with enabled Smart App Control (SAC). 
 
-Windows built-in SRP is incompatible with Child Account activated on Windows 10+ via Microsoft Family Safety. Child Account adds some
-AppLocker rules (via MDM), so SRP cannot work. Unfortunately, after removing Child Account, the AppLocker Policy files are not removed
+Windows built-in SRP is incompatible with the Child Account activated on Windows 10+ via Microsoft Family Safety. Child Account adds some
+AppLocker rules (via MDM), so SRP cannot work. Unfortunately, after removing the Child Account, the AppLocker Policy files are not removed
 (unpleasant bug)! These policy files have to be removed manually to recover the SRP functionality.
 
 SimpleWindowsHardening settings are not compatible with SRP introduced via Group Policies Object (GPO) available in Windows Pro,
 Education, and Enterprise editions. The GPO refresh feature will overwrite the SimpleWindowsHardening settings. So, before installing 
 SimpleWindowsHardening, SRP has to be removed from GPO.
 
-SimpleWindowsHardening will also conflict with any software which uses SRP, but such applications are rare (CryptoPrevent, SBGuard, 
+SimpleWindowsHardening will also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, 
 AskAdmin, Ultra Virus Killer). Before installing SimpleWindowsHardening it will be necessary to uninstall the conflicting application. 
 
 SWH uses Windows built-in features. Some of them can be removed or added by Microsoft in future major Windows upgrades. Please use 
