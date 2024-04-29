@@ -3,7 +3,7 @@ The actually fake domain hard-configurator.com is currently (May 2023) used by s
 Someone tries to fool people who want to get information about Hard_Configurator.
 
 
-# Hard_Configurator ver. 6.1.1.1 (July 2023) - included support for Windows 11 22H2
+# Hard_Configurator ver. 6.1.1.1 (July 2023) - included support for Windows 11 22H2 and later versions
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.1.1.1.exe
 
 # Hard_Configurator ver. 6.0.1.1 (July 2022) - no support for Windows 11 22H2
