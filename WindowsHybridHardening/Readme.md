@@ -1,7 +1,7 @@
 ## WindowsHybridHardening ver. 1.1.1.1 (July 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_1111.exe
 
-This version comes with a new <WDAC> setting IAC ( = <WDAC> ON setting + Install App Control set to "The Microsoft Store only").
+This version comes with a new "<"WDAC">" setting IAC ( = <WDAC> ON setting + Install App Control set to "The Microsoft Store only").
 
 ## WindowsHybridHardening ver. 1.0.1.1 (January 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_1011.exe
