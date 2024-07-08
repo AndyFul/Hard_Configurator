@@ -1,6 +1,7 @@
 ver. 1.1.1.1
 1. Added new WDAC setting (IAC).
-2. Added new digital certificate.
+2. Added new digital certificate to all tools.
+2. Updated help files.
 
 ver. 1.0.1.1
 Corrected the code related to AppInstaller.
