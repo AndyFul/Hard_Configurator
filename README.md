@@ -1,29 +1,17 @@
 # WARNING!
-The actually fake domain hard-configurator.com is currently (May 2023) used by some malicious actors. Please do not use it.
+The actually fake domain hard-configurator.com has been used by some malicious actors for several months. Please do not use it.
 Someone tries to fool people who want to get information about Hard_Configurator.
 
+# Hard_Configurator ver. 7.0.0.0 (July 2024)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.0.exe
 
 # Hard_Configurator ver. 6.1.1.1 (July 2023) - included support for Windows 11 22H2 and later versions
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.1.1.1.exe
-
-# Hard_Configurator ver. 6.0.1.1 (July 2022) - no support for Windows 11 22H2
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.0.1.1.exe
-
 
 ## Support for Windows 11 22H2 and later versions
 Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver. 
 6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new version 6.1.1.1. 
 The H_C can also work with enabled Smart App Control from this version.
-
-Please note: From the ver. 5.1.1.1, the Recommended Settings on Windows 8+ work differently as compared to ver. 5.0.0.0 (and 
-prior versions). 
-From the ver. 5.1.1.1, the Recommended Settings and some other predefined setting profiles use "More SRP... " - "Update Mode" 
-= ON, which whitelists the EXE and MSI files in ProgramData and user AppData folders (other files are blocked like in ver. 
-5.0.0.0). If one is happy with blocking the EXE and MSI files in ProgramData and user AppData folders, then it is necessary to 
-set "More SRP... " - "Update Mode" = OFF.
-
-From version 4.1.1.1 (July 2019) the Hard_Configurator installer and all its executables are signed with "Certum Code Signing CA 
-SHA2" certificate (Open Source Developer Andrzej Pluta).
 
 ## WARNING!!!
 Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced
@@ -37,7 +25,7 @@ Hard_Configurator uses Windows built-in features. Some of them can be removed or
 Windows upgrades. 
 Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
-Version 4.0.0.0 was corrected in October 2018 to match Microsoft requirements, because at the beginning of October,
+Version 4.0.0.0 was corrected in October 2018 to match Microsoft requirements, because, at the beginning of October,
 it was flagged as a hack-tool by Microsoft. The detection was related to ConfigureDefender ver. 1.0.1.1 which was installed 
 with Hard_Configurator. ConfigureDefender ver. 1.0.1.1 was considered as a hack-tool by Microsoft, because it had an option to 
 disable Windows Defender real-time protection. The corrected version of Hard_Configurator has been analyzed and accepted by 
