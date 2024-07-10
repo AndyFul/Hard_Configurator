@@ -1,3 +1,11 @@
+Version 7.0.0.0
+All executables are signed with a new digital certificate.
+Added conhost.exe to the FirewallHardening BlockList.
+Added the second setting to <Block AppInstaller>. It allows only those APPX and MSIX packages that are signed by Microsoft Store.
+Minor GUI changes in ConfigureDefender (mouse wheel scrolling, buttons design).
+Adjusted code to work with Windows Hybrid Hardening.
+
+
 Version 6.1.1.1 (no functional changes from the latest beta)
 1. Added support for Windows 11 ver. 22H2
 2. Added new setting profiles:
@@ -5,7 +13,7 @@ Version 6.1.1.1 (no functional changes from the latest beta)
    Windows_11_SAC_ON_NoSRP.hdc
 3. Added certoc.exe, cipher.exe, pnputil.exe, and scp.exe to the list of blocked sponsors.
 4. Added the ONE extension (OneNote document).
-5. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings include also all ON1 settings. 
+5. Removed the OFF2 option in the DocumentsAntiExploit tool. Now, ON2 settings also include all ON1 settings. 
    ON2 settings require resetting (ON2 --> OFF --> ON2) after the current update. 
 6. Updated H_C manual (info about possible issues related to the activated AppLocker).
 7. Corrected some minor bugs.
@@ -130,14 +138,14 @@ Removed the bug related to displaying the last blocked event.
     in the new location will be automatically whitelisted.
 12. Added to the H_C manual many details related to Recommended Settings and Avast profiles, which can use now the <Update
     Mode> feature.
-13. Added the option to whitelisting globally the MSI files (<Whitelist By Path> "Allow MSI"). In the version 5.0.0.1, this
+13. Added the option to whitelist globally the MSI files (<Whitelist By Path> "Allow MSI"). In version 5.0.0.1, this
     setting is used when the user applies the profile "Windows_10_MT_Windows_Security_hardening.hdc" - both EXE (TMP) and
     MSI files are allowed. In the old setting profile "Windows_10_MT_Windows_Security_hardening.hdc", only EXE (TMP) files
     are globally allowed.
 
 
 Version 5.0.0.0
-1. Added new version of ConfigureDefender with additional ASR rule: "Block persistence through WMI event subscription".
+1. Added a new version of ConfigureDefender with an additional ASR rule: "Block persistence through WMI event subscription".
 2. Minor bugs corrected.
 
 Version 4.1.1.1
@@ -148,12 +156,12 @@ Version 4.1.1.1
 5. Reorganization of buttons: the violet buttons <Firewall Hardening> and <ConfigureDefender> are now located in the upper
    part of the main window. The button <No Removable Disks Exec.> was replaced by the new option button <Validate Admin Code
    Signatures> (see point 7).
-6. If Default Deny Protection is turned OFF by 'Switch Default Deny' tool,  then "Run By SmartScreen" option is automatically
-   enabled in Explorer context menu. It can be used for installing safely the applications both on Administrator and Standard
+6. If Default Deny Protection is turned OFF by the 'Switch Default Deny' tool,  then the "Run By SmartScreen" option is automatically
+   enabled in the Explorer context menu. It can be used for installing safely the applications both on Administrator and Standard
    User type of accounts.
 7. Added the option <Validate Admin Code Signatures> which changes the UAC settings to enforce cryptographic signatures on 
-   any any interactive application that requests elevation of privilege. This setting will prevent the user to run from
-   Explorer the applications which require Administrative rights, but are not digitally signed.
+   any any interactive application that requests elevation of privilege. This setting will prevent the user from running the applications
+   which require Administrative rights, but are not digitally signed.
 8. Added the profile "Windows_10_MT_Windows_Security_hardening.hdc" which uses the new option <Validate Admin Code 
    Signatures>.
 9. The option <Restore Windows Defaults> does restore also Windows Defender defaults and removes FirewallHardening Outbound   
@@ -183,7 +191,7 @@ Version 4.0.1.0
 Version 4.0.0.2
 1. Corrected the ability to whitelist OneDrive on SUA.
 2. Changed the way of using <Refresh Explorer> option to avoid problems on SUA.
-3. Added the warning before Hard_Configurator deinstallation, about using DocumentAntiExploit tool.
+3. Added the warning before Hard_Configurator unstallation, about using DocumentAntiExploit tool.
 4. Added the DocumentsAntiExploit tool to the SwitchDefaultDeny application, for managing different MS Office and Adobe 
    Acrobat Reader
 XI/DC settings on different user accounts.
@@ -194,8 +202,8 @@ XI/DC settings on different user accounts.
 7. Improved Shortcut protection.
 8. Improved the protection of MS Office and Adobe Acrobat Reader XI/DC applications, against the weaponized documents.
 9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat    
-   Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notification, instead 
-   of beeing checked by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) 
+   Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notifications, instead 
+   of being checked by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) 
    related to MS Office and Adobe Reader, are opened with the warning instruction.
 10. Changed the names of some buttons in the TOOLS menu: 
 <View Blocked Events> --> <Blocked Events / Security Logs>
@@ -217,7 +225,7 @@ Version 4.0.0.0
    Protection, and Defender blocked/audited events.
 7. Added some new paths to blacklist writable Windows subfolders.
 8. Corrected the whitelisting of OneDrive executables.
-9. Added the new versions of: Sysinternals Autoruns, NirSoft FullEventView, and 7-ZIP.
+9. Added the new versions of Sysinternals Autoruns, NirSoft FullEventView, and 7-ZIP.
 10. Recommended settings in ver. 4.0.0.0 are based on <Default Security Level> = 'Disallowed', as compared to <Default 
     Security Level> = 'Basic User' used in the previous versions. The difference for the user will be visible only with the 
     extended SRP protection for BAT and CMD files.
@@ -239,7 +247,7 @@ Version 3.1.0.0
 9. Updated Hard_Configurator manual (with some corrections).
 
 Version 3.0.1.0
-1. Improved method of making System Restore Point (automatical for all supported Windows versions).
+1. Improved method of making System Restore Point (automatic for all supported Windows versions).
 2. Redefined buttons: 
 A) <Turn OFF All SRP> and <Turn OFF All Restrictions> have changed labels to <Switch OFF/ON SRP> and <Switch OFF/ON 
    Restrictions>.
@@ -249,10 +257,10 @@ B) <Load Defaults> and <Save Defaults> have changed labels to <Load Profile> and
 (except 'DesignatedFile Types' and White Lists).
 3. Added <Save Load> button on the right side of Whitelist buttons to manage Whitelist user profiles.
 4. Added default Whitelist entry for the folder 'C:\ProgramData\Microsoft\Windows Defender'.
-5. Added two paths to protect in Windows folder: 'C:\WINDOWS\debug\WIA' and 'C:\WINDOWS\System32\Tasks_Migrated'
+5. Added two paths to protect in the Windows folder: 'C:\WINDOWS\debug\WIA' and 'C:\WINDOWS\System32\Tasks_Migrated'
 6. Added <APPLY CHANGES> button.
 7. Added <Block Sponsors> button, that can disable access to 57 Windows executables (via SRP Disallowed rules).
-   The options for blocking powershell.exe, powershell_ise.exe, and cmd.exe were transfered to <Block Sponsors>.
+   The options for blocking powershell.exe, powershell_ise.exe, and cmd.exe were transferred to <Block Sponsors>.
 8. Added <Disable SMB button>. 
 9. Added: <ADD> / <REMOVE>  OneDrive buttons in the <Whitelist by path> window.
 10. Added some predefined setting profiles (ALL_OFF, ALL_ON, ALL_ON_MAX, Recommended_nonSRP, TestingSmartScreen,
@@ -297,7 +305,7 @@ Version 2.0.1.0
    <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote 
    Registry.
-4. On the first run, Hard_Configurator makes System Restore point , performs autoruns checking and whitelisting User Space 
+4. On the first run, Hard_Configurator makes a System Restore point , performs autoruns checking and whitelisting User Space 
    autoruns.
 5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: 
    ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
