@@ -1,4 +1,7 @@
 ver. 6.1.1.1 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
+https://www.virustotal.com/gui/file/b023374f1ef9ba0a1011409669e7030f7e47d449212d37da8edae94c34d37274/details
+
+ver. 6.1.1.1 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
 https://www.virustotal.com/gui/file/7b336e7133097fff28de017da2c1d3d8f684fe1fccbc16bc4242e04e4c06e6a6/details
 
 ver. 6.0.1.1 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
