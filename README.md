@@ -14,6 +14,9 @@ Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restrict
 The H_C can also work with enabled Smart App Control from this version.
 
 ## WARNING!!!
+
+Hard_Configurator is an advanced tool for home Administrators. It is mainly intended to secure the computers of inexperienced users (children, happy clickers, etc.). Please read the help info about available options to avoid overkill setup. 
+
 Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced
 via GPO or MDM WMI Bridge, turns off SRP.
 
