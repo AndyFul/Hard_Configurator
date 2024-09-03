@@ -13,19 +13,19 @@ Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restrict
 6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new version 6.1.1.1. 
 The H_C can also work with enabled Smart App Control from this version.
 
+## Software incompatibilities
+1. Software Restriction Policies (SRP) used in Hard_Configurator (H_C) may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP has to be removed from GPO.
+2. Caution is required when applying policies via GPO on Windows 11 - this can turn OFF the SRP.  So, after each GPO session, it is necessary to run and close H_C, which will automatically turn ON the SRP again.
+3. H_C can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using H_C, the conflicting application should be uninstalled.
+4. It is not recommended to use H_C alongside WindowsHybridHardening and SimpleWindowsHardening. These applications share several settings, which can lead to misconfigurations.
+5. Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced via GPO or MDM WMI Bridge, turns off SRP. 
+6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue is persistent even after removing the Child Account because (due to a bug) the AppLocker rules are not removed. To recover SRP functionality, one must remove the AppLocker rules manually from the directory %Windir%\System32\AppLocker.
+
+
 ## WARNING!!!
 
 Hard_Configurator is an advanced tool for home Administrators. It is mainly intended to secure the computers of inexperienced users (children, happy clickers, etc.). Please read the help info about available options to avoid overkill setup. 
-
-Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced
-via GPO or MDM WMI Bridge, turns off SRP.
-
-The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. 
-This issue is persistent even after removing the Child Account because (due to a bug) the AppLocker rules are not removed. To 
-recover SRP functionality, one must remove the AppLocker rules manually from the directory %Windir%\System32\AppLocker.
-
-Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in the future major 
-Windows upgrades. 
+Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in future major Windows upgrades. 
 Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
 Version 4.0.0.0 was corrected in October 2018 to match Microsoft requirements, because, at the beginning of October,
