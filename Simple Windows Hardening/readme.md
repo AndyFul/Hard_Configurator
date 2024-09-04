@@ -75,7 +75,7 @@ Please be careful, if you are not certain that the blocked file is safe, then wa
 ## Software  incompatibilities
 
 1. Software Restriction Policies (SRP) used in SWH may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using SWH, the SRP has to be removed from GPO.
-2. Caution is required when applying policies via GPO on Windows 11 - this can turn OFF the SRP. So, after each GPO session, it is necessary to run and close SWH, which will automatically turn ON the SRP again.
+2. Caution is required when applying policies via GPO on Windows 11 - this can turn OFF the SRP. So, after each GPO session, it is necessary to run and close SWH, which will automatically turn ON the SRP again (Windows restart is required).
 3. SWH can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using SWH, the conflicting application should be uninstalled.
 4. It is not recommended to use SWH alongside WindowsHybridHardening and Hard_Configurator. These applications share several settings, which can lead to misconfigurations.
 5. Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced via GPO or MDM WMI Bridge, turns off SRP. When running SWH, it checks for active AppLocker rules and alerts about the issue.
