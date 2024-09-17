@@ -1,3 +1,7 @@
+Version 7.0.0.1
+Added two new ASR rules to ConfigureDefender.
+Some corrections in the help files and H_C manual.
+
 Version 7.0.0.0
 All executables are signed with a new digital certificate.
 Added conhost.exe to the FirewallHardening BlockList.
@@ -22,9 +26,9 @@ Version 6.1.1.1 (no functional changes from the latest beta)
 
 Version 6.0.1.1
 1. Adjusted the default extensions in <Designated File Types> to those used in Simple Windows Hardening. So, some popular
-   Excel extenions are not blocked in default setup: XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
+   Excel extensions are not blocked in the default setup: XLS, XLSX, XLSB, XLSM, XLT, XLTM, XSL.
 2. Updated the manual and some help files.
-3. Added new option in DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granular.
+3. Added a new option in the DocumentsAntiExploit tool to make the configuration of Adobe Acrobat more granular.
 4. Added the button <MORE ...><Remove Obsolete Restrictions>.
 5. Added a new digital certificate.
 
@@ -63,7 +67,7 @@ Restrictions> change the background color from green to blue.
    Microsoft.Workflow.Compiler, mscorsvw, ngen, ngentask, vbc.
 5. Added SLK and ELF file extensions to the default protected extensions in SRP and RunBySmartscreen.
 6. Added a switch -p to run H_C and SwitchDefaultDeny with SRP enforcement to block all users (including Administrators).
-   It can be used especially on the older Windows versions to improve post-exploitation protection on default Admin account.
+   It can be used especially on the older Windows versions to improve post-exploitation protection on the default Admin account.
    This switch should be used only by very experienced users.
 7. New version of ConfigureDefender:
 - Added some useful information to the Help and manual.
@@ -80,7 +84,7 @@ Restrictions> change the background color from green to blue.
 8. Added support for Windows 11.
 
 Version 5.1.1.2 (stable)
-This version is essentially the same as ver. 5.1.1.1, except that DocumentsAntiExploit tool executable was replaced by its 
+This version is the same as ver. 5.1.1.1, except that DocumentsAntiExploit tool executable was replaced by its 
 standalone version. This can matter if after the uninstallation of H_C the user will want to use DocumentsAntiExploit tool
 (without Hard_Configurator) to harden MS Office or Adobe Acrobat Reader XI/DC.
 
@@ -204,7 +208,7 @@ XI/DC settings on different user accounts.
 9. Improved 'Run By SmartScreen' with over 250 blocked file extensions (SRP, Outlook Web Access, Gmail, and Adobe Acrobat    
    Reader attachments blacklists). The extensions BAT, DLL, CMD, JSE, OCX, and VBE are now blocked with notifications, instead 
    of being checked by SmartScreen. Popular but vulnerable files (RTF, DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) 
-   related to MS Office and Adobe Reader, are opened with the warning instruction.
+   related to MS Office and Adobe Reader, are opened with the warning instructions.
 10. Changed the names of some buttons in the TOOLS menu: 
 <View Blocked Events> --> <Blocked Events / Security Logs>
 <Run  Autoruns: Scripts/UserSpace> --> <Whitelist Autoruns / View Scripts>
@@ -291,7 +295,7 @@ Version 2.1.0.0 Polish version
 3. Improved 'Load Defaults' option.
 4. Updated Hard_Configurator manual.
 5. Added 'Documentation' option to view Hard_Configurator manual, from within the program. 
-6. Polish version was released (only help files).
+6. The Polish version was released (only help files).
 
 Version 2.0.1.0
 1. New options in <SRP Extensions> window: Add/Remove script extensions, Save/Restore extensions, Restore default extensions.
@@ -305,7 +309,7 @@ Version 2.0.1.0
    <Restore Windows Defaults> - replaces the registry changes made by Hard_Configurator with Windows default values. 
 3. <Block Remote Assistance> option has been renamed to <Block Remote Access> and entended to include Remote Shell and Remote 
    Registry.
-4. On the first run, Hard_Configurator makes a System Restore point , performs autoruns checking and whitelisting User Space 
+4. On the first run, Hard_Configurator makes a System Restore point, performs autoruns checking and whitelisting User Space 
    autoruns.
 5. Updated manual with extended information about how SRP can control file execution/opening, using API functions: 
    ShellExecute, CreateProcess, LoadLibrary, and about unusual shortcuts handling.
