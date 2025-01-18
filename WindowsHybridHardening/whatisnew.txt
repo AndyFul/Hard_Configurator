@@ -1,4 +1,5 @@
 ver. 2.0.0.1 (the same as 2.0.0.1 beta3)
+SWH settings can be now selectively controlled from the menu.
 Added two new ASR rules to ConfigureDefender.
 Some corrections in the help files and manual.
 
