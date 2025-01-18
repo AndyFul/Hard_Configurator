@@ -1,6 +1,9 @@
 ## WindowsHybridHardening ver. 2.0.0.1 (January 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2001.exe
 
+This version is the same as the latest beta. SWH settings can be now selectively controlled from the menu. Added two new ASR rules to ConfigureDefender.
+
+
 
 ## WindowsHybridHardening ver. 1.1.1.1 (July 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_1111.exe
