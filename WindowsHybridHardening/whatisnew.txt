@@ -1,4 +1,4 @@
-Version 2.0.0.1 beta3
+Version 2.0.0.1 (the same as 2.0.0.1 beta3)
 Added two new ASR rules to ConfigureDefender.
 Some corrections in the help files and manual.
 
