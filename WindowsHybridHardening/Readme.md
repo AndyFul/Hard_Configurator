@@ -1,4 +1,4 @@
-## WindowsHybridHardening ver. 2.0.0.1 (January 2024)
+## WindowsHybridHardening ver. 2.0.0.1 (January 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2001.exe
 
 
