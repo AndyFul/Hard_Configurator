@@ -1,4 +1,4 @@
-Version 7.0.0.1
+Version 7.0.0.1 (the same as the latest beta)
 Added two new ASR rules to ConfigureDefender.
 Some corrections in the help files and H_C manual.
 
