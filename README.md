@@ -1,6 +1,9 @@
 # WARNING!
-The actually fake domain hard-configurator.com has been used by some malicious actors for several months. Please do not use it.
+Some malicious actors have used the actually fake domain hard-configurator.com for several months. Please do not use it.
 Someone tries to fool people who want to get information about Hard_Configurator.
+
+# Hard_Configurator ver. 7.0.0.1 (January 2025)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.1.exe
 
 # Hard_Configurator ver. 7.0.0.0 (July 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.0.exe
@@ -9,8 +12,8 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.1.1.1.exe
 
 ## Support for Windows 11 22H2 and later versions
-Windows 11 ver. 22H2 (fresh installation) turns off by default Software Restriction Policies. So, Hard_Configurator ver. 
-6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). This issue is corrected in the new version 6.1.1.1. 
+Windows 11 ver. 22H2 (fresh installation) turns off Software Restriction Policies by default. So, use Hard_Configurator ver. 
+6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). The new version 6.1.1.1 corrects this issue. 
 The H_C can also work with enabled Smart App Control from this version.
 
 ## Software incompatibilities
@@ -19,13 +22,13 @@ The H_C can also work with enabled Smart App Control from this version.
 3. H_C can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using H_C, the conflicting application should be uninstalled.
 4. It is not recommended to use H_C alongside WindowsHybridHardening and SimpleWindowsHardening. These applications share several settings, which can lead to misconfigurations.
 5. Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced via GPO or MDM WMI Bridge, turns off SRP.  When running H_C, it checks for active AppLocker rules and alerts about the issue.
-6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue is persistent even after removing the Child Account because (due to a bug) the AppLocker rules are not removed. To recover SRP functionality, one must remove the AppLocker rules manually from the directory %Windir%\System32\AppLocker.
+6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue persists even after removing the Child Account because (due to a bug) the AppLocker rules are not removed. To recover SRP functionality, one must manually remove the AppLocker rules from the directory % Windir%System32AppLocker.
 
 
 ## WARNING!!!
 
 Hard_Configurator is an advanced tool for home Administrators. It is mainly intended to secure the computers of inexperienced users (children, happy clickers, etc.). Please read the help info about available options to avoid overkill setup. 
-Hard_Configurator uses Windows built-in features. Some of them can be removed or added by Microsoft in future major Windows upgrades. 
+Hard_Configurator uses Windows built-in features. Microsoft can remove or add some of them in future major Windows upgrades. 
 Please use the updated version of Hard_Configurator. The old versions can rarely produce some issues.
 
 Version 4.0.0.0 was corrected in October 2018 to match Microsoft requirements, because, at the beginning of October,
