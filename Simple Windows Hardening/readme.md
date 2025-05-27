@@ -1,5 +1,13 @@
-## WARNING
-Simple Windows Hardening is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as GPO or AppLocker. The settings applied by those security features can tamper with Simple Windows Hardening (more info available in the section "Software  incompatibilities").
+## WARNING!
+Simple Windows Hardening (SWH) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as GPO or AppLocker. The settings applied by those security features can tamper with SWH (more info available in the section "Software  incompatibilities").
+If necessary, the home Administrators can block GPedit functionality on the concrete user account via Windows Registry:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC\\{8FC0B734-A0E1-11D1-A7D3-0000F87571E3}]
+
+"Restrict_Run"=dword:00000001
+
 
 # Simple Windows Hardening ver. 2.1.1.1 - July 2023 - added support for Windows 11 22H2 and later versions
 https://github.com/AndyFul/Hard_Configurator/raw/master/Simple%20Windows%20Hardening/SimpleWindowsHardening_2111.zip
