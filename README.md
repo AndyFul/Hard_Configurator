@@ -1,7 +1,7 @@
 
 ## WARNING!
 Hard_Configurator (H_C) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as GPO or AppLocker. The settings applied by those security features can tamper with H_C (more info available in the section "Software  incompatibilities").
-When using H_C in SMBs, the Administrators can block GPedit functionality on the concrete user account via Windows Registry:
+If necessary, the home Administrators can block GPedit functionality on the concrete user account via Windows Registry:
 
 Windows Registry Editor Version 5.00
 
