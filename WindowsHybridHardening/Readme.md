@@ -1,24 +1,30 @@
-## WindowsHybridHardening ver. 2.0.0.1 (January 2025)
+## WARNING
+Windows Hybrid Hardening Light (WHHLight) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as GPO or AppLocker. The settings applied by those security features can tamper with WHHLight (more info available in the section "Software  incompatibilities").
+When using WHHLight in SMBs, the Administrators can block GPedit functionality on the concrete user account via Windows Registry:
+
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC\{8FC0B734-A0E1-11D1-A7D3-0000F87571E3}]
+"Restrict_Run"=dword:00000001
+
+
+
+## Windows Hybrid Hardening Light ver. 2.0.0.1 (January 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2001.exe
 
 This version is the same as the latest beta. SWH settings can be now selectively controlled from the menu. Added two new ASR rules to ConfigureDefender.
 
 
 
-## WindowsHybridHardening ver. 1.1.1.1 (July 2024)
+## Windows Hybrid Hardening ver. 1.1.1.1 (July 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_1111.exe
 
 This version comes with a new WHHLight WDAC setting IAC ( = WDAC ON setting + Install App Control set to "The Microsoft Store only").
 
 
-## WARNING
-
-WindowsHybridHardening Light is a security-oriented application, so making a System Restore Point is recommended before using it.
-
 
 ## PROGRAM DESCRIPTION.
 
-Windows Hybrid Hardening Light (WHHLight) is a simplified configurator of (Windows built-in) application control features.
+WHHLight is a simplified configurator of (Windows built-in) application control features.
 It works on Windows 10 and 11 to support antivirus and prevent malware. WHHLight is a hybrid of Windows built-in security layers: SmartScreen, Software Restriction Policies (SRP), and Windows Defender Application Control (WDAC).
 After the initial configuration, WHHLight can be closed, and all protection comes from the Windows built-in features.
 SmartScreen, SRP, and WDAC work well with any antivirus - Microsoft Defender is not required.
@@ -68,6 +74,6 @@ Writable location means the folder or file, which content can be modified or del
 1. Software Restriction Policies (SRP) used in WHHLight may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP has to be removed from GPO.
 2. Caution is required when applying policies via GPO on Windows 11 - this can turn OFF the SRP. So, after each GPO session, it is necessary to run and close WHHLight, which will automatically turn ON the SRP again (Windows restart is required).
 3. WHHLight can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using WHHLight, the conflicting application should be uninstalled.
-4. It is not recommended to use WHHLight alongside WindowsHybridHardening (full version), Hard_Configurator, and SimpleWindowsHardening. These applications share several settings, which can lead to misconfigurations.
+4. It is not recommended to use WHHLight alongside WindowsHybridHardening (full version), Hard_Configurator, and Simple Windows Hardening. These applications share several settings, which can lead to misconfigurations.
 5. Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced via GPO or MDM WMI Bridge, turns off SRP. When running WHHLight, it checks for active AppLocker rules and alerts about the issue.
 6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue is persistent even after removing the Child Account because (due to a bug) the AppLocker rules are not removed. To recover SRP functionality, one must remove the AppLocker rules manually from the directory %Windir%\System32\AppLocker.
