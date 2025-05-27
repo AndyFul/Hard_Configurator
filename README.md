@@ -1,7 +1,7 @@
 
 ## WARNING!
-Hard_Configurator (H_C) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as GPO or AppLocker. The settings applied by those security features can tamper with H_C (more info available in the section "Software  incompatibilities").
-If necessary, the home Administrators can block GPedit functionality on the concrete user account via Windows Registry:
+Hard_Configurator (H_C) is intended for use in the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with H_C (more info available in the section "Software  incompatibilities").
+If necessary, the home Administrators can block GPedit functionality on the concrete Administrator account via Windows Registry:
 
 Windows Registry Editor Version 5.00
 
@@ -27,7 +27,7 @@ Windows 11 ver. 22H2 (fresh installation) turns off Software Restriction Policie
 The H_C can also work with enabled Smart App Control from this version.
 
 ## Software incompatibilities
-1. Software Restriction Policies (SRP) used in H_C may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP has to be removed from GPO.
+1. Software Restriction Policies (SRP) used in H_C may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP should be removed from GPO.
 2. Caution is required when applying policies via GPO on Windows 11 - this can turn OFF the SRP.  So, after each GPO session, it is necessary to run and close H_C, which will automatically turn ON the SRP again.
 3. H_C can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using H_C, the conflicting application should be uninstalled.
 4. It is not recommended to use H_C alongside WindowsHybridHardening and SimpleWindowsHardening. These applications share several settings, which can lead to misconfigurations.
