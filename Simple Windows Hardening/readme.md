@@ -1,5 +1,5 @@
 ## WARNING!
-Simple Windows Hardening (SWH) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with SWH (more info available in the section "Software  incompatibilities").
+Simple Windows Hardening (SWH) is intended for use in the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with SWH (more info available in the section "Software  incompatibilities").
 If necessary, the home Administrators can block GPedit functionality on the concrete Administrator account via Windows Registry:
 
 Windows Registry Editor Version 5.00
