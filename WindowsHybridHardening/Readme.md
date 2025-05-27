@@ -3,7 +3,9 @@ Windows Hybrid Hardening Light (WHHLight) is intended for the home environment. 
 When using WHHLight in SMBs, the Administrators can block GPedit functionality on the concrete user account via Windows Registry:
 
 Windows Registry Editor Version 5.00
+
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC\{8FC0B734-A0E1-11D1-A7D3-0000F87571E3}]
+
 "Restrict_Run"=dword:00000001
 
 
