@@ -21,7 +21,7 @@ It can also work with Smart App Control.
 
 
 ## Overview
-Simple Windows Hardening (SWH) works best on Windows Home and Pro editions. It is a portable application that allows configuring Windows 
+SWH works best on Windows Home and Pro editions. It is a portable application that allows configuring Windows 
 built-in features to support antivirus and prevent fileless malware. SWH is adjusted to the home environment. After the initial 
 configuration, it can be closed, and all protection comes from the Windows built-in features.
 
