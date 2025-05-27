@@ -1,5 +1,5 @@
 ## WARNING!
-Windows Hybrid Hardening Light (WHHLight) is intended for the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with WHHLight (more info available in the section "Software  incompatibilities").
+Windows Hybrid Hardening Light (WHHLight) is intended for use in the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with WHHLight (more info available in the section "Software  incompatibilities").
 If necessary, the home Administrators can block GPedit functionality on the concrete Administrator account via Windows Registry:
 
 Windows Registry Editor Version 5.00
