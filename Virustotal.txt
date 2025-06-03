@@ -1,3 +1,6 @@
+ver. 7.0.0.2 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
+https://www.virustotal.com/gui/file/8bfc34ff7fa7b8b45b16bbfe1a00e6d301dbcd17b37fefc62a3746ed3adc59ac/details
+
 ver. 7.0.0.1 (both 64-bit and 32-bit installers are wrapped in one NSISS installer)
 https://www.virustotal.com/gui/file/fc15a85cfdd7a0d80ade457cd896b505f2cc7514ed95d0c126e21d7708ac942a/details
 
