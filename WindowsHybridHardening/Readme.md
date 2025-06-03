@@ -12,6 +12,10 @@ Windows Registry Editor Version 5.00
 "Restrict_Run"=dword:00000001
 
 
+## Windows Hybrid Hardening Light ver. 2.0.0.3 (January 2025)
+https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2003.exe
+
+Includes ver. 2.0.0.2 (unpublished) and additionally, corrections in the manual.
 
 ## Windows Hybrid Hardening Light ver. 2.0.0.1 (January 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2001.exe
@@ -47,7 +51,7 @@ Some important post-exploitation mitigations of vulnerable applications (MS Offi
 ##
 ## SWH SWITCH.
 
-When the SWH switch is ON, the below SRP and hardening setup is applied:
+When the SWH switch is ON, the following SRP and hardening setup is applied:
 1. PowerShell file scripts (like *.ps1) are blocked, and PowerShell CMDLines are restricted by Constrained Language Mode.
 2. By default, SRP in the SWH setup allows EXE, DLL, and MSI files. Other files with active content (unsafe files) are allowed only in %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)%. The locations outside these folders belong to the SRP UserSpace, where unsafe files are blocked by default. The SRP UserSpace is larger than the WDAC UserSpace. The unsafe files are recognized mostly by the file extensions. These extensions can be added/removed via the application menu: Menu >> SRP file types
 3. The %WinDir%  folder (usually c:\Windows) is hardened by adding the writable subfolders to UserSpace.
