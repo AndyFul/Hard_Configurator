@@ -12,7 +12,7 @@ Windows Registry Editor Version 5.00
 "Restrict_Run"=dword:00000001
 
 
-## Windows Hybrid Hardening Light ver. 2.0.0.3 (January 2025)
+## Windows Hybrid Hardening Light ver. 2.0.0.3 (Jun 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2003.exe
 
 Includes ver. 2.0.0.2 (unpublished) and additionally, corrections in the manual.
