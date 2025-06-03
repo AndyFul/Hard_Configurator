@@ -1,8 +1,8 @@
-ver. 2.0.0.3
-Improved anti-tampering feature.
+ver. 2.0.0.3 (the package version)
+Includes WHHLight ver. 2.0.0.2 with improved anti-tampering feature + corrections in the manual.
 
 ver. 2.0.0.1 (the same as 2.0.0.1 beta3)
-SWH settings can be now selectively controlled from the menu.
+SWH settings can now be selectively controlled from the menu.
 Added two new ASR rules to ConfigureDefender.
 Some corrections in the help files and manual.
 
