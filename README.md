@@ -10,16 +10,14 @@ Windows Registry Editor Version 5.00
 "Restrict_Run"=dword:00000001
 
 
-
+# Hard_Configurator ver. 7.0.0.2 (Jun 2025)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.2.exe
 
 # Hard_Configurator ver. 7.0.0.1 (January 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.1.exe
 
 # Hard_Configurator ver. 7.0.0.0 (July 2024)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.0.exe
-
-# Hard_Configurator ver. 6.1.1.1 (July 2023) - included support for Windows 11 22H2 and later versions
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_6.1.1.1.exe
 
 ## Support for Windows 11 22H2 and later versions
 Windows 11 ver. 22H2 (fresh installation) turns off Software Restriction Policies by default. So, Hard_Configurator ver. 
