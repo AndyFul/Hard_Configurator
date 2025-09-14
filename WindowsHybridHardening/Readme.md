@@ -65,7 +65,7 @@ When the SWH switch is ON, the following SRP and hardening setup is applied:
 10. Cached Logons are disabled.
 
 After switching OFF, all the above restrictions are removed (except for the Administrator policy of SmartScreen) - Windows default values are applied for them. The user can restore the restrictions by switching ON again. 
-Additionally, SWH resets some policies used in the Hard_Configurator or WHH full version: Block Desktop and Downloads folders (OFF), Block LOLBins (OFF), Restrict elevation of executables (OFF), Disable Windows Script Host (OFF), Disable execution of 16-bit processes (ON), Hide 'Run as administrator' option (OFF), Enforce shell extension security (OFF), Run As SmartScreen (OFF), Enable MSI elevation (OFF), UAC Secure Credential Prompting (OFF).
+Additionally, SWH resets some policies used in the Hard_Configurator or WHH full version: Block LOLBins (OFF), Restrict elevation of executables (OFF), Disable Windows Script Host (OFF), Disable execution of 16-bit processes (ON), Hide 'Run as administrator' option (OFF), Enforce shell extension security (OFF), Run As SmartScreen (OFF), Enable MSI elevation (OFF), UAC Secure Credential Prompting (OFF).
 
 ## WDAC SWITCH
 
