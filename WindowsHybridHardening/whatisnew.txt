@@ -1,4 +1,4 @@
-ver. 2.0.0.3 (the package version)
+ver. 2.0.0.3 (the package version is different from the WHHLight application version)
 Includes WHHLight ver. 2.0.0.2 with improved anti-tampering feature + corrections in the manual.
 
 ver. 2.0.0.1 (the same as 2.0.0.1 beta3)
