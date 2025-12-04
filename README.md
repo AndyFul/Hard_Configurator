@@ -21,7 +21,7 @@ https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_
 3. H_C can also conflict with any software that uses SRP, but such applications are rare (CryptoPrevent, SBGuard, AskAdmin). Before using H_C, the conflicting application should be uninstalled.
 4. It is not recommended to use H_C alongside WindowsHybridHardening and SimpleWindowsHardening. These applications share several settings, which can lead to misconfigurations.
 5. Windows built-in Software Restriction Policies (SRP) are incompatible with AppLocker. Any active AppLocker rule introduced via GPO or MDM WMI Bridge, turns off SRP.  When running H_C, it checks for active AppLocker rules and alerts about the issue.
-6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue persists even after removing the Child Account because (due to a bug), the AppLocker rules are not removed. To recover SRP functionality, one must manually remove the AppLocker rules from the directory % Windir%System32AppLocker.
+6. The Child Account activated via Microsoft Family Safety also uses AppLocker (via MDM), so SRP cannot work with it. This issue persists even after removing the Child Account because (due to a bug), the AppLocker rules are not removed. To recover SRP functionality, one must manually remove the AppLocker rules from the directory %Windir%\System32\AppLocker.
 
 
 ## WARNING!!!
