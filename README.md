@@ -9,7 +9,7 @@ Windows Registry Editor Version 5.00
 
 "Restrict_Run"=dword:00000001
 
-# Hard_Configurator ver. 7.0.1.0 (January 2025)
+# Hard_Configurator ver. 7.0.1.0 (December 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0..1.0.exe
 
 # Hard_Configurator ver. 7.0.0.2 (Jun 2025)
