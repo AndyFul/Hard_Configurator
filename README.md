@@ -1,6 +1,6 @@
 
 ## WARNING!
-Hard_Configurator (H_C) is intended for use in the home environment. It is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with H_C (more info available in the section "Software  incompatibilities").
+Hard_Configurator (H_C) is intended for use in the home environment on Windows Home (Vista, 7 , 8 , 8.1, 10, and 11). When using Windows Pro, it is assumed that users avoid configuring security features commonly used in Enterprises, such as Group Policy Object (GPO) or AppLocker. The settings applied by those security features can tamper with H_C (more info available in the section "Software  incompatibilities").
 If necessary, the home Administrators can block GPedit functionality on the concrete Administrator account via Windows Registry:
 
 Windows Registry Editor Version 5.00
@@ -10,15 +10,10 @@ Windows Registry Editor Version 5.00
 "Restrict_Run"=dword:00000001
 
 # Hard_Configurator ver. 7.0.1.0 (December 2025)
-[https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.1.0.exe](https://github.com/AndyFul/Hard_Configurator/raw/refs/heads/master/Hard_Configurator_setup_7.0.1.0.exe)
+[https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.1.0.exe]
 
 # Hard_Configurator ver. 7.0.0.2 (Jun 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.2.exe
-
-## Support for Windows 11 22H2 and later versions
-Windows 11 ver. 22H2 (fresh installation) turns off Software Restriction Policies by default. So, Hard_Configurator ver. 
-6.0.1.1 cannot use SRP (restrictions from the left panel in H_C ). The new version 6.1.1.1 corrects this issue. 
-The H_C can also work with enabled Smart App Control from this version.
 
 ## Software incompatibilities
 1. Software Restriction Policies (SRP) used in H_C may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP should be removed from GPO.
