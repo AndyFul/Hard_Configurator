@@ -9,11 +9,8 @@ Windows Registry Editor Version 5.00
 
 "Restrict_Run"=dword:00000001
 
-# Hard_Configurator ver. 7.0.1.0 (December 2025)
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.1.0.exe
-
-# Hard_Configurator ver. 7.0.0.2 (Jun 2025)
-https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.0.2.exe
+# Hard_Configurator ver. 7.0.1.1 (December 2025)
+https://github.com/AndyFul/Hard_Configurator/raw/master/Hard_Configurator_setup_7.0.1.1.exe
 
 ## Software incompatibilities
 1. Software Restriction Policies (SRP) used in H_C may conflict with SRP introduced via Group Policy Object (GPO), available in Windows Pro, Education, and Enterprise editions. Before using H_C, the SRP should be removed from GPO.
