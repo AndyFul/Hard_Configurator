@@ -1,3 +1,6 @@
+Version 7.0.1.1
+Corrected the bug related to gpupdate.exe on Windows Pro.
+
 Version 7.0.1.0
 Added new digital certificate.
 Improved anti-tampering (ConfigureDefender and FirewallHardening).
@@ -328,4 +331,5 @@ Version 2.0.0.0:
 3. "Run By SmartScreen" option in Explorer context menu (run files without elevation, useful when SRP deactivated)
 4. Updated manual.
 Some minor bugs were corrected.
+
 
