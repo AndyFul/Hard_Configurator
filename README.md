@@ -96,6 +96,14 @@ So the file does not have the proper Alternate Data Stream attached (Mark Of The
 H_C is based on the Windows built-in security, so there is no need to turn off the program restrictions to install 
 Windows Updates, Universal Applications from Windows Store, and perform system Scheduled Tasks.
 
+## How to be unhappy with Hard_Configurator:
+1. Install Hard_Configurator.
+2. Ignore the info displayed during the installation.
+3. Do not read the help files.
+4. Do not read the Manual.
+
+This program was created for home Administrators (advanced users) to secure inexperienced users :)
+
 ## Contact: 
 Andrzej Pluta (@Andy Ful)
 hardconfigurator@gmail.com
