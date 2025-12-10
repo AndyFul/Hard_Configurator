@@ -12,15 +12,8 @@ Windows Registry Editor Version 5.00
 "Restrict_Run"=dword:00000001
 
 
-## Windows Hybrid Hardening Light package ver. 2.0.0.3 (Jun 2025)
+## Windows Hybrid Hardening Light package ver. 2.0.1.0 (December 2025)
 https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2003.exe
-
-Includes WHHLight application ver. 2.0.0.2 and some corrections in the manual.
-
-## Windows Hybrid Hardening Light package ver. 2.0.0.1 (January 2025)
-https://github.com/AndyFul/Hard_Configurator/raw/master/WindowsHybridHardening/WHHLight_Package_2001.exe
-
-This version is the same as the latest beta. SWH settings can now be selectively controlled from the menu. Added two new ASR rules to ConfigureDefender.
 
 
 ## PROGRAM DESCRIPTION.
