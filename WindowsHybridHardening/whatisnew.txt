@@ -1,3 +1,9 @@
+Version 2.0.1.0
+Added new digital certificate.
+Improved anti-tampering (ConfigureDefender and FirewallHardening).
+Corrected the bugs related to gpupdate.exe on Windows Pro.
+Improved switching on powershell.exe.
+
 ver. 2.0.0.3 (the package version is different from the WHHLight application version)
 Includes WHHLight ver. 2.0.0.2 with improved anti-tampering feature + corrections in the manual.
 
